@@ -8,7 +8,7 @@
 - **University:** KLE Technological University, Hubballi-31
 
 ## Introduction:
-Welcome to the Google Integration Project repository! In this project, we aim to explore the integration of various Google services such as Google Search, Gmail, YouTube, Google Drive, Google Maps, and Google Traveling Site. By leveraging the power of these services, we can create seamless experiences for users across different platforms and devices.
+My portfolio project focuses on exploring the functionalities of Google's services through the lens of data structures and algorithms. By leveraging this knowledge, the project aims to develop innovative solutions for real-world business use cases. From optimizing search engine algorithms to streamlining email management, various aspects of Google's services will be delved into to demonstrate how the application of data structures and algorithms can enhance efficiency and drive innovation. Join me as we uncover the transformative potential of these concepts within the realm of Google's versatile offerings.
 
 ## Functionalities:
 In this repository, you will find implementations and examples demonstrating how to integrate and utilize Google's services effectively.
