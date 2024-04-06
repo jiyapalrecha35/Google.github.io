@@ -1,11 +1,10 @@
-# Google.github.io
 # Dancing to the Tunes of Algorithms
 
 <dl>
 <dt>Course Name</dt>
-<dd>Data Structures and Algorithms and Data Structures and Algorithms Lab</dd>
+<dd>Algorithmic Problem Solving</dd>
 <dt>Course Code</dt>
-<dd>19ECSC201 and 19ECSP201</dd>
+<dd>23ECSE309</dd>
 <dt>Course Instructor</dt>
 <dd>Prakash Hegade</dd>
 <dt>University</dt>
@@ -19,19 +18,17 @@
 >
 > PH
 
-#### Note:
-You will find all the course resources and related information on this page. The page is divided into four major sections. 
 
-1. Challenges 
-2. Course Notes and Details
-3. Lab Resources
-4. Course Project
+## Introduction:
+Welcome to the Google Integration Project repository! In this project, we aim to explore the integration of various Google services such as Google Search, Gmail, YouTube, Google Drive, Google Maps, and Google Traveling Site. By leveraging the power of these services, we can create seamless experiences for users across different platforms and devices.
 
-Every programmer must have an owned library of codes. They come in handy at need. Here is mine: [Day-Today Codes](https://github.com/prakashbh/day-today-codes). If you create and have a library of your own, well, you should!
 
-Check out the [HONEST DSA DASHBOARD.](https://tinyurl.com/honest-dsa-2019)
-
-* * *
+## Functionalities:
+In this repository, you will find implementations and examples demonstrating how to integrate and utilize Google's services effectively.
+### 1.Google Search Engine:
+### 2.Google Drive
+### 3.Gmail
+### 4.
 
 ### Prerequisites
 * A quick revision of [C Basic](https://github.com/prakashbh/dsa-2019/blob/master/course-notes/0-c-basics.pdf) concepts.
