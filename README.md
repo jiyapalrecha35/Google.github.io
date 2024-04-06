@@ -23,17 +23,20 @@
 * * *
 
 > A stride towards enhanced Google service management.
+>
+> Jiya
 
 
 #### Note:
 This page hosts:
 
 1. Introduction
-2. Why Portfolio
-3. Objectives
-4. Design
-5. Challenges
-6. To-Do
+2. Business Use cases/Functionalities
+3. Why Portfolio
+4. Objectives
+5. Design
+6. Challenges
+7. To-Do
 
 
 ## 1.Introduction:
