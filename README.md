@@ -1,12 +1,29 @@
 ## Google's Algorithmic Rhythm: Exploring Smart Data Structures
 
-## Course Details
-- **Course Name:** Algorithmic Problem Solving
-- **Course Code:** 23ECSE309
-- **Name:** Jiya Palrecha
-- **Course Instructor:** Prakash Hegade
-- **University:** KLE Technological University, Hubballi-31
+User
+## Google's Algorithmic Rhythm: Exploring Smart Data Structures
 
+<dl>
+<dt>Course Name</dt>
+<dd>Algorithmic Problem Solving</dd>
+<dt>Course Code</dt>
+<dd>23ECSE309</dd>
+<dt>Name</dt>
+<dd>Jiya Palrecha</dd>
+<dt>Course Instructor</dt>
+<dd>Prakash Hegade</dd>
+<dt>University</dt>
+<dd>KLE Technological University, Hubballi-31</dd>
+</dl>
+
+* * *
+
+> If you can think, you can code.
+> If you can think better, you can code better.
+>
+> PH
+>
+> 
 ## Introduction:
 My portfolio project focuses on exploring the functionalities of Google's services through the lens of data structures and algorithms. By leveraging this knowledge, the project aims to develop innovative solutions for real-world business use cases. From optimizing search engine algorithms to streamlining email management, various aspects of Google's services will be delved into to demonstrate how the application of data structures and algorithms can enhance efficiency and drive innovation. Join me as we uncover the transformative potential of these concepts within the realm of Google's versatile offerings.
 
