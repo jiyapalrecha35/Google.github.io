@@ -19,7 +19,7 @@
 > If you can think, you can code.
 > If you can think better, you can code better.
 >
-> PH<
+> PH
 * * *
 
 > A stride towards enhanced Google service management.
@@ -35,7 +35,7 @@ This page hosts:
 5. Challenges
 6. To-Do
 
-7. 
+
 ## 1.Introduction:
 My portfolio project focuses on exploring the functionalities of Google's services through the lens of data structures and algorithms. By leveraging this knowledge, the project aims to develop innovative solutions for real-world business use cases. From optimizing search engine algorithms to streamlining email management, various aspects of Google's services will be delved into to demonstrate how the application of data structures and algorithms can enhance efficiency and drive innovation. Join me as we uncover the transformative potential of these concepts within the realm of Google's versatile offerings.
 
