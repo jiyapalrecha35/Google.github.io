@@ -1,4 +1,4 @@
-# Google's Algorithmic Rhythm: Exploring Smart Data Structures
+## Google's Algorithmic Rhythm: Exploring Smart Data Structures
 
 <dl>
 <dt>Course Name</dt>
@@ -27,10 +27,13 @@ Welcome to the Google Integration Project repository! In this project, we aim to
 
 ## Functionalities:
 In this repository, you will find implementations and examples demonstrating how to integrate and utilize Google's services effectively.
-### 1.Google Search Engine:
+### 1.Google Search Engine
 ### 2.Google Drive
 ### 3.Gmail
-### 4.
+### 4.Youtube
+### 5.Google's Cab Service
+### 6.Google Meet
+### 7.Google News
 
 ### Prerequisites
 * A quick revision of [C Basic](https://github.com/prakashbh/dsa-2019/blob/master/course-notes/0-c-basics.pdf) concepts.
