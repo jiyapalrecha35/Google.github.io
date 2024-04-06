@@ -1,4 +1,4 @@
-# Dancing to the Tunes of Algorithms
+# Google's Algorithmic Rhythm: Exploring Smart Data Structures
 
 <dl>
 <dt>Course Name</dt>
