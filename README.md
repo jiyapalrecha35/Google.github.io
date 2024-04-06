@@ -19,22 +19,11 @@
 > If you can think, you can code.
 > If you can think better, you can code better.
 >
-> PH<dl>
-<dt>Course Name</dt>
-<dd>Algorithmic Problem Solving</dd>
-<dt>Course Code</dt>
-<dd>23ECSE309</dd>
-<dt>Name</dt>
-<dd>Prakash Hegade</dd>
-<dt>University</dt>
-<dd>KLE Technological University, Hubballi-31</dd>
-</dl>
-
+> PH<
 * * *
 
-> A step towards better e-commerce management
->
-> PH
+> A stride towards enhanced Google service management.
+
 
 #### Note:
 This page hosts:
