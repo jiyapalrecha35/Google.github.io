@@ -6,7 +6,7 @@
 <dt>Course Code</dt>
 <dd>23ECSE309</dd>
 <dt>Name</dt>
-<dd>Prakash Hegade</dd>
+<dd>Jiya Palrecha</dd>
 <dt>Course Instructor</dt>
 <dd>Prakash Hegade</dd>
 <dt>University</dt>
