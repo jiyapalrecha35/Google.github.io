@@ -19,7 +19,7 @@
 >
 > Jiya
 
-Check out the [HONEST DSA DASHBOARD.](https://tinyurl.com/honest-dsa-2019
+Check out the [HONEST DSA DASHBOARD.](https://tinyurl.com/honest-dsa-2019)
 
 #### Note:
 This page hosts:
