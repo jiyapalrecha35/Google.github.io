@@ -14,13 +14,6 @@
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
-* * *
-
-> If you can think, you can code.
-> If you can think better, you can code better.
->
-> PH
-* * *
 
 > A stride towards enhanced Google service management.
 >
