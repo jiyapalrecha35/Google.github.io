@@ -14,12 +14,10 @@
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
-
+<br><br>
 > A stride towards enhanced Google service management.
 >
 > Jiya
-
-Check out the [HONEST DSA DASHBOARD.](https://tinyurl.com/honest-dsa-2019)
 
 #### Note:
 This page hosts:
