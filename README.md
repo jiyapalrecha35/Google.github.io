@@ -7,32 +7,44 @@
 <dd>23ECSE309</dd>
 <dt>Name</dt>
 <dd>Jiya Palrecha</dd>
+<dt>SRN</dt>
+<dd>01fe21bcs094</dd>
 <dt>Course Instructor</dt>
 <dd>Prakash Hegade</dd>
 <dt>University</dt>
 <dd>KLE Technological University, Hubballi-31</dd>
+<dt>Portfolio Topic/Domain</dt>
+<dd>Enhancing Google Search Engine</dd>
+
 </dl>
 
 <br><br>
 > A stride towards enhanced Google service management.
 >
-> Jiya
+
 
 <br>
 #### Note:
 This page hosts:
 
 1. Introduction
-2. Business Use cases/Functionalities
-3. Why Portfolio
-4. Objectives
-5. Design
-6. Challenges
-7. To-Do
+2. Objectives/Need of Portfolio
+3. Business Use Cases/Functionalities and the Corresponding Suggested Algorithms and Data Structures
 
 
-## 1.Introduction:
-My portfolio project focuses on exploring the functionalities of Google's services through the lens of data structures and algorithms. By leveraging this knowledge, the project aims to develop innovative solutions for real-world business use cases. From optimizing search engine algorithms to streamlining email management, various aspects of Google's services will be delved into to demonstrate how the application of data structures and algorithms can enhance efficiency and drive innovation. Join me as we uncover the transformative potential of these concepts within the realm of Google's versatile offerings.This portfolio project focuses on optimizing Google's services by suggesting better algorithms and data structures for their business use cases. From improving search engine relevance to enhancing routing algorithms in Google Maps, we aim to solve real-world problems using algorithmic problem-solving techniques. Join us as we explore the transformative potential of algorithms within Google's versatile ecosystem.
+## Introduction:
+In today's digital age, the efficiency and effectiveness of technology services can be significantly enhanced through the strategic application of data structures and algorithms. This portfolio project delves into the core functionalities of Google's diverse services, applying the theoretical knowledge and practical skills acquired from courses in Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS).
+
+By leveraging advanced algorithmic techniques and innovative data structures, this project aims to propose solutions to real-world business challenges. From refining search engine algorithms for improved relevance and speed to optimizing route planning in Google Maps, the potential for enhancement is vast.
+
+This portfolio is a testament to the transformative power of algorithms within Google's ecosystem. Each business use case explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
+
+
+
+## Objectives/Need of Portfolio
+1. Apply advanced algorithms and data structures to enhance the speed and efficiency of Google's services.
+2. Demonstrate the real-world use of concepts learned in Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses.
+3. Develop innovative solutions to improve user experiences and drive technological advancements within Google's ecosystem.
 
 ## Functionalities:
 In this repository, you will find implementations and examples demonstrating how to integrate and utilize Google's services effectively.
