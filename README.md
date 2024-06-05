@@ -18,13 +18,13 @@
 
 </dl>
 
-<br><br>
+<br>
 > A stride towards enhanced Google service management.
 >
 
 
 <br>
-#### Note:
+
 This page hosts:
 
 1. Introduction
@@ -38,18 +38,20 @@ In today's digital age, the efficiency and effectiveness of technology services 
 By leveraging advanced algorithmic techniques and innovative data structures, this project aims to propose solutions to real-world business challenges. From refining search engine algorithms for improved relevance and speed to optimizing route planning in Google Maps, the potential for enhancement is vast.
 
 This portfolio is a testament to the transformative power of algorithms within Google's ecosystem. Each business use case explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
-
+<br>
 
 
 ## Objectives/Need of Portfolio
 1. Apply advanced algorithms and data structures to enhance the speed and efficiency of Google's services.
+   
 2. Demonstrate the real-world use of concepts learned in Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses.
+   
 3. Develop innovative solutions to improve user experiences and drive technological advancements within Google's ecosystem.
+<br>
 
-## Functionalities:
-In this repository, you will find implementations and examples demonstrating how to integrate and utilize Google's services effectively.
 
-## Functionalities:
+## Business Use Cases :
+
 
 1. **Max Flow - Ford Fulkerson**: Algorithm for finding the maximum flow in a flow network, used in network flow optimization problems. [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/maxFlow.cpp){:target="_blank"}<br><br>
 2. **Dijkstra's Algorithm**: Shortest path algorithm for finding the shortest paths between nodes in a weighted graph, often used in routing and navigation systems. [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/dijkstra.cpp){:target="_blank"}<br><br>
