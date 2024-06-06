@@ -274,7 +274,7 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
-### 18. Bridges/Articulation Points:
+### 18. **Bridges/Articulation Points:**
 
 - **Network Reliability Analysis**: Google's extensive network infrastructure requires robust reliability analysis to ensure seamless operation. Bridges and articulation points algorithms help identify critical components in the network topology, enabling Google to implement redundancy and fault tolerance mechanisms, thus enhancing network reliability and resilience against outages.
 
@@ -319,7 +319,7 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 - **Optimization of Google Maps Routes**: Kruskal's Algorithm is used in optimizing routes for Google Maps by calculating MSTs for road networks, ensuring the most efficient paths between locations. This helps minimize travel distances and times, leading to more accurate and cost-effective navigation.
 
-[View code for Kruskal's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/kruskal.cpp){:target="_blank"}<br>
+[View code for Kruskal's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/kruskalAlgoritm.c){:target="_blank"}<br>
 [View code for Prim's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/prim.cpp){:target="_blank"}<br><br>
 
 
@@ -329,7 +329,7 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 - **Data Indexing in Google Drive**: BSTs are used for efficient data indexing and retrieval in Google Drive, organizing files and folders hierarchically based on metadata like file names or creation dates. This structure allows quick navigation and access, enhancing productivity and file management.
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/bst.cpp){:target="_blank"}<br><br>
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/BST.c){:target="_blank"}<br><br>
 
 
 
@@ -359,7 +359,7 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 - Understanding the network of user connections through strongly connected components enables Google to deliver targeted content to specific clusters of users. By tailoring content delivery based on these connections, Google can ensure that users receive updates, posts, or events that are relevant to their social circles or interests, enhancing user engagement and satisfaction.
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/scc.cpp){:target="_blank"}<br><br>
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SCC.cpp){:target="_blank"}<br><br>
 
 
 
@@ -375,7 +375,10 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 ### 27.**Bloom Filters:**
 - Google Chrome uses a Bloom filter to quickly check if a URL might be harmful. When you try to access a URL, Chrome checks with a local Bloom filter in your browser first. This filter contains hashed malicious URLs. If the Bloom filter suggests the URL might be harmful, Chrome checks with Google’s servers for further verification. If the Bloom filter indicates the URL is safe, Chrome skips the server check, saving time and resources.
 
-- Google leverages Bloom filters in its big data systems to expedite data retrieval processes. Systems like Apache Cassandra and HBase, which handle massive volumes of data, utilize Bloom filters for quick data retrieval. By employing Bloom filters, Google enhances the efficiency of indexing and searching operations, optimizes distributed storage systems, and aids in network traffic engineering. 
+- Google leverages Bloom filters in its big data systems to expedite data retrieval processes. Systems like Apache Cassandra and HBase, which handle massive volumes of data, utilize Bloom filters for quick data retrieval. By employing Bloom filters, Google enhances the efficiency of indexing and searching operations, optimizes distributed storage systems, and aids in network traffic engineering.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/bloomfilters.cpp){:target="_blank"}<br><br>
+
 
 
 
