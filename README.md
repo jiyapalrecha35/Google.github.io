@@ -59,7 +59,7 @@ This portfolio is a testament to the transformative power of algorithms within G
 
    - Google manages vast networks of servers and data centers to deliver its services. The max flow algorithm can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion.
 
-   - Google's infrastructure relies on sophisticated routing and load balancing mechanisms to handle user requests. Max flow algorithms, such as Karger's, Dinic's, and Ford-Fulkerson, can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability.
+   - Google's infrastructure relies on sophisticated routing and load balancing mechanisms to handle user requests. Max flow algorithms, such as **Karger's, Dinic's, and Ford-Fulkerson**, can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability.
 
    - Google Cloud Platform (GCP) offers a range of services and resources to users. The max flow algorithm can be used to allocate resources effectively, ensuring that computational tasks are executed optimally and resource usage is maximized.
    
@@ -69,11 +69,87 @@ This portfolio is a testament to the transformative power of algorithms within G
 
 
 
+### 2. Shortest Path Algorithms:
 
-3. **Dijkstra's Algorithm**: Shortest path algorithm for finding the shortest paths between nodes in a weighted graph, often used in routing and navigation systems. [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/dijkstra.cpp){:target="_blank"}<br><br>
-4. **Assignment Problem**: Optimization problem to determine the most efficient assignment of resources to tasks, commonly used in operations research and logistics planning. [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/jobAssignment.cpp){:target="_blank"}<br><br>
-5. **Min Query Segment Tree**: Data structure for efficiently finding the minimum value within a range of elements in an array, used in range query problems. [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}<br><br>
-6. **Trie for Auto Fetches**: Tree data structure used for efficient retrieval of keys in a dataset, often used in autocomplete and dictionary applications. [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp){:target="_blank"}<br><br>
+**Dijkstra's Algorithm**: 
+- Google Maps: Dijkstra's algorithm could be used to find the shortest path between two locations on a map. This is essential for providing accurate directions to users, considering factors such as traffic conditions, road closures, and distance.
+- In Google's infrastructure, Dijkstra's algorithm can be employed to optimize network routing. This involves finding the shortest paths for data packets to travel between servers, data centers, and users, ensuring efficient and reliable network communication.
+- Dijkstra's algorithm can aid in optimizing the delivery routes for products purchased through Google Shopping. By calculating the shortest paths between distribution centers, warehouses, and delivery destinations, Google can minimize shipping costs and delivery times, enhancing the shopping experience for users.
+
+**Bellman-Ford Algorithm**:
+- Bellman-Ford algorithm can be used in Google's self-driving car project for path planning. It helps in finding the shortest path from the car's current location to its destination while considering factors such as road conditions, traffic congestion, and safety measures.
+
+
+**Floyd-Warshall Algorithm**:
+- In Google's network infrastructure, the Floyd-Warshall algorithm can be used for network analysis and troubleshooting. It helps in identifying the shortest paths between all pairs of nodes in a network, facilitating efficient communication and resolving connectivity issues.
+- Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize video streaming paths. By determining the shortest paths between servers and users, Google can ensure smooth and uninterrupted video playback, enhancing user experience.
+
+[View Dijkstra's code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/dijkstra.cpp){:target="_blank"}<br>
+[View Bellman-Ford code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/bellman_ford.cpp){:target="_blank"}<br>
+[View Floyd-Warshall code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/floyd_warshall.cpp){:target="_blank"}<br><br>
+
+
+
+
+### 3. **Assignment Problem**
+
+- **Data Center Resource Allocation**: Google manages a vast network of data centers worldwide to support its services. The Assignment Problem can be utilized to optimize resource allocation within these data centers, such as assigning computing tasks to servers or balancing the load across different data center locations. This ensures efficient utilization of computing resources and minimizes latency for users accessing Google's services.
+
+- **Ad Allocation in Google Ads**: Google's advertising platforms, such as Google Ads, rely on efficient allocation of ad placements to maximize revenue and user engagement. The Assignment Problem can help determine the optimal assignment of advertisements to available ad slots across websites, considering factors such as ad relevance, user preferences, and bidding strategies. This ensures that advertisers achieve their campaign objectives while providing value to users.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/jobAssignment.cpp){:target="_blank"}
+
+
+
+### 4. **Segment Trees**
+
+- **Range Query Optimization**:
+  In Google's data storage and retrieval systems, such as databases and file systems, segment trees can optimize range query operations. For instance, in a document storage system like Google Drive, segment trees can efficiently handle queries related to retrieving or manipulating data within specific ranges, such as searching for documents created within a certain time frame or finding files within a particular size range.
+
+- **Time-Series Data Analysis**:
+  Google deals with vast amounts of time-series data across its services, including user activity logs, system performance metrics, and ad campaign analytics. Segment trees can be employed to perform range queries and aggregations on this data efficiently. For example, in Google Analytics, segment trees can facilitate queries that analyze website traffic trends over specific time intervals or identify peak usage periods.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SegmentTree.cpp)
+
+
+
+
+
+
+### 5. **Tries**
+
+- **Autocorrection**:
+  Tries are commonly used in autocorrect systems, such as those implemented in Google Search, Gmail, or Google Docs. By organizing a dictionary of words into a trie structure, these systems can efficiently suggest and correct misspelled words as users type. As users enter text, the system navigates the trie to identify potential matches or corrections based on the entered prefix, offering relevant suggestions in real-time.
+
+- **Autocomplete Suggestions**:
+  Enhancing search functionality by providing predictive text suggestions as users type queries in Google Search. This improves user experience by helping users quickly find what they are looking for, reducing the time spent typing.
+
+- **Spelling Correction**:
+  Improving user experience by suggesting corrections for misspelled words in Google Docs or Gmail. Tries enable quick lookup and correction of words, enhancing document editing and email writing.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp)
+
+#### Variants of Tries and Their Applications in Google:
+
+- **Radix Trie (Compact Trie)**: Radix trie is particularly useful for storing strings with common prefixes efficiently. It reduces space complexity by merging nodes with single children into a single node.In Google's domain, a radix trie can be used for storing and searching IP addresses in large-scale network infrastructure, such as in routing tables or in systems handling internet traffic.
+
+- **Suffix Trie**:Suffix trie is commonly used in string processing tasks, especially for pattern matching, substring search, and text indexing.In Google Search, a suffix trie can be employed to index web pages efficiently. It helps in quickly retrieving relevant search results based on substring queries entered by users.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 7. **Fenwick Tree for Sum Query**: Data structure for efficiently computing prefix sums and answering range sum queries in an array, used in various applications including cumulative frequency tables. [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/FenwickTree.cpp){:target="_blank"}<br><br>
 8. **Persistent Segment Trees**: Data structure that allows for efficiently maintaining multiple versions of a dynamic array, used in problems requiring time travel or backtracking. [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/PersistentSegmentTree.cpp){:target="_blank"}<br><br>
 9. **Red-Black Trees**: Self-balancing binary search trees with guaranteed logarithmic time complexity for insertion, deletion, and search operations, commonly used in associative arrays and database indexing. [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/index){:target="_blank"}<br><br>
