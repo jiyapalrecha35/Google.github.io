@@ -117,7 +117,7 @@ This portfolio is a testament to the transformative power of algorithms within G
 - **Time-Series Data Analysis**:
   Google deals with vast amounts of time-series data across its services, including user activity logs, system performance metrics, and ad campaign analytics. Segment trees can be employed to perform range queries and aggregations on this data efficiently. For example, in Google Analytics, segment trees can facilitate queries that analyze website traffic trends over specific time intervals or identify peak usage periods.
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SegmentTree.cpp)<br><br>
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}<br><br>
 
 
 
@@ -135,11 +135,12 @@ This portfolio is a testament to the transformative power of algorithms within G
 - **Spelling Correction**:
   Improving user experience by suggesting corrections for misspelled words in Google Docs or Gmail. Tries enable quick lookup and correction of words, enhancing document editing and email writing.
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp)
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp){:target="_blank"}
 
 #### Variants of Tries and Their Applications in Google:
 
 - **Radix Trie (Compact Trie)**: Radix trie is particularly useful for storing strings with common prefixes efficiently. It reduces space complexity by merging nodes with single children into a single node.In Google's domain, a radix trie can be used for storing and searching IP addresses in large-scale network infrastructure, such as in routing tables or in systems handling internet traffic.
+  
 
 - **Suffix Trie**:Suffix trie is commonly used in string processing tasks, especially for pattern matching, substring search, and text indexing.In Google Search, a suffix trie can be employed to index web pages efficiently. It helps in quickly retrieving relevant search results based on substring queries entered by users.
 <br><br>
