@@ -198,5 +198,72 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
+### 11.**LookUp Tables**:
+
+- **Database Indexing**:Lookup tables are commonly used in database management systems to index data for efficient retrieval. They enable fast access to database records based on key values, reducing query latency and improving overall database performance.Lookup tables are also utilized in caching systems to store frequently accessed data for quick retrieval. By maintaining key-value pairs in memory, lookup tables accelerate data access, reducing the need to retrieve information from slower storage mediums like disks or databases.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lookupTable.cpp){:target="_blank"}<br><br>
+
+
+
+
+### 12. **A*** and **Best First** Algorithms
+
+- **Route Optimization in Google Maps**: **A*** and Best First algorithms can be employed to find the most efficient routes between locations on Google Maps. By intelligently prioritizing nodes based on heuristic information such as distance, traffic conditions, and historical data, these algorithms can calculate optimal routes that minimize travel time and distance.
+
+- **Content Recommendation Systems**:Within Google's ecosystem of products and services, **A*** and Best First algorithms can power content recommendation systems by intelligently prioritizing and recommending relevant content to users based on their preferences, search history, and behavior patterns. These algorithms can enhance user engagement and satisfaction by delivering personalized and targeted recommendations.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/a_BestFirst.cpp){:target="_blank"}<br><br>
+
+
+
+
+### 13. **KD Trees**
+
+- Google Maps and other location-based services can utilize KD Trees for efficient nearest neighbor search and range queries. By organizing geographic points (e.g., landmarks, businesses, user locations) in a k-dimensional space, KD Trees enable quick retrieval of nearby points based on user queries, facilitating location-based recommendations, navigation, and geospatial analysis.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/KDTree.cpp){:target="_blank"}<br><br>
+
+
+
+### 14. **Topological Sort**
+
+- **Task Scheduling in Data Centers**: Google's vast network of data centers relies on efficient task scheduling algorithms to manage computational workloads and optimize resource utilization. Topological Sort algorithms can be employed to schedule tasks and dependencies in directed acyclic graphs (DAGs), ensuring that tasks are executed in the correct order to meet deadlines, minimize latency, and maximize throughput.
+
+- **Dependency Resolution in Software Development**: Within Google's software development processes, Topological Sort algorithms play a crucial role in resolving dependencies between software modules and libraries. By determining the correct order of compilation or deployment based on inter-module dependencies, these algorithms facilitate smooth integration, version management, and release engineering, ensuring robust and reliable software products.
+  
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/topoSort.cpp){:target="_blank"}<br><br>
+
+
+
+
+### 15. **Conway's Game of Life**
+
+- In online services such as Google Search, YouTube, and Gmail, understanding user behavior and engagement patterns is crucial for enhancing user experiences and personalization. The Game of Life can be applied to simulate and analyze user interactions, content consumption patterns, and community dynamics. By modeling user engagement, content popularity, and social interactions, Google can optimize content recommendations, ad targeting strategies, and platform design to better serve user needs and preferences.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/conway.cpp){:target="_blank"}<br><br>
+
+
+
+
+
+
+### 16. **Huffman Coding**
+
+- **Data Compression in Storage and Transmission**: Google's infrastructure deals with vast amounts of data generated and transmitted across its services and platforms. Huffman Coding can be employed for efficient data compression in storage systems, file formats, and communication protocols. By encoding data with variable-length codes based on frequency distributions, Google can reduce storage requirements, minimize bandwidth usage, and improve data transfer speeds, leading to faster access times and reduced network congestion.
+
+- **Search Engine Indexing and Retrieval**:
+  Google's search engine relies on indexing and retrieving vast amounts of web content to deliver relevant search results to users. Huffman Coding can be utilized for compressing and storing inverted index structures, document collections, and query results. By encoding terms and document identifiers with optimal prefix codes, Google can optimize index size, reduce memory overhead, and accelerate search queries, enabling faster and more efficient information retrieval for users.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/huffmann.cpp){:target="_blank"}<br><br>
+
+
+
+
+
+
+
+
+
 
 
