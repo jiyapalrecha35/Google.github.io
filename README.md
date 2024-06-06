@@ -362,6 +362,24 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
+### 26.**String Matching Algorithms:** 
+- String matching algorithms are employed in Gmail's spam filters to analyze the content of incoming emails. Suspected spam keywords or patterns are searched within the email content using string matching algorithms. If a significant number of these keywords or patterns are detected, the email may be classified as spam and moved to the spam folder, helping users avoid unwanted or potentially harmful messages.
+
+- String matching algorithms play a vital role in enabling efficient search functionality in large databases, such as those used by search engines or content management systems. When users enter search queries or keywords, string matching algorithms are utilized to compare these queries with the indexed data in the database. This allows relevant information to be retrieved quickly and accurately, making it easier for users to find the specific information they are searching for within the vast database.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/stringMatch.cpp){:target="_blank"}<br><br>
+
+
+
+### 27.**Bloom Filters:**
+- Google Chrome uses a Bloom filter to quickly check if a URL might be harmful. When you try to access a URL, Chrome checks with a local Bloom filter in your browser first. This filter contains hashed malicious URLs. If the Bloom filter suggests the URL might be harmful, Chrome checks with Google’s servers for further verification. If the Bloom filter indicates the URL is safe, Chrome skips the server check, saving time and resources.
+
+- Google leverages Bloom filters in its big data systems to expedite data retrieval processes. Systems like Apache Cassandra and HBase, which handle massive volumes of data, utilize Bloom filters for quick data retrieval. By employing Bloom filters, Google enhances the efficiency of indexing and searching operations, optimizes distributed storage systems, and aids in network traffic engineering. 
+
+
+
+
+
 
 
 
