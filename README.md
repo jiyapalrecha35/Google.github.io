@@ -345,11 +345,23 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
-### 24. **B-tree and B+ Trees**
+### 24. **B-tree and B+ Trees:**
 
 - Google's distributed file systems, such as Google File System (GFS) and Bigtable, leverage B-tree data structures for indexing and organizing vast amounts of data efficiently. B-trees provide logarithmic time complexity for search, insertion, and deletion operations, making them ideal for handling structured data in distributed storage systems. This ensures quick and reliable access to data, enhancing the overall performance of Google's storage solutions.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/btree.cpp){:target="_blank"}<br><br>
+
+
+
+### 25.**Strongly Connected Components:**
+- By analyzing strongly connected components, Google can identify clusters of users who frequently interact with each other, indicating potential friendships or shared interests. This analysis can inform more accurate friend recommendations, helping users connect with others who are likely to share mutual interests or social connections.
+
+- Understanding the network of user connections through strongly connected components enables Google to deliver targeted content to specific clusters of users. By tailoring content delivery based on these connections, Google can ensure that users receive updates, posts, or events that are relevant to their social circles or interests, enhancing user engagement and satisfaction.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/scc.cpp){:target="_blank"}<br><br>
+
+
+
 
 
 
