@@ -261,6 +261,97 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
+### 17. **Traveling Salesman Problem (TSP)**
+
+- **Delivery Route Optimization**: Google's delivery and logistics services, such as Google Maps and Google Shopping, rely on efficient route planning and optimization algorithms to deliver goods and services to customers. The Traveling Salesman Problem can be used to find the shortest routes for delivery vehicles to visit multiple locations while minimizing travel time and distance.
+
+- **Network Optimization in Data Centers**: Google's data centers require efficient network connectivity and traffic routing to ensure reliable and high-performance operation of cloud services and applications. The Traveling Salesman Problem can be applied to optimize network paths and routing configurations for data transmission and packet forwarding.
+
+- **Location-Based Services and Navigation**: Google Maps and other location-based services provide users with accurate navigation and routing information for travel, transportation, and exploration. The Traveling Salesman Problem can be used to generate optimal routes for users to visit multiple points of interest or destinations in a given area.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/tsp.cpp){:target="_blank"}<br><br>
+
+
+
+### 18. Bridges/Articulation Points:
+
+- **Network Reliability Analysis**: Google's extensive network infrastructure requires robust reliability analysis to ensure seamless operation. Bridges and articulation points algorithms help identify critical components in the network topology, enabling Google to implement redundancy and fault tolerance mechanisms, thus enhancing network reliability and resilience against outages.
+
+- **Fault Tolerance in Services**: Google's services handle immense user traffic, necessitating high fault tolerance. By employing articulation points algorithms, Google can identify vulnerable points within its service architecture and implement strategies like redundancy and load balancing to mitigate failures and maintain service availability and performance.
+
+[View code for Bridges here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Bridges.cpp){:target="_blank"}<br>
+[View code for Articulation Points here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/ArticulationPoints.cpp){:target="_blank"}<br><br>
+
+
+
+
+
+### 19. **Depth-First Search (DFS) and Breadth-First Search (BFS)**:
+
+- Google Search uses the PageRank algorithm to rank web pages based on their importance, where depth-first search (DFS) and breadth-first search (BFS) play crucial roles in traversing the web graph.
+
+- Web Crawling for Google Search Index: Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms are fundamental to web crawling, a process by which search engines like Google discover and index web pages. DFS and BFS are used to traverse the interconnected network of web pages, following hyperlinks from one page to another to build a comprehensive index of the World Wide Web. By employing DFS and BFS strategies intelligently, Google can efficiently crawl and index billions of web pages, enabling users to find relevant information quickly and accurately through its search engine.
+
+- Recommendation Systems in YouTube: Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital role in recommendation systems, such as those used in YouTube for suggesting videos to users. These algorithms help analyze the relationships between users, videos, and their interactions (likes, views, comments) to generate personalized recommendations. By traversing the user-video graph using DFS and BFS, Google can identify relevant videos based on user preferences, viewing history, and social connections, enhancing user engagement and satisfaction on the platform.
+
+[View DFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/DFS.cpp){:target="_blank"}<br>
+[View BFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/BFS.cpp){:target="_blank"}<br><br>
+
+
+
+
+
+### 20. **Hashing Algorithms:**
+
+- **Security Protocols in Google Accounts**: Hashing algorithms are crucial for securing user data and authenticating accounts across Google's services like Gmail, Drive, and Cloud. Passwords are hashed using cryptographic algorithms before being stored, ensuring protection even if databases are compromised. Hashing is also used in encryption, digital signatures, and data integrity checks to secure sensitive information against unauthorized access.
+
+- **Data Integrity Checks in Google Cloud Storage**: In Google Cloud Storage, hashing algorithms like SHA-256 are used to verify the integrity of stored data. Files are hashed upon upload, and these hash values are used to ensure that the data remains unchanged and uncorrupted. This process helps detect any unauthorized modifications and maintains the authenticity of the data.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/hashing.cpp){:target="_blank"}<br><br>
+
+
+
+
+### 21. **Spanning Trees:**
+
+- **Network Design for Google Cloud Infrastructure**: Kruskal's Algorithm helps in designing Google's cloud infrastructure by creating minimum spanning trees (MSTs) to connect data centers, edge locations, and CDNs efficiently. This results in an optimized network with reduced latency, improved fault tolerance, and enhanced scalability for reliable and high-performance cloud services.
+
+- **Optimization of Google Maps Routes**: Kruskal's Algorithm is used in optimizing routes for Google Maps by calculating MSTs for road networks, ensuring the most efficient paths between locations. This helps minimize travel distances and times, leading to more accurate and cost-effective navigation.
+
+[View code for Kruskal's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/kruskal.cpp){:target="_blank"}<br><br>
+[View code for Prim's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/prim.cpp){:target="_blank"}<br><br>
+
+
+
+
+### 22. **Binary Search Tree (BST)**
+
+- **Data Indexing in Google Drive**: BSTs are used for efficient data indexing and retrieval in Google Drive, organizing files and folders hierarchically based on metadata like file names or creation dates. This structure allows quick navigation and access, enhancing productivity and file management.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/bst.cpp){:target="_blank"}<br><br>
+
+
+
+### 23. **Longest Common Subsequence (LCS)**
+
+- LCS is used to compare and determine the similarity between documents or web pages, which helps in ranking and retrieving the most relevant search results. By identifying the longest common subsequences, Google can better understand content relationships and enhance search accuracy.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lcs.cpp){:target="_blank"}<br><br>
+
+
+
+
+### 24. **B-tree and B+ Trees**
+
+- Google's distributed file systems, such as Google File System (GFS) and Bigtable, leverage B-tree data structures for indexing and organizing vast amounts of data efficiently. B-trees provide logarithmic time complexity for search, insertion, and deletion operations, making them ideal for handling structured data in distributed storage systems. This ensures quick and reliable access to data, enhancing the overall performance of Google's storage solutions.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/btree.cpp){:target="_blank"}<br><br>
+
+
+
+
+
+
 
 
 
