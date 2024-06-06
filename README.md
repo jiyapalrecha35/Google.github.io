@@ -32,7 +32,7 @@ This page hosts:
 3. Business Use Cases/Functionalities and the Corresponding Suggested Algorithms and Data Structures
 
 
-## Introduction:
+# Introduction:
 ### Leveraging Data Structures and Algorithms in Google's Ecosystem
 
 In today's digital age, the **efficiency** and **effectiveness** of technology services can be significantly enhanced through the strategic application of **data structures** and **algorithms**. This portfolio project delves into the core functionalities of Google's diverse services, applying the theoretical knowledge and practical skills acquired from courses in **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)**.
@@ -44,7 +44,7 @@ This portfolio is a testament to the transformative power of algorithms within G
 <br>
 
 
-## Objectives/Need of Portfolio
+# Objectives/Need of Portfolio
 1. Apply advanced algorithms and data structures to enhance the speed and efficiency of Google's services.
    
 2. Demonstrate the real-world use of concepts learned in Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses.
@@ -53,9 +53,9 @@ This portfolio is a testament to the transformative power of algorithms within G
 <br>
 
 
-## Business Use Cases :
+# Algorithms and the corresponding business use cases :
 
-1. **Max Flow Algorithms**:
+### 1. Max Flow Algorithms:
 
    - Google manages vast networks of servers and data centers to deliver its services. The max flow algorithm can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion.
 
