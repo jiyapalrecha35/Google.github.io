@@ -55,16 +55,16 @@ This portfolio is a testament to the transformative power of algorithms within G
 
 ## Business Use Cases :
 
-
 1. **Max Flow Algorithms**:
 
    - Google manages vast networks of servers and data centers to deliver its services. The max flow algorithm can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion.
 
-   - Google's infrastructure relies on sophisticated routing and load balancing mechanisms to handle user requests. Max flow algorithms can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability.
+   - Google's infrastructure relies on sophisticated routing and load balancing mechanisms to handle user requests. Max flow algorithms, such as Karger's, Dinic's, and Ford-Fulkerson, can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability.
 
    - Google Cloud Platform (GCP) offers a range of services and resources to users. The max flow algorithm can be used to allocate resources effectively, ensuring that computational tasks are executed optimally and resource usage is maximized.
    
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/maxFlow.cpp){:target="_blank"}<br><br>
+     [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/maxFlow.cpp){:target="_blank"}<br><br>
+
 
 
 
