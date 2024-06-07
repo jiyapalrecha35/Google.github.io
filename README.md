@@ -39,10 +39,6 @@ In today's digital age, the **efficiency** and **effectiveness** of technology s
 By using advanced algorithmic techniques and innovative data structures, this project aims to propose solutions to real-world business challenges. From refining search engine algorithms for improved relevance and speed to optimizing route planning in Google Maps, the potential for enhancement is vast.
 
 This portfolio showcases the transformative power of algorithms within Google’s ecosystem. Each **business use case** explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
-
-![Google](https://play.google.com/store/apps/dev?id=5700313618786177705&hl=en_US)
-
-
 <br><br>
 
 
@@ -156,13 +152,14 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 
 
-### 7. **Skip Lists**
 
-Skip lists can be employed in search engine indexing systems to maintain sorted lists of web pages or documents based on relevance or other criteria. They enable quick insertion of new pages, deletion of outdated or irrelevant content, and efficient retrieval of indexed information, thereby enhancing the search experience for users.
+### 7. **A*** and **Best First** Algorithms
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SkipList.cpp){:target="_blank"}<br><br>
+- **A*** and Best First algorithms can be employed to find the most efficient routes between locations on Google Maps. By intelligently prioritizing nodes based on heuristic information such as distance, traffic conditions, and historical data, these algorithms can calculate optimal routes that minimize travel time and distance.
 
+- Within Google's ecosystem of products and services, **A*** and Best First algorithms can power content recommendation systems by intelligently prioritizing and recommending relevant content to users based on their preferences, search history, and behavior patterns. These algorithms can enhance user engagement and satisfaction by delivering personalized and targeted recommendations.
 
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/a_BestFirst.cpp){:target="_blank"}<br><br>
 
 
 
@@ -174,16 +171,17 @@ Skip lists can be employed in search engine indexing systems to maintain sorted 
 
 
 
+### 9. **Skip Lists**
+
+Skip lists can be employed in search engine indexing systems to maintain sorted lists of web pages or documents based on relevance or other criteria. They enable quick insertion of new pages, deletion of outdated or irrelevant content, and efficient retrieval of indexed information, thereby enhancing the search experience for users.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SkipList.cpp){:target="_blank"}<br><br>
 
 
 
-### 9. **A*** and **Best First** Algorithms
 
-- **A*** and Best First algorithms can be employed to find the most efficient routes between locations on Google Maps. By intelligently prioritizing nodes based on heuristic information such as distance, traffic conditions, and historical data, these algorithms can calculate optimal routes that minimize travel time and distance.
 
-- Within Google's ecosystem of products and services, **A*** and Best First algorithms can power content recommendation systems by intelligently prioritizing and recommending relevant content to users based on their preferences, search history, and behavior patterns. These algorithms can enhance user engagement and satisfaction by delivering personalized and targeted recommendations.
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/a_BestFirst.cpp){:target="_blank"}<br><br>
 
 
 
