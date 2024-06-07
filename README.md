@@ -40,7 +40,7 @@ By using advanced algorithmic techniques and innovative data structures, this pr
 
 This portfolio showcases the transformative power of algorithms within Google’s ecosystem. Each **business use case** explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
 
-![Google](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png)
+![Google](https://play.google.com/store/apps/dev?id=5700313618786177705&hl=en_US)
 
 
 <br><br>
