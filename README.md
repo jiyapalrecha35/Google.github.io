@@ -32,16 +32,18 @@ This page hosts:
 3. Algorithms and Data Structures: Business Use Cases and Applications
 
 
-# Introduction:
-### Leveraging Data Structures and Algorithms in Google's Ecosystem
+# Introduction
 
 In today's digital age, the **efficiency** and **effectiveness** of technology services can be significantly enhanced through the strategic application of **data structures** and **algorithms**. This portfolio project delves into the core functionalities of Google's diverse services, applying the theoretical knowledge and practical skills acquired from courses in **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)**.
 
 By using advanced algorithmic techniques and innovative data structures, this project aims to propose solutions to real-world business challenges. From refining search engine algorithms for improved relevance and speed to optimizing route planning in Google Maps, the potential for enhancement is vast.
 
-This portfolio showcases the transformative power of algorithms within Google’s ecosystem.Each **business use case** explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
+This portfolio showcases the transformative power of algorithms within Google’s ecosystem. Each **business use case** explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
 
-<br>
+![Google](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png)
+
+
+<br><br>
 
 
 # Objectives/Need of Portfolio
@@ -50,10 +52,10 @@ This portfolio showcases the transformative power of algorithms within Google’
 2. Demonstrate the real-world use of concepts learned in Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses.
    
 3. Develop innovative solutions to improve user experiences and drive technological advancements within Google's ecosystem.
-<br>
+<br><br>
 
 
-# Algorithms and the corresponding business use cases :
+# Algorithms and Data Structures: Business Use Cases and Applications
 
 ### 1. **Max Flow Algorithms**
 
