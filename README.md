@@ -39,7 +39,7 @@ In today's digital age, the **efficiency** and **effectiveness** of technology s
 
 By using advanced algorithmic techniques and innovative data structures, this project aims to propose solutions to real-world business challenges. From refining search engine algorithms for improved relevance and speed to optimizing route planning in Google Maps, the potential for enhancement is vast.
 
-This portfolio is a testament to the transformative power of algorithms within Google's ecosystem. Each **business use case** explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
+This portfolio showcases the transformative power of algorithms within Google’s ecosystem.Each **business use case** explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
 
 <br>
 
@@ -55,13 +55,13 @@ This portfolio is a testament to the transformative power of algorithms within G
 
 # Algorithms and the corresponding business use cases :
 
-### 1. **Max Flow Algorithms**:
+### 1. **Max Flow Algorithms**
 
    - Google manages vast networks of servers and data centers to deliver its services. The max flow algorithm can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion.
 
    - Google's infrastructure relies on sophisticated routing and load balancing mechanisms to handle user requests. Max flow algorithms, such as **Karger's, Dinic's, and Ford-Fulkerson**, can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability.
 
-   - Google Cloud Platform (GCP) offers a range of services and resources to users. The max flow algorithm can be used to allocate resources effectively, ensuring that computational tasks are executed optimally and resource usage is maximized.
+   - **Google Cloud Platform (GCP)** offers a range of services and resources to users. The max flow algorithm can be used to allocate resources effectively, ensuring that computational tasks are executed optimally and resource usage is maximized.
    
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/maxFlow.cpp){:target="_blank"}<br><br>
 
@@ -69,14 +69,14 @@ This portfolio is a testament to the transformative power of algorithms within G
 
 
 
-### 2. **Shortest Path Algorithms**:
+### 2. **Shortest Path Algorithms**
 
 **Dijkstra's Algorithm**: 
 - **Google Maps**: Dijkstra's algorithm could be used to find the shortest path between two locations on a map. This is essential for providing accurate directions to users, considering factors such as traffic conditions, road closures, and distance.
   
 - In Google's infrastructure, Dijkstra's algorithm can be employed to optimize network routing. This involves finding the shortest paths for data packets to travel between servers, data centers, and users, ensuring efficient and reliable network communication.
   
-- Dijkstra's algorithm can aid in optimizing the delivery routes for products purchased through Google Shopping. By calculating the shortest paths between distribution centers, warehouses, and delivery destinations, Google can minimize shipping costs and delivery times, enhancing the shopping experience for users.
+- Dijkstra's algorithm can aid in optimizing the delivery routes for products purchased through **Google Shopping**. By calculating the shortest paths between distribution centers, warehouses, and delivery destinations, Google can minimize shipping costs and delivery times, enhancing the shopping experience for users.
 
 **Bellman-Ford Algorithm**:
 - Bellman-Ford algorithm can be used in Google's self-driving car project for path planning. It helps in finding the shortest path from the car's current location to its destination while considering factors such as road conditions, traffic congestion, and safety measures.
@@ -126,9 +126,9 @@ This portfolio is a testament to the transformative power of algorithms within G
 
 - **Autocorrection**: Tries are commonly used in autocorrect systems, such as those implemented in Google Search, Gmail, or Google Docs. By organizing a dictionary of words into a trie structure, these systems can efficiently suggest and correct misspelled words as users type. As users enter text, the system navigates the trie to identify potential matches or corrections based on the entered prefix, offering relevant suggestions in real-time.
 
-- **Autocomplete Suggestions**: Enhancing search functionality by providing predictive text suggestions as users type queries in Google Search. This improves user experience by helping users quickly find what they are looking for, reducing the time spent typing.
+- **Autocomplete Suggestions**: Enhancing search functionality by providing predictive text suggestions as users type queries in Google Search. Also called as **Submission Throttling**.
 
-- **Spelling Correction**: Improving user experience by suggesting corrections for misspelled words in Google Docs or Gmail. Tries enable quick lookup and correction of words, enhancing document editing and email writing.
+- **Spelling Correction**: Improving user experience by suggesting corrections for misspelled words in Google Docs or Gmail. 
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp){:target="_blank"}
 
@@ -165,9 +165,9 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 ### 8. **Red-Black Trees**
 
-**Database Indexing**: Red-Black Trees are commonly used in database management systems for indexing and efficient retrieval of data records. Google Cloud Spanner utilizes Red-Black Trees to organize and index data stored in distributed databases. By maintaining balanced search trees using Red-Black Trees, Google enables fast and reliable access to database records, facilitating efficient data retrieval, indexing, and query processing. This improves the performance of database operations such as data insertion, deletion, and retrieval, enhancing the scalability and reliability of cloud-based database services.
+**Database Indexing**: Red-Black Trees are commonly used in database management systems for indexing and efficient retrieval of data records. Google Cloud Spanner utilizes Red-Black Trees to organize and index data stored in distributed databases. By maintaining balanced search trees using Red-Black Trees, Google enables fast and reliable access to database records, facilitating efficient data retrieval, indexing, and query processing.
 
-**Compiler Symbol Tables**: Google's compiler infrastructure (such as LLVM) utilizes Red-Black Trees to represent and query symbol tables containing information about program identifiers, variables, and functions. By organizing symbol tables using Red-Black Trees, Google enables efficient identifier resolution during compilation, linking, and optimization processes. This ensures accurate and speedy resolution of references, aiding in code generation, optimization, and debugging across various programming languages and platforms.
+**Compiler Symbol Tables**: Google's compiler infrastructure (such as LLVM) utilizes Red-Black Trees to represent and query symbol tables containing information about program identifiers, variables, and functions. By organizing symbol tables using Red-Black Trees, Google enables efficient identifier resolution during compilation, linking, and optimization processes.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/RedBlackTree.cpp){:target="_blank"}<br><br>
 
@@ -192,9 +192,9 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
-### 11.**LookUp Tables**:
+### 11.**LookUp Tables**
 
-- **Database Indexing**:Lookup tables are commonly used in database management systems to index data for efficient retrieval. They enable fast access to database records based on key values, reducing query latency and improving overall database performance.Lookup tables are also utilized in caching systems to store frequently accessed data for quick retrieval. By maintaining key-value pairs in memory, lookup tables accelerate data access, reducing the need to retrieve information from slower storage mediums like disks or databases.
+- Lookup tables index data for efficient retrieval, enabling fast access to database records based on key values and reducing query latency. They are also used in caching systems to store frequently accessed data, accelerating access and reducing reliance on slower storage mediums like disks.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lookupTable.cpp){:target="_blank"}<br><br>
 
@@ -203,9 +203,9 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 ### 12. **A*** and **Best First** Algorithms
 
-- **Route Optimization in Google Maps**: **A*** and Best First algorithms can be employed to find the most efficient routes between locations on Google Maps. By intelligently prioritizing nodes based on heuristic information such as distance, traffic conditions, and historical data, these algorithms can calculate optimal routes that minimize travel time and distance.
+- **A*** and Best First algorithms can be employed to find the most efficient routes between locations on Google Maps. By intelligently prioritizing nodes based on heuristic information such as distance, traffic conditions, and historical data, these algorithms can calculate optimal routes that minimize travel time and distance.
 
-- **Content Recommendation Systems**:Within Google's ecosystem of products and services, **A*** and Best First algorithms can power content recommendation systems by intelligently prioritizing and recommending relevant content to users based on their preferences, search history, and behavior patterns. These algorithms can enhance user engagement and satisfaction by delivering personalized and targeted recommendations.
+- Within Google's ecosystem of products and services, **A*** and Best First algorithms can power content recommendation systems by intelligently prioritizing and recommending relevant content to users based on their preferences, search history, and behavior patterns. These algorithms can enhance user engagement and satisfaction by delivering personalized and targeted recommendations.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/a_BestFirst.cpp){:target="_blank"}<br><br>
 
@@ -264,7 +264,7 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
-### 18. **Bridges/Articulation Points:**
+### 18. **Bridges/Articulation Points**
 
 - Google's extensive network infrastructure requires robust reliability analysis to ensure seamless operation. Bridges and articulation points algorithms help identify critical components in the network topology, enabling Google to implement redundancy and fault tolerance mechanisms, thus enhancing network reliability and resilience against outages.
 
@@ -277,7 +277,7 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
-### 19. **Depth-First Search (DFS) and Breadth-First Search (BFS)**:
+### 19. **Depth-First Search (DFS) and Breadth-First Search (BFS)**
 
 - Google Search uses the PageRank algorithm to rank web pages based on their importance, where depth-first search (DFS) and breadth-first search (BFS) play crucial roles in traversing the web graph.
 
@@ -292,18 +292,18 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
-### 20. **Hashing Algorithms:**
+### 20. **Hashing Algorithms**
 
 - Hashing algorithms are crucial for securing user data and authenticating accounts across Google's services like Gmail, Drive, and Cloud. Passwords are hashed using cryptographic algorithms before being stored, ensuring protection even if databases are compromised. Hashing is also used in encryption, digital signatures, and data integrity checks to secure sensitive information against unauthorized access.
 
-- In Google Cloud Storage, hashing algorithms like SHA-256 are used to verify the integrity of stored data. Files are hashed upon upload, and these hash values are used to ensure that the data remains unchanged and uncorrupted. This process helps detect any unauthorized modifications and maintains the authenticity of the data.
+- In Google Cloud Storage, hashing algorithms like SHA-256 can be used to verify the integrity of stored data. Files are hashed upon upload, and these hash values are used to ensure that the data remains unchanged and uncorrupted. This process helps detect any unauthorized modifications and maintains the authenticity of the data.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/hashing.cpp){:target="_blank"}<br><br>
 
 
 
 
-### 21. **Spanning Trees:**
+### 21. **Spanning Trees**
 
 - Spanning tree algorithms like Kruskal's Algorithm helps in designing Google's cloud infrastructure by creating minimum spanning trees (MSTs) to connect data centers, edge locations, and CDNs efficiently. This results in an optimized network with reduced latency, improved fault tolerance, and enhanced scalability for reliable and high-performance cloud services.
 
@@ -336,7 +336,7 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
-### 24. **B-tree and B+ Trees:**
+### 24. **B-tree and B+ Trees**
 
 - Google's distributed file systems, such as Google File System (GFS) and Bigtable, leverage B-tree data structures for indexing and organizing vast amounts of data efficiently. B-trees provide logarithmic time complexity for search, insertion, and deletion operations, making them ideal for handling structured data in distributed storage systems. This ensures quick and reliable access to data, enhancing the overall performance of Google's storage solutions.
 
@@ -344,25 +344,25 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
-### 25.**Strongly Connected Components:**
+### 25.**Strongly Connected Components**
 - By analyzing strongly connected components, Google can identify clusters of users who frequently interact with each other, indicating potential friendships or shared interests. This analysis can inform more accurate friend recommendations, helping users connect with others who are likely to share mutual interests or social connections.
 
-- Understanding the network of user connections through strongly connected components enables Google to deliver targeted content to specific clusters of users. By tailoring content delivery based on these connections, Google can ensure that users receive updates, posts, or events that are relevant to their social circles or interests, enhancing user engagement and satisfaction.
+- Understanding the network of user connections through strongly connected components enables Google to deliver targeted content to specific clusters of users.By customizing content delivery based on these connections, Google can ensure that users receive updates, posts, or events that are relevant to their social circles or interests, enhancing user engagement and satisfaction.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SCC.cpp){:target="_blank"}<br><br>
 
 
 
-### 26.**String Matching Algorithms:** 
+### 26.**String Matching Algorithms** 
 - String matching algorithms are employed in Gmail's spam filters to analyze the content of incoming emails. Suspected spam keywords or patterns are searched within the email content using string matching algorithms. If a significant number of these keywords or patterns are detected, the email may be classified as spam and moved to the spam folder, helping users avoid unwanted or potentially harmful messages.
 
-- String matching algorithms play a vital role in enabling efficient search functionality in large databases, such as those used by search engines or content management systems. When users enter search queries or keywords, string matching algorithms are utilized to compare these queries with the indexed data in the database. This allows relevant information to be retrieved quickly and accurately, making it easier for users to find the specific information they are searching for within the vast database.
+- String matching algorithms like **KMP, Rabin-Karp, and Boyer-Moore** can be used to enable efficient search functionality in large databases. They compare search queries with indexed data, enabling quick and accurate retrieval of relevant information.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/stringMatch.cpp){:target="_blank"}<br><br>
 
 
 
-### 27.**Bloom Filters:**
+### 27.**Bloom Filters**
 - Google Chrome uses a Bloom filter to quickly check if a URL might be harmful. When you try to access a URL, Chrome checks with a local Bloom filter in your browser first. This filter contains hashed malicious URLs. If the Bloom filter suggests the URL might be harmful, Chrome checks with Google’s servers for further verification. If the Bloom filter indicates the URL is safe, Chrome skips the server check, saving time and resources.
 
 - Google leverages Bloom filters in its big data systems to expedite data retrieval processes. Systems like Apache Cassandra and HBase, which handle massive volumes of data, utilize Bloom filters for quick data retrieval. By employing Bloom filters, Google enhances the efficiency of indexing and searching operations, optimizes distributed storage systems, and aids in network traffic engineering.
