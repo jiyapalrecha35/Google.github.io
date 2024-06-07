@@ -358,7 +358,9 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 - String matching algorithms like **KMP, Rabin-Karp, and Boyer-Moore** can be used to enable efficient search functionality in large databases. They compare search queries with indexed data, enabling quick and accurate retrieval of relevant information.
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/stringMatch.cpp){:target="_blank"}<br><br>
+[View code for Rabin Karp here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/rabin.cpp){:target="_blank"}<br><br>
+[View code for KMP here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/kmp.cpp){:target="_blank"}<br><br>
+
 
 
 
