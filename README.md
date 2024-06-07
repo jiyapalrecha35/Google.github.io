@@ -156,7 +156,7 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 ### 7. **Skip Lists**
 
-**Search Engine Indexing**: Skip lists can be employed in search engine indexing systems to maintain sorted lists of web pages or documents based on relevance or other criteria. They enable quick insertion of new pages, deletion of outdated or irrelevant content, and efficient retrieval of indexed information, thereby enhancing the search experience for users.
+Skip lists can be employed in search engine indexing systems to maintain sorted lists of web pages or documents based on relevance or other criteria. They enable quick insertion of new pages, deletion of outdated or irrelevant content, and efficient retrieval of indexed information, thereby enhancing the search experience for users.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SkipList.cpp){:target="_blank"}<br><br>
 
@@ -201,7 +201,7 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 ### 11. **Conway's Game of Life**
 
-- In online services such as Google Search, YouTube, and Gmail, understanding user behavior and engagement patterns is crucial for enhancing user experiences and personalization. The Game of Life can be applied to simulate and analyze user interactions, content consumption patterns, and community dynamics. By modeling user engagement, content popularity, and social interactions, Google can optimize content recommendations, ad targeting strategies, and platform design to better serve user needs and preferences.
+In online services such as Google Search, YouTube, and Gmail, understanding user behavior and engagement patterns is crucial for enhancing user experiences and personalization. The Game of Life can be applied to simulate and analyze user interactions, content consumption patterns, and community dynamics. By modeling user engagement, content popularity, and social interactions, Google can optimize content recommendations, ad targeting strategies, and platform design to better serve user needs and preferences.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/conway.cpp){:target="_blank"}<br><br>
 
@@ -212,7 +212,7 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 ### 12. **Huffman Coding**
 
-- **Data Compression**: Google's infrastructure deals with vast amounts of data generated and transmitted across its services and platforms. Huffman Coding can be employed for efficient data compression in storage systems, file formats, and communication protocols. By encoding data with variable-length codes based on frequency distributions, Google can reduce storage requirements, minimize bandwidth usage, and improve data transfer speeds, leading to faster access times and reduced network congestion.
+**Data Compression**: Google's infrastructure deals with vast amounts of data generated and transmitted across its services and platforms. Huffman Coding can be employed for efficient data compression in storage systems, file formats, and communication protocols. By encoding data with variable-length codes based on frequency distributions, Google can reduce storage requirements, minimize bandwidth usage, and improve data transfer speeds, leading to faster access times and reduced network congestion.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/huffmann.cpp){:target="_blank"}<br><br>
 
@@ -287,7 +287,7 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 ### 18. **Binary Search Tree (BST)**
 
-- BSTs can be used for efficient data indexing and retrieval in Google Drive, organizing files and folders hierarchically based on metadata like file names or creation dates. This structure allows quick navigation and access, enhancing productivity and file management.
+BSTs can be used for efficient data indexing and retrieval in Google Drive, organizing files and folders hierarchically based on metadata like file names or creation dates. This structure allows quick navigation and access, enhancing productivity and file management.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/BST.c){:target="_blank"}<br><br>
 
@@ -296,7 +296,7 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 ### 19.**LookUp Tables**
 
-- Lookup tables index data for efficient retrieval, enabling fast access to database records based on key values and reducing query latency. They are also used in caching systems to store frequently accessed data, accelerating access and reducing reliance on slower storage mediums like disks.
+Lookup tables index data for efficient retrieval, enabling fast access to database records based on key values and reducing query latency. They are also used in caching systems to store frequently accessed data, accelerating access and reducing reliance on slower storage mediums like disks.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lookupTable.cpp){:target="_blank"}<br><br>
 
@@ -318,7 +318,7 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 ### 21. **B-tree and B+ Trees**
 
-- Google's distributed file systems, such as Google File System (GFS) and Bigtable, leverage B-tree data structures for indexing and organizing vast amounts of data efficiently. B-trees provide logarithmic time complexity for search, insertion, and deletion operations, making them ideal for handling structured data in distributed storage systems. This ensures quick and reliable access to data, enhancing the overall performance of Google's storage solutions.
+Google's distributed file systems, such as Google File System (GFS) and Bigtable, leverage B-tree data structures for indexing and organizing vast amounts of data efficiently. B-trees provide logarithmic time complexity for search, insertion, and deletion operations, making them ideal for handling structured data in distributed storage systems. This ensures quick and reliable access to data, enhancing the overall performance of Google's storage solutions.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/btree.cpp){:target="_blank"}<br><br>
 
@@ -373,16 +373,9 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 
-
-
-
-
-
-
-
 ### 27. **KD Trees**
 
-- Google Maps and other location-based services can utilize KD Trees for efficient nearest neighbor search and range queries. By organizing geographic points (e.g., landmarks, businesses, user locations) in a k-dimensional space, KD Trees enable quick retrieval of nearby points based on user queries, facilitating location-based recommendations, navigation, and geospatial analysis.
+Google Maps and other location-based services can utilize KD Trees for efficient nearest neighbor search and range queries. By organizing geographic points (e.g., landmarks, businesses, user locations) in a k-dimensional space, KD Trees enable quick retrieval of nearby points based on user queries, facilitating location-based recommendations, navigation, and geospatial analysis.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/KDTree.cpp){:target="_blank"}<br><br>
 
