@@ -345,7 +345,7 @@ Persistent Segment Trees can be utilized in version control systems for efficien
 
 
 ### 25.**Strongly Connected Components**
-- By analyzing strongly connected components, Google can identify clusters of users who frequently interact with each other, indicating potential friendships or shared interests. This analysis can inform more accurate friend recommendations, helping users connect with others who are likely to share mutual interests or social connections.
+- By analyzing strongly connected components using algorithms like **Kosaraju's or Tarjan's**, Google can identify clusters of users who frequently interact with each other, indicating potential friendships or shared interests. This analysis can inform more accurate friend recommendations, helping users connect with others who are likely to share mutual interests or social connections.
 
 - Understanding the network of user connections through strongly connected components enables Google to deliver targeted content to specific clusters of users.By customizing content delivery based on these connections, Google can ensure that users receive updates, posts, or events that are relevant to their social circles or interests, enhancing user engagement and satisfaction.
 
