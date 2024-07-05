@@ -67,6 +67,7 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 # Objectives
 
+
 1. Apply advanced algorithms and data structures to enhance the speed and efficiency of Google's services.
    
 2. Demonstrate the real-world use of concepts learned in Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses.
@@ -78,6 +79,7 @@ This portfolio showcases the transformative power of algorithms within Google’
 ---
 
 # Business Use Cases and Mapping Algorithms
+
 
 ### 1. **Computation of Shortest Paths in Google Maps**
 
