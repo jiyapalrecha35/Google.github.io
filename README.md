@@ -29,8 +29,10 @@
 This page hosts:
 
 1. Introduction
-2. Objectives/Need of Portfolio
-3. Algorithms and Data Structures: Business Use Cases and Applications
+2. Objectives
+3. Business Use Cases and Mapping Algorithms
+4. Use case and efficiency overview
+5. Learnings and key takeaways
 
 
 # Introduction
@@ -53,30 +55,30 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 
 # Business Use Cases:
-### 1. Optimization of Network Traffic Flow in Google Services
+### 1. Optimizing Network Traffic in Google Services
 
 **Use Case:**
-Google manages vast networks of servers and data centers to deliver its services. The max flow algorithm can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion. Google's infrastructure relies on sophisticated routing and load balancing mechanisms to handle user requests.
+Google manages vast networks of servers and data centers to deliver its services. The max flow algorithm can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion. Google's infrastructure relies on sophisticated routing and load-balancing mechanisms to handle user requests. Max flow algorithms, such as Karger's, Dinic's, and Ford-Fulkerson, can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability
 
-**Challenges:** Managing vast network traffic, minimizing congestion.
+**Challenges:** Managing vast network traffic, and minimizing congestion.
 
-**Market Benefits:** Improved system performance, reliability.
+**Market Benefits:** Improved system performance, and reliability.
 
-**Algorithms and Design Techniques:**
+**Algorithms,Design Techniques,Performance Analysis:**
 - **Ford-Fulkerson Algorithm:** Augmenting path method, Greedy approach
-  - Time Complexity: O(E * V^2) where E is the number of edges and V is the number of vertices
-  - Space Complexity: O(V^2) where V is the number of vertices
+  - Time Complexity: O(E * V<sup>2</sup>) where E is the number of edges and V is the number of vertices
+  - Space Complexity: O(V<sup>2</sup>) where V is the number of vertices
 - **Dinic's Algorithm:** Layered network approach, Blocking flow
-  - Time Complexity: O(E * V^2 log(V)) where E is the number of edges and V is the number of vertices
-  - Space Complexity: O(V^2) where V is the number of vertices
 - **Karger's Algorithm:** Randomized contraction, Min-cut max-flow theorem
-  - Time Complexity: O(V^3) where V is the number of vertices
-  - Space Complexity: O(V^2) where V is the number of vertices
+
+[View code for Ford Fulkerson Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/maxFlow.cpp){:target="_blank"}<br><br>
+<br><br>
+
 
 ### 2. Computation of Shortest Paths in Google Maps
 
 **Use Case:**
-Google Maps: Dijkstra's algorithm can find the shortest path between two locations on a map. This is essential for providing accurate directions to users, considering factors such as traffic conditions, road closures, and distance.
+Google Maps: Dijkstra's algorithm can find the shortest path between two locations on a map. Essential for providing accurate directions to users, considering factors such as traffic conditions, road closures, and distance.
 
 **Challenges:** Computing shortest paths considering traffic and road conditions.
 
@@ -90,36 +92,49 @@ Google Maps: Dijkstra's algorithm can find the shortest path between two locatio
   - Time Complexity: O(VE) where V is the number of vertices and E is the number of edges
   - Space Complexity: O(V) where V is the number of vertices
 - **Floyd-Warshall Algorithm:** Dynamic programming, All-pairs shortest path
-  - Time Complexity: O(V^3) where V is the number of vertices
-  - Space Complexity: O(V^2) where V is the number of vertices
+- Time Complexity: O(V<sup>3</sup>) where V is the number of vertices
+- Space Complexity: O(V<sup>2</sup>) where V is the number of vertices
 
-### 3. Resource Allocation in Data Centers
+
+[View Dijkstra's code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/dijkstra.cpp){:target="_blank"}<br>
+[View Bellman-Ford code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/bellman_ford.cpp){:target="_blank"}<br>
+[View Floyd-Warshall code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/floyd_warshall.cpp){:target="_blank"}<br><br>
+<br><br>
+
+
+### 3. Allocation of resources in data centres
 
 **Use Case:**
 Google manages a vast network of data centers worldwide to support its services. The Assignment Problem can be utilized to optimize resource allocation within these data centers, such as assigning computing tasks to servers or balancing the load across different data center locations.
 
 **Challenges:** Effective allocation of resources.
 
-**Market Benefits:** Improved resource management, reduced operational costs.
+**Market Benefits:** Improved resource management, and reduced operational costs.
 
 **Algorithms and Design Techniques:**
 - **Assignment Problem:** Optimization technique
-  - Time Complexity: O(N^3) where N is the number of tasks or resources
-  - Space Complexity: O(N^2) where N is the number of tasks or resources
+- Time Complexity: O(N<sup>3</sup>) where N is the number of tasks or resources
+- Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/jobAssignment.cpp){:target="_blank"}<br><br>
+<br><br>
 
 ### 4. Ad Allocation in Google Ads
 
 **Use Case:**
 Google's advertising platforms, such as Google Ads, rely on efficient allocation of ad placements to maximize revenue and user engagement. The Assignment Problem can help determine the optimal assignment of advertisements to available ad slots across websites.
 
-**Challenges:** Maximizing revenue, user engagement.
+**Challenges:** Maximizing revenue, and user engagement.
 
 **Market Benefits:** Increased ad effectiveness, higher revenue.
 
 **Algorithms and Design Techniques:**
 - **Assignment Problem:** Optimization technique
-  - Time Complexity: O(N^3) where N is the number of tasks or resources
-  - Space Complexity: O(N^2) where N is the number of tasks or resources
+- Time Complexity: O(N<sup>3</sup>) where N is the number of tasks or resources
+- Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/jobAssignment.cpp){:target="_blank"}<br><br>
+<br><br>
+
 
 ### 5. Range Query Optimization
 
@@ -128,12 +143,14 @@ In Google's data storage and retrieval systems, such as databases and file syste
 
 **Challenges:** Efficient data retrieval within specific ranges.
 
-**Market Benefits:** Faster data access, improved query performance.
+**Market Benefits:** Faster data access, and improved query performance.
 
 **Algorithms and Design Techniques:**
 - **Segment Trees:** Divide and conquer, Hierarchical data structure
   - Time Complexity: O(log N) for both query and update operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}<br><br>
+  
 
 ### 6. Time-Series Data Analysis
 
@@ -142,40 +159,38 @@ Google deals with vast amounts of time-series data across its services, includin
 
 **Challenges:** Efficient processing of vast amounts of time-series data.
 
-**Market Benefits:** Better data insights, improved performance metrics.
+**Market Benefits:** Better data insights, and improved performance metrics.
 
 **Algorithms and Design Techniques:**
 - **Segment Trees:** Divide and conquer, Tree data structure
   - Time Complexity: O(log N) for both query and update operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}<br><br>
+
 
 ### 7. Autocorrection
 
 **Use Case:**
 Tries are commonly used in autocorrect systems, such as those implemented in Google Search, Gmail, or Google Docs. By organizing a dictionary of words into a trie structure, these systems can efficiently suggest and correct misspelled words as users type. As users enter text, the system navigates the trie to identify potential matches or corrections based on the entered prefix, offering relevant suggestions in real time.
 
-**Challenges:** Accurate and efficient word suggestion and correction.
-
-**Market Benefits:** Enhanced user experience, reduced typing errors.
-
 **Algorithms and Design Techniques:**
 - **Tries:** Tree data structure, Prefix tree
   - Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
   - Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp){:target="_blank"}
+
 
 ### 8. Autocomplete Suggestions
 
 **Use Case:**
-Tries enhance search functionality by providing predictive text suggestions as users type queries in Google Search. This is also known as submission throttling.
-
-**Challenges:** Real-time query suggestions.
-
-**Market Benefits:** Improved search experience, faster query completion.
+Tries enhance search functionality by providing predictive text suggestions as users type queries in Google Search. Also known as **submission throttling**.
 
 **Algorithms and Design Techniques:**
 - **Tries:** Tree data structure, Prefix tree
   - Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
   - Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp){:target="_blank"}
+
 
 ### 9. Database Indexing
 
@@ -190,23 +205,19 @@ Red-Black Trees are commonly used in database management systems for indexing an
 - **Red-Black Trees:** Balanced binary search tree, Self-balancing
   - Time Complexity: O(log N) for insertion, deletion, and lookup operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/RedBlackTree.cpp){:target="_blank"}<br><br>
+
 
 ### 10. Compiler Infrastructure
 
 **Use Case:**
 Google's compiler infrastructure (such as LLVM) utilizes Red-Black Trees to represent and query symbol tables containing information about program identifiers, variables, and functions. By organizing symbol tables using Red-Black Trees, Google enables efficient identifier resolution during compilation, linking, and optimization processes.
 
-**Challenges:** Efficient symbol table management.
-
-**Market Benefits:** Faster compilation, improved code optimization.
-
 **Algorithms and Design Techniques:**
 - **Red-Black Trees:** Balanced binary search tree, Self-balancing
   - Time Complexity: O(log N) for insertion, deletion, and lookup operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
-
-
-
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/RedBlackTree.cpp){:target="_blank"}<br><br>
 
 
 
@@ -221,13 +232,17 @@ A* and Best-First algorithms can be employed to find the most efficient routes b
 
 **Challenges:** Finding the most efficient routes between locations.
 
-**Market Benefits:** Optimized travel time, improved navigation.
+**Market Benefits:** Optimized travel time, and improved navigation.
 
 **Algorithms and Design Techniques:**
 - **A* Algorithm:** Heuristic-based search, Greedy approach
 - **Best-First Search:** Heuristic-based search, Priority queue
 
 **Performance Analysis:** Depends on the heuristic used.
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/a_BestFirst.cpp){:target="_blank"}<br><br>
+
+
 
 ### 12. Content Recommendation Systems
 
@@ -236,27 +251,27 @@ Within Google's ecosystem of products and services, A* and Best-First algorithms
 
 **Challenges:** Delivering personalized and relevant content.
 
-**Market Benefits:** Enhanced user engagement, increased content consumption.
+**Market Benefits:** Enhanced user engagement, and increased content consumption.
 
 **Algorithms and Design Techniques:**
 - **A* Algorithm:** Heuristic-based search, Greedy approach
 - **Best-First Search:** Heuristic-based search, Priority queue
 
 **Performance Analysis:** Depends on the heuristic used.
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/a_BestFirst.cpp){:target="_blank"}<br><br>
 
 ### 13. Spell Checking
 
 **Use Case:**
 Edit distance algorithms can be used in spell-checking systems, where they help identify and correct misspelled words by suggesting replacements with the minimum number of edits required.
 
-**Challenges:** Accurate spelling correction.
-
-**Market Benefits:** Improved user experience, reduced typing errors.
-
 **Algorithms and Design Techniques:**
 - **Edit Distance:** Dynamic programming
   - Time Complexity: O(m*n), where m and n are the lengths of the two strings being compared
   - Space Complexity: O(m*n), where m and n are the lengths of the two strings being compared
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/editDistance.cpp){:target="_blank"}<br><br>
+
+
 
 ### 14. Skip Lists in Search Engine Indexing
 
@@ -265,12 +280,14 @@ Skip lists can be employed in search engine indexing systems to maintain sorted 
 
 **Challenges:** Efficiently maintaining and searching sorted lists.
 
-**Market Benefits:** Faster search indexing, improved query performance.
+**Market Benefits:** Faster search indexing, and improved query performance.
 
 **Algorithms and Design Techniques:**
 - **Skip Lists:** Probabilistic balancing, Layered linked lists
   - Time Complexity: O(log n) on average for search, insertion, and deletion, where n is the number of elements in the list
   - Space Complexity: O(n), where n is the number of elements in the skip list
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SkipList.cpp){:target="_blank"}<br><br>
+
 
 ### 15. Scheduling Tasks in Data Centers
 
@@ -285,6 +302,8 @@ Google's vast network of data centers relies on efficient task scheduling algori
 - **Topological Sort:** Directed acyclic graph (DAG), Depth-first search (DFS)
   - Time Complexity: O(V + E), where V is the number of vertices (tasks) and E is the number of edges (dependencies) in the DAG
   - Space Complexity: O(V + E) for storing the graph and additional structures
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/topoSort.cpp){:target="_blank"}<br><br>
+
 
 ### 16. Dependency Resolution in Software Development
 
@@ -299,11 +318,12 @@ Within Google's software development processes, Topological Sort algorithms play
 - **Topological Sort:** Directed acyclic graph (DAG), Depth-first search (DFS)
   - Time Complexity: O(V + E), where V is the number of vertices (tasks) and E is the number of edges (dependencies) in the DAG
   - Space Complexity: O(V + E) for storing the graph and additional structures
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/topoSort.cpp){:target="_blank"}<br><br>
 
 ### 17. Analyzing User Behavior and Engagement Patterns
 
 **Use Case:**
-In online services such as Google Search, YouTube, and Gmail, understanding user behavior and engagement patterns is crucial for enhancing user experiences and personalization. The Game of Life can be applied to simulate and analyze user interactions, content consumption patterns, and community dynamics. By modeling user engagement, content popularity, and social interactions, Google can optimize content recommendations, ad targeting strategies, and platform design to better serve user needs and preferences.
+In online services such as Google Search, YouTube, and Gmail, understanding user behavior and engagement patterns is crucial for enhancing user experiences and personalization. The Game of Life can be applied to simulate and analyze user interactions, content consumption patterns, and community dynamics. By modeling user engagement, content popularity, and social interactions, Google can optimize content recommendations, ad targeting strategies, and platform design to serve user needs and preferences better.
 
 **Challenges:** Understanding complex user interactions.
 
@@ -313,6 +333,8 @@ In online services such as Google Search, YouTube, and Gmail, understanding user
 - **Game of Life:** Cellular automaton, Emergent behavior modeling
   - Time Complexity: O(n * m), where n and m are the dimensions of the grid (typically used in simulations)
   - Space Complexity: O(n * m), for storing the grid
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/conway.cpp){:target="_blank"}<br><br>
+
 
 ### 18. Data Compression in Google's Infrastructure using Huffman Coding
 
@@ -327,6 +349,8 @@ Google's infrastructure deals with vast amounts of data generated and transmitte
 - **Huffman Coding:** Greedy approach, Variable-length encoding
   - Time Complexity: O(n log n) for building the Huffman tree, where n is the number of symbols
   - Space Complexity: O(n) for storing the Huffman tree and encoded data
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/huffmann.cpp){:target="_blank"}<br><br>
+
 
 ### 19. Traveling Salesman Problem for Route Optimization
 
@@ -339,6 +363,9 @@ Google Maps: The TSP algorithm can be used to find the most efficient route for 
 
 **Algorithms and Design Techniques:**
 - **TSP:** Combinatorial optimization, Dynamic programming, Approximation algorithms
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/tsp.cpp){:target="_blank"}<br><br>
+
 
 ### 20. PageRank and Web Crawling for Google Search Index
 
@@ -357,6 +384,10 @@ Google Search uses the PageRank algorithm to rank web pages based on their impor
   - Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
   - Space Complexity: O(V) for the queue used in BFS
 
+[View DFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/DFS.cpp){:target="_blank"}<br>
+[View BFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/BFS.cpp){:target="_blank"}<br><br>
+
+
 
 
 ### 21. Recommendation Systems in YouTube using DFS and BFS
@@ -364,7 +395,7 @@ Google Search uses the PageRank algorithm to rank web pages based on their impor
 Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital role in recommendation systems, such as those used in YouTube for suggesting videos to users. These algorithms help analyze the relationships between users, videos, and their interactions (likes, views, comments) to generate personalized recommendations. By traversing the user-video graph using DFS and BFS, Google can identify relevant videos based on user preferences, viewing history, and social connections, enhancing user engagement and satisfaction on the platform.
 
 - **Challenges**: Generating personalized video recommendations.
-- **Market Benefits**: Increased user engagement, enhanced user experience.
+- **Market Benefits**: Increased user engagement, and enhanced user experience.
 - **Design Techniques**:
   - **DFS (Depth-First Search)**: Graph traversal using a stack.
   - **BFS (Breadth-First Search)**: Graph traversal using a queue.
@@ -374,6 +405,10 @@ Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital 
 - **Space Complexity**:
   - DFS: \(O(V)\) (for the recursive call stack).
   - BFS: \(O(V)\) (for the queue).
+
+[View DFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/DFS.cpp){:target="_blank"}<br>
+[View BFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/BFS.cpp){:target="_blank"}<br><br>
+
 
 ### 22. Network Reliability using Bridges and Articulation Points
 
@@ -387,17 +422,21 @@ In Google's extensive network infrastructure, which includes data centers, serve
 - **Space Complexity**:
   - Bridges: \(O(V + E)\)
   - Articulation Points: \(O(V)\)
+[View code for Bridges here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Bridges.cpp){:target="_blank"}<br>
+[View code for Articulation Points here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/ArticulationPoints.cpp){:target="_blank"}<br><br>
 
-### 23. Securing User Data and Authenticating Accounts using Hashing Algorithms
+### 23. Securing User Data and Authenticating Accounts Using Hashing Algorithms
 
 Hashing algorithms are crucial for securing user data and authenticating accounts across Google's services like Gmail, Drive, and Cloud. Passwords are hashed using cryptographic algorithms before being stored, ensuring protection even if databases are compromised. Hashing is also used in encryption, digital signatures, and data integrity checks to secure sensitive information against unauthorized access.
 
 - **Challenges**: Protecting user data and authenticating accounts.
-- **Market Benefits**: Enhanced security, improved user trust.
+- **Market Benefits**: Enhanced security, and improved user trust.
 - **Design Techniques**:
   - **Hashing**: Cryptographic hash functions, one-way encryption.
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/hashing.cpp){:target="_blank"}<br><br>
 
-### 24. Optimizing Cloud Infrastructure using Spanning Tree Algorithms
+
+### 24. Optimizing Cloud Infrastructure Using Spanning Tree Algorithms
 
 Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing Google's cloud infrastructure by creating minimum spanning trees (MSTs) to connect data centers, edge locations, and CDNs efficiently. This results in an optimized network with reduced latency, improved fault tolerance, and enhanced scalability for reliable and high-performance cloud services.
 
@@ -406,11 +445,14 @@ Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing 
   - **Prim's Algorithm**: Greedy approach, Minimum Spanning Tree (MST).
 - **Performance Analysis**:
   - Kruskal's Algorithm:
-    - **Time Complexity**: \(O(E \log E)\)
+    - **Time Complexity**: \(O(E log E)\)
     - **Space Complexity**: \(O(V + E)\)
   - Prim's Algorithm:
-    - **Time Complexity**: \(O(E \log V)\) (or \(O(E + V \log V)\) with Fibonacci heaps)
+    - **Time Complexity**: \(O(E log V)\) with priority queues (or \(O(E + V log V)\) with Fibonacci heaps)
     - **Space Complexity**: \(O(V + E)\)
+    - 
+[View code for Kruskal's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/kruskalAlgoritm.c){:target="_blank"}<br>
+[View code for Prim's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/prim.cpp){:target="_blank"}<br><br>
 
 ### 25. Route Optimization in Google Maps using Spanning Tree Algorithms
 
@@ -419,6 +461,9 @@ Spanning tree algorithms can be used in optimizing routes for Google Maps by cal
 - **Design Techniques**:
   - **Kruskal's Algorithm**: Greedy approach, Minimum Spanning Tree (MST).
   - **Prim's Algorithm**: Greedy approach, Minimum Spanning Tree (MST).
+[View code for Kruskal's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/kruskalAlgoritm.c){:target="_blank"}<br>
+[View code for Prim's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/prim.cpp){:target="_blank"}<br><br>
+
 
 ### 26. Search Indexing using BSTs
 
@@ -430,6 +475,8 @@ Binary Search Trees (BSTs) can be used in Google's search indexing systems to ef
   - **Binary Search**: For efficient data retrieval.
 - **Time Complexity**: \(O(\log n)\) on average for search, insertion, and deletion. \(O(n)\) in the worst-case scenario.
 - **Space Complexity**: \(O(n)\)
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/BST.c){:target="_blank"}<br><br>
+
 
 ### 27. Enhancing Search Accuracy using Longest Common Subsequence (LCS)
 
@@ -439,6 +486,8 @@ LCS is used to compare and determine the similarity between documents or web pag
   - **Dynamic Programming**: For LCS computation.
 - **Time Complexity**: \(O(m \times n)\), where \(m\) and \(n\) are lengths of sequences.
 - **Space Complexity**: \(O(m \times n)\) for storing the LCS table.
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lcs.cpp){:target="_blank"}<br><br>
+
 
 ### 28. Identifying Similar Videos on YouTube using LCS
 
@@ -449,6 +498,8 @@ LCS is also used by YouTube to identify similar videos. By comparing the sequenc
 - **Time Complexity**: \(O(m \times n)\), where \(m\) and \(n\) are lengths of sequences.
 - **Space Complexity**: \(O(m \times n)\) for storing the LCS table.
 
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lcs.cpp){:target="_blank"}<br><br>
+
 ### 29. Detecting Plagiarism using LCS
 
 LCS can be employed to detect plagiarism by comparing the textual content of documents. By identifying the longest common subsequences between two or more texts, Google can efficiently determine the degree of similarity and detect copied or similar content across documents, ensuring the originality and integrity of information.
@@ -458,14 +509,19 @@ LCS can be employed to detect plagiarism by comparing the textual content of doc
 - **Time Complexity**: \(O(m \times n)\), where \(m\) and \(n\) are lengths of sequences.
 - **Space Complexity**: \(O(m \times n)\) for storing the LCS table.
 
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lcs.cpp){:target="_blank"}<br><br>
+
+
 ### 30. Organizing Data in Distributed File Systems using B-trees
 
 Google's distributed file systems, such as Google File System (GFS) and Bigtable, leverage B-tree data structures for indexing and organizing vast amounts of data efficiently. B-trees provide logarithmic time complexity for search, insertion, and deletion operations, making them ideal for handling structured data in distributed storage systems. This ensures quick and reliable access to data, enhancing the overall performance of Google's storage solutions.
 
 - **Time Complexity**: \(O(\log n)\) for search, insertion, and deletion on average.
 - **Space Complexity**: \(O(n)\)
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/btree.cpp){:target="_blank"}<br><br>
 
-### 31. Identifying User Clusters using Strongly Connected Components Algorithms
+
+### 31. Identifying User Clusters Using Strongly Connected Components Algorithms
 
 By analyzing strongly connected components using algorithms like Kosaraju's or Tarjan's, Google can identify clusters of users who frequently interact with each other, indicating potential friendships or shared interests. This analysis can inform more accurate friend recommendations, helping users connect with others who are likely to share mutual interests or social connections.
 
@@ -474,6 +530,9 @@ By analyzing strongly connected components using algorithms like Kosaraju's or T
   - **Tarjan's Algorithm**: Single DFS pass with backtracking.
 - **Time Complexity**: \(O(V + E)\)
 - **Space Complexity**: \(O(V)\)
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SCC.cpp){:target="_blank"}<br><br>
+
 
 
 
@@ -493,24 +552,14 @@ Fenwick Trees support two primary operations efficiently: prefix sum queries and
 - **Update (Point Update):** \( O(\log n) \)
 - **Query (Prefix Sum):** \( O(\log n) \)
 - **Space Complexity:** \( O(n) \)
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/FenwickTree.cpp){:target="_blank"}<br><br>
+
 
 ### 33. Spam Filtering in Gmail using String Matching Algorithms
 **Overview:** String matching algorithms are employed in Gmail's spam filters to analyze the content of incoming emails, identifying spam keywords or patterns to classify and filter spam emails.
 
-**Common Algorithms:**
-- **Knuth-Morris-Pratt (KMP) Algorithm:** Efficient for preprocessing and matching.
-  - **Preprocessing Time:** \( O(m) \)
-  - **Matching Time:** \( O(n) \)
-  - **Space Complexity:** \( O(m) \)
-- **Rabin-Karp Algorithm:** Useful for multiple pattern matching.
-  - **Average Case Preprocessing Time:** \( O(m) \)
-  - **Average Case Matching Time:** \( O(n + m) \)
-  - **Worst Case Matching Time:** \( O((n - m + 1) \cdot m) \)
-  - **Space Complexity:** \( O(1) \)
-- **Boyer-Moore Algorithm:** Known for its efficient skip mechanism.
-  - **Preprocessing Time:** \( O(m + |\Sigma|) \)
-  - **Matching Time:** \( O(n) \)
-  - **Space Complexity:** \( O(|\Sigma|) \)
+[View code for Rabin Karp here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/rabin.cpp){:target="_blank"}<br>
+[View code for KMP here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/kmp.cpp){:target="_blank"}<br><br>
 
 ### 34. Checking URLs for Safety in Google Chrome using Bloom Filters
 **Overview:** Google Chrome uses Bloom filters to quickly check if a URL might be harmful by referencing a local Bloom filter containing hashed malicious URLs. This improves browsing speed and security.
@@ -521,6 +570,8 @@ Fenwick Trees support two primary operations efficiently: prefix sum queries and
 
 **Design Technique:** 
 Bloom filters use a fixed-size array and hash functions to achieve space-efficient set representation and quick lookups.
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/bloomfilters.cpp){:target="_blank"}<br><br>
+
 
 ### 35. Managing Document Edits and Revisions using Persistent Segment Trees
 **Overview:** Persistent Segment Trees can be utilized in version control systems for efficient management of document edits and revisions, such as in Google Docs.
@@ -536,6 +587,9 @@ Persistent Segment Trees maintain historical versions of data through immutable 
 - **Building a Version (Preprocessing):** \( O(n \log n) \)
 - **Querying a Version:** \( O(\log n) \)
 - **Total Space:** \( O(n \log n) \)
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/PersistentSegmentTree.cpp){:target="_blank"}<br><br>
+
 
 ### 36. Optimizing Resource Allocation in Data Centers using Greedy Algorithms for Interval Scheduling
 **Overview:** Interval scheduling algorithms can optimize resource allocation in Google's data centers and cloud computing services.
