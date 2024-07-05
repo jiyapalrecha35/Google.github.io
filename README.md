@@ -15,7 +15,6 @@
 <dd>KLE Technological University, Hubballi-31</dd>
 <dt>Portfolio Topic/Domain</dt>
 <dd>Google</dd>
-
 </dl>
 
 <br>
@@ -25,7 +24,7 @@
 
 <br>
 
-This page hosts:
+### This page hosts:
 
 1. [Introduction](#introduction)
 2. [Objectives](#objectives)
@@ -33,8 +32,9 @@ This page hosts:
 4. [Use Case and Efficiency Overview](#use-case-and-efficiency-overview)
 5. [Learnings and Key Takeaways](#learnings-and-key-takeaways)
 
+---
 
-# Introduction about the Domain
+# Introduction
 
 ![Google Infrastructure](https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/Screenshot%202024-07-05%20141324.png?raw=true)
 
@@ -65,7 +65,8 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 ---
 
-# Objectives/Need of Portfolio
+# Objectives
+
 1. Apply advanced algorithms and data structures to enhance the speed and efficiency of Google's services.
    
 2. Demonstrate the real-world use of concepts learned in Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses.
@@ -73,10 +74,10 @@ This portfolio showcases the transformative power of algorithms within Google’
 3. Develop innovative solutions to improve user experiences and drive technological advancements within Google's ecosystem.
 <br><br>
 
+
 ---
 
-# Business Use Cases:
-
+# Business Use Cases and Mapping Algorithms
 
 ### 1. **Computation of Shortest Paths in Google Maps**
 
@@ -678,13 +679,9 @@ Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize v
 [View Floyd-Warshall code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/floyd_warshall.cpp){:target="_blank"}<br><br>
 
 
-
 ---
 
-
-
-
-# Use case and efficiency overview
+# Use Case and Efficiency Overview
 
 | SI. No. | Business Use Case                                                   | Data Structure and Algorithm Used                    | Efficiency (TC, SC)                  |
 |---------|---------------------------------------------------------------------|------------------------------------------------------|-------------------------------------|
@@ -737,12 +734,14 @@ Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize v
 | 36      | Optimize the video streaming paths on Youtube                      | Floyd-Warshall Algorithm                             | O(V<sup>3</sup>), O(V<sup>2</sup>)    |
 
 
----
-
-# Learnings and key takeaways
-
 
 ---
+
+# Learnings and Key Takeaways
+
+This portfolio showcases the transformative power of algorithms within Google’s ecosystem. Each business use case explored demonstrates how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
+
+
 
 ## References
 [1] Statista. (2024). Market share of leading desktop search engines worldwide from January 2015 to January 2024 [Online]. Available: https://www.statista.com/statistics/216573/worldwide-market-share-of-search-engines/
