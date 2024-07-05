@@ -87,7 +87,7 @@ Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall
 [View Dijkstra's code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/dijkstra.cpp){:target="_blank"}<br>
 [View Bellman-Ford code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/bellman_ford.cpp){:target="_blank"}<br>
 [View Floyd-Warshall code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/floyd_warshall.cpp){:target="_blank"}<br><br>
-<br><br>
+
 
 ### 2. Optimizing Network Traffic in Google Services
 
@@ -106,12 +106,12 @@ Google manages vast networks of servers and data centers to deliver its services
 - **Karger's Algorithm:** Randomized contraction, Min-cut max-flow theorem<br>
 
 [View code for Ford Fulkerson Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/maxFlow.cpp){:target="_blank"}<br><br>
-<br><br>
+
 
 ### 3. Range Query Optimization
 
 **Use Case:**
-In Google's data storage and retrieval systems, such as databases and file systems, segment trees can optimize range query operations. For instance, in a document storage system like Google Drive, segment trees can efficiently handle queries related to retrieving or manipulating data within specific ranges, such as searching for documents created within a certain time frame or finding files within a particular size range.
+In Google's data storage and retrieval systems, such as databases and file systems, **Segment trees** can optimize range query operations. For instance, in a document storage system like Google Drive, segment trees can efficiently handle queries related to retrieving or manipulating data within specific ranges, such as searching for documents created within a certain time frame or finding files within a particular size range.
 
 **Challenges:** Efficient data retrieval within specific ranges.
 
@@ -340,11 +340,7 @@ Google Maps: The TSP algorithm can be used to find the most efficient route for 
 **Use Case:**
 Google Search uses the PageRank algorithm to rank web pages based on their importance, where depth-first search (DFS) and breadth-first search (BFS) play crucial roles in traversing the web graph. 
 
-Web Crawling for Google Search Index: Depth-first search (DFS) and Breadth-First Search (BFS) algorithms are fundamental to web crawling, a process by which search engines like Google discover and index web pages. DFS and BFS are used to traverse the interconnected network of web pages, following hyperlinks from one page to another to build a comprehensive index of the World Wide Web. By employing DFS and BFS strategies intelligently, Google can efficiently crawl and index billions of web pages, enabling users to find relevant information quickly and accurately through its search engine.
-
-**Challenges:** Efficiently ranking and indexing web pages.
-
-**Market Benefits:** Improved search accuracy, faster indexing.
+DFS and BFS algorithms are fundamental to web crawling, a process by which search engines like Google discover and index web pages. DFS and BFS are used to traverse the interconnected network of web pages, following hyperlinks from one page to another to build a comprehensive index of the World Wide Web. By employing DFS and BFS strategies intelligently, Google can efficiently crawl and index billions of web pages, enabling users to find relevant information quickly and accurately through its search engine.
 
 **Algorithms, Design Techniques, Performance Analysis:**
 - **DFS:** Graph traversal based on stack
@@ -426,7 +422,7 @@ Tries enhance search functionality by providing predictive text suggestions as u
 
 ### 21. Recommendation Systems in YouTube using DFS and BFS
 
-Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital role in recommendation systems, such as those used in YouTube for suggesting videos to users. These algorithms help analyze the relationships between users, videos, and their interactions (likes, views, comments) to generate personalized recommendations. By traversing the user-video graph using DFS and BFS, Google can identify relevant videos based on user preferences, viewing history, and social connections, enhancing user engagement and satisfaction on the platform.
+Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital role in recommendation systems, such as those used in YouTube for suggesting videos to users. These algorithms help analyze the relationships between users, videos, and their interactions (likes, views, comments) to generate personalized recommendations. By traversing the **user-video graph using DFS and BFS**, Google can identify relevant videos based on user preferences, viewing history, and social connections, enhancing user engagement and satisfaction on the platform.
 
 - **Challenges**: Generating personalized video recommendations.
   
@@ -482,7 +478,7 @@ Google's advertising platforms, such as Google Ads, rely on efficient allocation
 - Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
   
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/jobAssignment.cpp){:target="_blank"}<br><br>
-<br><br>
+
 
 
 ### 24. Search Indexing using BSTs
