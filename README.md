@@ -68,9 +68,9 @@ Google manages vast networks of servers and data centers to deliver its services
 **Algorithms, Design Techniques, Performance Analysis:**
 - **Ford-Fulkerson Algorithm:** Augmenting path method, Greedy approach
   - Time Complexity: O(E * V<sup>2</sup>) where E is the number of edges and V is the number of vertices
-  - Space Complexity: O(V<sup>2</sup>) where V is the number of vertices
-- **Dinic's Algorithm:** Layered network approach, Blocking flow
-- **Karger's Algorithm:** Randomized contraction, Min-cut max-flow theorem
+  - Space Complexity: O(V<sup>2</sup>) where V is the number of vertices<br>
+- **Dinic's Algorithm:** Layered network approach, Blocking flow<br>
+- **Karger's Algorithm:** Randomized contraction, Min-cut max-flow theorem<br>
 
 [View code for Ford Fulkerson Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/maxFlow.cpp){:target="_blank"}<br><br>
 <br><br>
@@ -93,10 +93,10 @@ Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall
 **Algorithms, Design Techniques, Performance Analysis:**
 - **Dijkstra's Algorithm:** Greedy approach, Priority queue
   - Time Complexity: O((V + E) log V) where V is the number of vertices and E is the number of edges
-  - Space Complexity: O(V) where V is the number of vertices
+  - Space Complexity: O(V) where V is the number of vertices<br>
 - **Bellman-Ford Algorithm:** Dynamic programming, Relaxation technique
   - Time Complexity: O(VE) where V is the number of vertices and E is the number of edges
-  - Space Complexity: O(V) where V is the number of vertices
+  - Space Complexity: O(V) where V is the number of vertices<br>
 - **Floyd-Warshall Algorithm:** Dynamic programming, All-pairs shortest path
 - Time Complexity: O(V<sup>3</sup>) where V is the number of vertices
 - Space Complexity: O(V<sup>2</sup>) where V is the number of vertices
@@ -119,7 +119,7 @@ Google manages a vast network of data centers worldwide to support its services.
 
 **Algorithms, Design Techniques, Performance Analysis::**
 - **Assignment Problem:** Optimization technique
-- Time Complexity: O(N<sup>3</sup>) where N is the number of tasks or resources
+- Time Complexity: O(2<sup>N</sup> * N) where N is the number of tasks or resources
 - Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/jobAssignment.cpp){:target="_blank"}<br><br>
@@ -136,7 +136,7 @@ Google's advertising platforms, such as Google Ads, rely on efficient allocation
 
 **Algorithms, Design Techniques, Performance Analysis:**
 - **Assignment Problem:** Optimization technique
-- Time Complexity: O(N<sup>3</sup>) where N is the number of tasks or resources
+- Time Complexity: O(2<sup>N</sup> * N) where N is the number of tasks or resources
 - Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
   
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/jobAssignment.cpp){:target="_blank"}<br><br>
@@ -253,7 +253,7 @@ A* and Best-First algorithms can be employed to find the most efficient routes b
 
 **Performance Analysis:** Depends on the heuristic used.
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/a_BestFirst.cpp){:target="_blank"}<br><br>
+[View code here](https://github.com/daancode/a-star){:target="_blank"}<br><br>
 
 
 
@@ -272,7 +272,7 @@ Within Google's ecosystem of products and services, A* and Best-First algorithms
 
 **Performance Analysis:** Depends on the heuristic used.
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/a_BestFirst.cpp){:target="_blank"}<br><br>
+[View code here](https://github.com/daancode/a-star){:target="_blank"}<br><br>
 
 ### 13. Spell Checking
 
@@ -415,10 +415,12 @@ Google Search uses the PageRank algorithm to rank web pages based on their impor
 Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital role in recommendation systems, such as those used in YouTube for suggesting videos to users. These algorithms help analyze the relationships between users, videos, and their interactions (likes, views, comments) to generate personalized recommendations. By traversing the user-video graph using DFS and BFS, Google can identify relevant videos based on user preferences, viewing history, and social connections, enhancing user engagement and satisfaction on the platform.
 
 - **Challenges**: Generating personalized video recommendations.
+- 
 - **Market Benefits**: Increased user engagement, and enhanced user experience.
-- **Design Techniques**:
-  - **DFS (Depth-First Search)**: Graph traversal using a stack.
-  - **BFS (Breadth-First Search)**: Graph traversal using a queue.
+- 
+- **Design Techniques and Performance Analysis**:
+  - **DFS (Depth-First Search)**: Graph traversal using a stack.(for brave ones)
+  - **BFS (Breadth-First Search)**: Graph traversal using a queue.(for cautious ones)
 - **Time Complexity**: \(O(V + E)\)
   - \(V\): Number of vertices (nodes) in the graph.
   - \(E\): Number of edges in the graph.
@@ -435,8 +437,10 @@ Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital 
 In Google's extensive network infrastructure, which includes data centers, servers, and communication links, ensuring network reliability is crucial. Algorithms such as finding bridges and articulation points help identify critical points of failure in the network. By identifying these points, Google can implement redundancy measures and optimize network design to minimize downtime and improve overall network reliability.
 
 - **Challenges**: Identifying critical points of failure in the network.
-- **Market Benefits**: Improved network reliability, minimized downtime.
-- **Design Techniques**:
+- 
+- **Market Benefits**: Improved network reliability, and minimized downtime.
+- 
+- **Design Techniques and Performance Analysis**:
   - **Bridges and Articulation Points**: Based on modified DFS.
 - **Time Complexity**: \(O(V + E)\)
 - **Space Complexity**:
@@ -451,8 +455,10 @@ In Google's extensive network infrastructure, which includes data centers, serve
 Hashing algorithms are crucial for securing user data and authenticating accounts across Google's services like Gmail, Drive, and Cloud. Passwords are hashed using cryptographic algorithms before being stored, ensuring protection even if databases are compromised. Hashing is also used in encryption, digital signatures, and data integrity checks to secure sensitive information against unauthorized access.
 
 - **Challenges**: Protecting user data and authenticating accounts.
+  
 - **Market Benefits**: Enhanced security, and improved user trust.
-- **Design Techniques**:
+  
+- **Design Techniques and Performance Analysis**:
   - **Hashing**: Cryptographic hash functions, one-way encryption.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/hashing.cpp){:target="_blank"}<br><br>
@@ -465,10 +471,11 @@ Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing 
 - **Design Techniques**:
   - **Kruskal's Algorithm**: Greedy approach, Minimum Spanning Tree (MST).
   - **Prim's Algorithm**: Greedy approach, Minimum Spanning Tree (MST).
+   
 - **Performance Analysis**:
   - Kruskal's Algorithm:
     - **Time Complexity**: \(O(E log E)\)
-    - **Space Complexity**: \(O(V + E)\)
+    - **Space Complexity**: \(O(V + E)\)<br>
   - Prim's Algorithm:
     - **Time Complexity**: \(O(E log V)\) with priority queues (or \(O(E + V log V)\) with Fibonacci heaps)
     - **Space Complexity**: \(O(V + E)\)
@@ -493,7 +500,9 @@ Spanning tree algorithms can be used in optimizing routes for Google Maps by cal
 Binary Search Trees (BSTs) can be used in Google's search indexing systems to efficiently store and retrieve indexed documents. By organizing indexed data in BSTs, Google can quickly search for relevant documents based on keywords or other search criteria, enabling fast and accurate retrieval of search results.
 
 - **Challenges**: Handling large volumes of data, data consistency, efficient data indexing, and retrieval.
-- **Market Benefits**: Faster search results, improved database performance.
+  
+- **Market Benefits**: Faster search results, and improved database performance.
+  
 - **Design Techniques**:
   - **Binary Search**: For efficient data retrieval.
 - **Time Complexity**: \(O(\log n)\) on average for search, insertion, and deletion. \(O(n)\) in the worst-case scenario.
@@ -506,10 +515,9 @@ Binary Search Trees (BSTs) can be used in Google's search indexing systems to ef
 
 LCS is used to compare and determine the similarity between documents or web pages, which helps in ranking and retrieving the most relevant search results. By identifying the longest common subsequences, Google can better understand content relationships and enhance search accuracy.
 
-- **Design Techniques**:
-  - **Dynamic Programming**: For LCS computation.
-- **Time Complexity**: \(O(m \times n)\), where \(m\) and \(n\) are lengths of sequences.
-- **Space Complexity**: \(O(m \times n)\) for storing the LCS table.
+- **Design Techniques**: Dynamic Programming
+- **Time Complexity**: \(O(m*n)\), where m and n are lengths of sequences.
+- **Space Complexity**: \(O(m*n)\) for storing the LCS table.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lcs.cpp){:target="_blank"}<br><br>
 
@@ -518,10 +526,9 @@ LCS is used to compare and determine the similarity between documents or web pag
 
 LCS is also used by YouTube to identify similar videos. By comparing the sequence of features or metadata associated with different videos, the algorithm helps in recognizing and recommending videos that share common characteristics or themes, enhancing the user experience by providing relevant video suggestions.
 
-- **Design Techniques**:
-  - **Dynamic Programming**: For LCS computation.
-- **Time Complexity**: \(O(m \times n)\), where \(m\) and \(n\) are lengths of sequences.
-- **Space Complexity**: \(O(m \times n)\) for storing the LCS table.
+- **Design Techniques**: Dynamic Programming
+- **Time Complexity**: \(O(m*n)\), where m and n are lengths of sequences.
+- **Space Complexity**: \(O(m*n)\) for storing the LCS table.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lcs.cpp){:target="_blank"}<br><br>
 
@@ -529,10 +536,9 @@ LCS is also used by YouTube to identify similar videos. By comparing the sequenc
 
 LCS can be employed to detect plagiarism by comparing the textual content of documents. By identifying the longest common subsequences between two or more texts, Google can efficiently determine the degree of similarity and detect copied or similar content across documents, ensuring the originality and integrity of information.
 
-- **Design Techniques**:
-  - **Dynamic Programming**: For LCS computation.
-- **Time Complexity**: \(O(m \times n)\), where \(m\) and \(n\) are lengths of sequences.
-- **Space Complexity**: \(O(m \times n)\) for storing the LCS table.
+- **Design Techniques**: Dynamic Programming
+- **Time Complexity**: \(O(m*n)\), where m and n are lengths of sequences.
+- **Space Complexity**: \(O(m*n)\) for storing the LCS table.
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lcs.cpp){:target="_blank"}<br><br>
 
@@ -557,7 +563,7 @@ By analyzing strongly connected components using algorithms like Kosaraju's or T
 - **Time Complexity**: \(O(V + E)\)
 - **Space Complexity**: \(O(V)\)
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SCC.cpp){:target="_blank"}<br><br>
+[View code for Kosaraju's algo here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SCC.cpp){:target="_blank"}<br><br>
 
 
 
@@ -574,9 +580,9 @@ By analyzing strongly connected components using algorithms like Kosaraju's or T
 Fenwick Trees support two primary operations efficiently: prefix sum queries and point updates.
 
 **Performance Analysis:**
-- **Construction:** \( O(n \log n) \)
-- **Update (Point Update):** \( O(\log n) \)
-- **Query (Prefix Sum):** \( O(\log n) \)
+- **Construction:** \( O(n log n) \)
+- **Update (Point Update):** \( O(log n) \)
+- **Query (Prefix Sum):** \( O(log n) \)
 - **Space Complexity:** \( O(n) \)
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/FenwickTree.cpp){:target="_blank"}<br><br>
@@ -612,7 +618,7 @@ Bloom filters use a fixed-size array and hash functions to achieve space-efficie
 Persistent Segment Trees maintain historical versions of data through immutable data structures.
 
 **Performance Analysis:**
-- **Building a Version (Preprocessing):** \( O(n \log n) \)
+- **Building a Version (Preprocessing):** \( O(n log n) \)
 - **Querying a Version:** \( O(\log n) \)
 - **Total Space:** \( O(n \log n) \)
 
@@ -623,7 +629,9 @@ Persistent Segment Trees maintain historical versions of data through immutable 
 **Overview:** MapReduce is a fundamental algorithmic framework used by Google for efficient parallel processing and analysis of large datasets. Initially developed by Google in 2004 for analyzing search results, MapReduce has evolved into a core component of big data processing, integral to frameworks like Hadoop. It offers several advantages:
 
 -Fault Tolerance: MapReduce ensures fault tolerance by leveraging multiple machines and allowing for task re-execution in case of failures.
+
 -Scalability: It supports flexible hardware configurations and can handle massive datasets by distributing computations across clusters.
+
 -Simplicity: MapReduce abstracts the complexity of parallel processing, providing a structured framework for developers.
 
 **Applications:**
@@ -646,32 +654,20 @@ MapReduce divides tasks into map and reduce phases, leveraging parallelism and f
 Radix Tries provide efficient prefix-based searches by merging nodes with single children.
 
 **Performance Analysis:**
-- **Insertion:** \( O(m) \)
+- **Insertion:** \( O(m) \) where m is the length of the key
 - **Deletion:** \( O(m) \)
 - **Search:** \( O(m) \)
-- **Prefix Search:** \( O(k + s) \)
-- **Space Complexity:** \( O(n \cdot m) \)
+- **Prefix Search:** \( O(k + s) \) where k: Length of the prefix being searched, s: Number of results or matches found for the prefix search.
 
 
-### 38. Efficient Web Page Indexing using Suffix Tries
-**Overview:** Suffix tries are commonly used in string processing tasks, such as pattern matching, substring search, and text indexing, and can be employed in Google Search for efficient web page indexing.
 
-**Design Technique:** 
-Suffix Tries organize strings into a tree structure where each path represents a suffix of the indexed text, supporting fast substring search operations.
-
-**Performance Analysis:**
-- **Construction:** \( O(n^2) \) to \( O(n \cdot \log n) \)
-- **Search:** \( O(m) \)
-- **Longest Common Substring:** \( O(n) \)
-- **Space Complexity:** \( O(n) \)
-
-These applications showcase how advanced algorithms and data structures play a critical role in optimizing various aspects of Google's operations, enhancing performance, security, and user experience.
-
-### 39.Optimise the video streaming paths in Youtube
+### 38. Optimise the video streaming paths on Youtube
 Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize video streaming paths. By determining the shortest paths between servers and users, Google can ensure smooth and uninterrupted video playback, enhancing the user experience.
 
-Performance Analysis:
-Time complexity : O(V^3) where V is the number of vertices. Space complexity is O(V^2).
+**Performance Analysis:**
+- **Floyd-Warshall Algorithm:** Dynamic programming, All-pairs shortest path
+- Time Complexity: O(V<sup>3</sup>) where V is the number of vertices
+- Space Complexity: O(V<sup>2</sup>) where V is the number of vertices
 
 
 [View Floyd-Warshall code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/floyd_warshall.cpp){:target="_blank"}<br><br>
