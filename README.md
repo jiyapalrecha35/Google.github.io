@@ -736,3 +736,15 @@ Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize v
 
 
 # Learnings and key takeaways
+
+
+
+## References
+[1] Statista. (2024). Market share of leading desktop search engines worldwide from January 2015 to January 2024 [Online]. Available: https://www.statista.com/statistics/216573/worldwide-market-share-of-search-engines/
+
+[2] Google. (2024). YouTube for Press. [Online]. Available: https://blog.youtube/press/
+
+[3] FounderJar. (2024). The Ultimate List of Gmail Statistics for 2024. Available : https://www.founderjar.com/gmail-statistics/
+
+[4] DemandSage. (2024).Gmail Statistics For 2024: How Many People Use Gmail? Available: https://www.demandsage.com/gmail-statistics/
+
