@@ -50,7 +50,7 @@ Google, a global technology leader, offers a diverse array of services that have
 **Gmail**, Google's email service, has more than **1.8 billion** active users worldwide [3]. This popularity highlights the need for efficient data management and security protocols, ensuring fast and reliable email delivery while safeguarding user privacy [4].
 
 ### **Google Maps**
-**Google Maps** is a dominant player in the navigation and mapping services market, which is projected to reach **$34.56 billion** by 2025 [4]. It serves over **1 billion** users monthly, providing real-time traffic updates, route optimization, and location-based services. Advanced algorithms are critical for handling massive amounts of geographic data and delivering accurate, timely information.
+**Google Maps** is a dominant player in the navigation and mapping services market, which is projected to reach **$34.56 billion** by 2025. It serves over **1 billion** users monthly, providing real-time traffic updates, route optimization, and location-based services. Advanced algorithms are critical for handling massive amounts of geographic data and delivering accurate, timely information.
 
 ### **Google Cloud**
 **Google Cloud** has shown significant growth, capturing **9%** of the global cloud infrastructure market as of 2023 [5]. It provides robust solutions for data storage, machine learning, and enterprise applications, supporting a wide range of industries from finance to healthcare. Efficient data structures and algorithms are essential for optimizing cloud services, ensuring scalability, and enhancing performance.
