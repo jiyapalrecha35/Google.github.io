@@ -613,21 +613,12 @@ Persistent Segment Trees maintain historical versions of data through immutable 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/PersistentSegmentTree.cpp){:target="_blank"}<br><br>
 
 
-### 36. Optimizing Resource Allocation in Data Centers using Greedy Algorithms for Interval Scheduling
-**Overview:** Interval scheduling algorithms can optimize resource allocation in Google's data centers and cloud computing services.
+### 36. Processing and Analyzing Large Datasets using MapReduce
+**Overview:** MapReduce is a fundamental algorithmic framework used by Google for efficient parallel processing and analysis of large datasets. Initially developed by Google in 2004 for analyzing search results, MapReduce has evolved into a core component of big data processing, integral to frameworks like Hadoop. It offers several advantages:
 
-**Applications:**
-- Allocate resources like CPU time slots or network bandwidth to tasks, maximizing resource utilization and minimizing conflicts.
-
-**Design Technique:** 
-Greedy algorithms iteratively make locally optimal choices to achieve near-optimal solutions.
-
-**Performance Analysis:**
-- **Time Complexity:** \( O(n \log n) \) due to sorting of intervals.
-- **Space Complexity:** \( O(n) \)
-
-### 37. Processing and Analyzing Large Datasets using MapReduce
-**Overview:** MapReduce is a key algorithmic framework used by Google for processing and analyzing large datasets, enabling efficient parallel processing of massive datasets.
+-Fault Tolerance: MapReduce ensures fault tolerance by leveraging multiple machines and allowing for task re-execution in case of failures.
+-Scalability: It supports flexible hardware configurations and can handle massive datasets by distributing computations across clusters.
+-Simplicity: MapReduce abstracts the complexity of parallel processing, providing a structured framework for developers.
 
 **Applications:**
 - Search indexing, data mining, and machine learning.
@@ -635,17 +626,11 @@ Greedy algorithms iteratively make locally optimal choices to achieve near-optim
 **Design Technique:** 
 MapReduce divides tasks into map and reduce phases, leveraging parallelism and fault tolerance.
 
-### 38. Graph Partitioning for Load Balancing
-**Overview:** Graph partitioning algorithms optimize load balancing in Google's network infrastructure, ensuring balanced computational load across servers and data centers.
+[View code here](https://github.com/cdmh/mapreduce){:target="_blank"}<br><br>
 
-**Challenges:** Partitioning complex networks to ensure balanced computational load across servers while minimizing inter-partition communication overhead.
 
-**Market Benefit:** Improving service reliability and performance by optimizing resource usage and preventing bottlenecks in network infrastructure.
 
-**Design Technique:** 
-Graph partitioning algorithms divide large networks into subgraphs with balanced node weights.
-
-### 39. Efficient IP Address Storage using Radix Tries
+### 37. Efficient IP Address Storage using Radix Tries
 **Overview:** Radix tries are useful for storing strings with common prefixes efficiently, reducing space complexity by merging nodes with single children into a single node.
 
 **Applications in Google:**
@@ -661,7 +646,8 @@ Radix Tries provide efficient prefix-based searches by merging nodes with single
 - **Prefix Search:** \( O(k + s) \)
 - **Space Complexity:** \( O(n \cdot m) \)
 
-### 40. Efficient Web Page Indexing using Suffix Tries
+
+### 38. Efficient Web Page Indexing using Suffix Tries
 **Overview:** Suffix tries are commonly used in string processing tasks, such as pattern matching, substring search, and text indexing, and can be employed in Google Search for efficient web page indexing.
 
 **Design Technique:** 
@@ -680,7 +666,7 @@ These applications showcase how advanced algorithms and data structures play a c
 
 
 
-## Performance Table
+## Use case and efficiency overview
 
 | SI. No. | Business Use Case                                                   | Data Structure and Algorithm Used                    | Efficiency                  |
 |---------|---------------------------------------------------------------------|-----------------------------------------------------|-----------------------------|
@@ -719,11 +705,9 @@ These applications showcase how advanced algorithms and data structures play a c
 | 33      | Spam Filtering in Gmail using String Matching Algorithms             | KMP, Rabin-Karp, Boyer-Moore                        | Depends on algorithm        |
 | 34      | Checking URLs for Safety in Google Chrome using Bloom Filters       | Bloom Filter                                        | Probabilistic               |
 | 35      | Managing Document Edits using Persistent Segment Trees              | Persistent Segment Tree                             | Building a Version: O(n log n) <br> Querying a Version: O(log n) |
-| 36      | Optimizing Resource Allocation in Data Centers using Greedy Algorithms | Interval Scheduling Algorithms                     | O(n log n)                  |
-| 37      | Processing and Analyzing Large Datasets using MapReduce            | MapReduce                                           | Depends on implementation   |
-| 38      | Graph Partitioning for Load Balancing                               | Graph Partitioning Algorithms                       | O(n), O(n log n), O(m)      |
-| 39      | Storing and Searching IP Addresses using Radix Tries                | Radix Trie                                          | O(m), O(k + s)              |
-| 40      | Indexing Web Pages using Suffix Tries                               | Suffix Trie                                         | Construction: O(n^2) to O(n log n), Search: O(m) |
+| 36      | Processing and Analyzing Large Datasets using MapReduce            | MapReduce                                           | Depends on implementation   |
+| 37      | Storing and Searching IP Addresses using Radix Tries                | Radix Trie                                          | O(m), O(k + s)              |
+| 38      | Indexing Web Pages using Suffix Tries                               | Suffix Trie                                         | Construction: O(n^2) to O(n log n), Search: O(m) |
 
 
 
