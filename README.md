@@ -83,9 +83,6 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 ### 1. **Computation of Shortest Paths in Google Maps**
 
-![Google Infrastructure](https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/2.jpg)
-
-
 **Use Case:**
 Google Maps: **Dijkstra's algorithm** can find the shortest path between two locations on a map. Essential for providing accurate directions to users, considering factors such as traffic conditions, road closures, and distance.
 
