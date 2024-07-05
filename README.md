@@ -83,7 +83,7 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 ### 1. **Computation of Shortest Paths in Google Maps**
 
-![Google Infrastructure](https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/jiya.jpg)
+![Google Infrastructure](https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/2.jpg)
 
 
 **Use Case:**
