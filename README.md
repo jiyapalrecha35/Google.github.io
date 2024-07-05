@@ -36,7 +36,6 @@ This page hosts:
 
 
 # Introduction
-![Google Infrastructure](https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/IMG_3958.JPG?raw=true)
 
 
 In today's digital age, the **efficiency** and **effectiveness** of technology services can be significantly enhanced through the strategic application of **data structures** and **algorithms**. This portfolio project delves into the core functionalities of Google's diverse services, applying the theoretical knowledge and practical skills acquired from courses in **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)**.
@@ -66,7 +65,7 @@ Google manages vast networks of servers and data centers to deliver its services
 
 **Market Benefits:** Improved system performance, and reliability.
 
-**Algorithms,Design Techniques,Performance Analysis:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Ford-Fulkerson Algorithm:** Augmenting path method, Greedy approach
   - Time Complexity: O(E * V<sup>2</sup>) where E is the number of edges and V is the number of vertices
   - Space Complexity: O(V<sup>2</sup>) where V is the number of vertices
@@ -82,11 +81,16 @@ Google manages vast networks of servers and data centers to deliver its services
 **Use Case:**
 Google Maps: Dijkstra's algorithm can find the shortest path between two locations on a map. Essential for providing accurate directions to users, considering factors such as traffic conditions, road closures, and distance.
 
+Bellman-Ford Algorithm: Self-Driving Cars: Bellman-Ford algorithm can be used in Google's self-driving car project for path planning. It helps in finding the shortest path from the car's current location to its destination while considering factors such as road conditions, traffic congestion, and safety measures.
+
+Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall algorithm can be used for network analysis and troubleshooting. It helps in identifying the shortest paths between all pairs of nodes in a network, facilitating efficient communication and resolving connectivity issues.
+
+
 **Challenges:** Computing shortest paths considering traffic and road conditions.
 
 **Market Benefits:** Accurate directions, optimized delivery routes, user time saved.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Dijkstra's Algorithm:** Greedy approach, Priority queue
   - Time Complexity: O((V + E) log V) where V is the number of vertices and E is the number of edges
   - Space Complexity: O(V) where V is the number of vertices
@@ -113,7 +117,7 @@ Google manages a vast network of data centers worldwide to support its services.
 
 **Market Benefits:** Improved resource management, and reduced operational costs.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis::**
 - **Assignment Problem:** Optimization technique
 - Time Complexity: O(N<sup>3</sup>) where N is the number of tasks or resources
 - Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
@@ -130,7 +134,7 @@ Google's advertising platforms, such as Google Ads, rely on efficient allocation
 
 **Market Benefits:** Increased ad effectiveness, higher revenue.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Assignment Problem:** Optimization technique
 - Time Complexity: O(N<sup>3</sup>) where N is the number of tasks or resources
 - Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
@@ -148,7 +152,7 @@ In Google's data storage and retrieval systems, such as databases and file syste
 
 **Market Benefits:** Faster data access, and improved query performance.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Segment Trees:** Divide and conquer, Hierarchical data structure
   - Time Complexity: O(log N) for both query and update operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
@@ -165,7 +169,7 @@ Google deals with vast amounts of time-series data across its services, includin
 
 **Market Benefits:** Better data insights, and improved performance metrics.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Segment Trees:** Divide and conquer, Tree data structure
   - Time Complexity: O(log N) for both query and update operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
@@ -178,7 +182,7 @@ Google deals with vast amounts of time-series data across its services, includin
 **Use Case:**
 Tries are commonly used in autocorrect systems, such as those implemented in Google Search, Gmail, or Google Docs. By organizing a dictionary of words into a trie structure, these systems can efficiently suggest and correct misspelled words as users type. As users enter text, the system navigates the trie to identify potential matches or corrections based on the entered prefix, offering relevant suggestions in real time.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Tries:** Tree data structure, Prefix tree
   - Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
   - Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
@@ -191,7 +195,7 @@ Tries are commonly used in autocorrect systems, such as those implemented in Goo
 **Use Case:**
 Tries enhance search functionality by providing predictive text suggestions as users type queries in Google Search. Also known as **submission throttling**.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Tries:** Tree data structure, Prefix tree
   - Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
   - Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
@@ -208,7 +212,7 @@ Red-Black Trees are commonly used in database management systems for indexing an
 
 **Market Benefits:** Faster query processing, improved database performance.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Red-Black Trees:** Balanced binary search tree, Self-balancing
   - Time Complexity: O(log N) for insertion, deletion, and lookup operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
@@ -221,7 +225,7 @@ Red-Black Trees are commonly used in database management systems for indexing an
 **Use Case:**
 Google's compiler infrastructure (such as LLVM) utilizes Red-Black Trees to represent and query symbol tables containing information about program identifiers, variables, and functions. By organizing symbol tables using Red-Black Trees, Google enables efficient identifier resolution during compilation, linking, and optimization processes.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Red-Black Trees:** Balanced binary search tree, Self-balancing
   - Time Complexity: O(log N) for insertion, deletion, and lookup operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
@@ -243,7 +247,7 @@ A* and Best-First algorithms can be employed to find the most efficient routes b
 
 **Market Benefits:** Optimized travel time, and improved navigation.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **A* Algorithm:** Heuristic-based search, Greedy approach
 - **Best-First Search:** Heuristic-based search, Priority queue
 
@@ -262,7 +266,7 @@ Within Google's ecosystem of products and services, A* and Best-First algorithms
 
 **Market Benefits:** Enhanced user engagement, and increased content consumption.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **A* Algorithm:** Heuristic-based search, Greedy approach
 - **Best-First Search:** Heuristic-based search, Priority queue
 
@@ -275,7 +279,7 @@ Within Google's ecosystem of products and services, A* and Best-First algorithms
 **Use Case:**
 Edit distance algorithms can be used in spell-checking systems, where they help identify and correct misspelled words by suggesting replacements with the minimum number of edits required.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Edit Distance:** Dynamic programming
   - Time Complexity: O(m*n), where m and n are the lengths of the two strings being compared
   - Space Complexity: O(m*n), where m and n are the lengths of the two strings being compared
@@ -293,7 +297,7 @@ Skip lists can be employed in search engine indexing systems to maintain sorted 
 
 **Market Benefits:** Faster search indexing, and improved query performance.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Skip Lists:** Probabilistic balancing, Layered linked lists
   - Time Complexity: O(log n) on average for search, insertion, and deletion, where n is the number of elements in the list
   - Space Complexity: O(n), where n is the number of elements in the skip list
@@ -310,7 +314,7 @@ Google's vast network of data centers relies on efficient task scheduling algori
 
 **Market Benefits:** Improved resource utilization, minimized latency.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Topological Sort:** Directed acyclic graph (DAG), Depth-first search (DFS)
   - Time Complexity: O(V + E), where V is the number of vertices (tasks) and E is the number of edges (dependencies) in the DAG
   - Space Complexity: O(V + E) for storing the graph and additional structures
@@ -327,7 +331,7 @@ Topological Sort algorithms play a crucial role in resolving dependencies betwee
 
 **Market Benefits:** Smooth integration, robust software products.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Topological Sort:** Directed acyclic graph (DAG), Depth-first search (DFS)
   - Time Complexity: O(V + E), where V is the number of vertices (tasks) and E is the number of edges (dependencies) in the DAG
   - Space Complexity: O(V + E) for storing the graph and additional structures
@@ -343,7 +347,7 @@ In online services such as Google Search, YouTube, and Gmail, understanding user
 
 **Market Benefits:** Enhanced personalization, better user engagement.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Game of Life:** Cellular automaton, Emergent behavior modeling
   - Time Complexity: O(n * m), where n and m are the dimensions of the grid (typically used in simulations)
   - Space Complexity: O(n * m), for storing the grid
@@ -360,7 +364,7 @@ Google's infrastructure deals with vast amounts of data generated and transmitte
 
 **Market Benefits:** Reduced storage costs, and improved data transfer speeds.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **Huffman Coding:** Greedy approach, Variable-length encoding
   - Time Complexity: O(n log n) for building the Huffman tree, where n is the number of symbols
   - Space Complexity: O(n) for storing the Huffman tree and encoded data
@@ -377,7 +381,7 @@ Google Maps: The TSP algorithm can be used to find the most efficient route for 
 
 **Market Benefits:** Optimized logistics, reduced travel time and costs.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **TSP:** Combinatorial optimization, Dynamic programming, Approximation algorithms
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/tsp.cpp){:target="_blank"}<br><br>
@@ -392,7 +396,7 @@ Google Search uses the PageRank algorithm to rank web pages based on their impor
 
 **Market Benefits:** Improved search accuracy, faster indexing.
 
-**Algorithms and Design Techniques:**
+**Algorithms, Design Techniques, Performance Analysis:**
 - **DFS:** Graph traversal based on stack
   - Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
   - Space Complexity: O(V) for the stack used in DFS
@@ -662,6 +666,16 @@ Suffix Tries organize strings into a tree structure where each path represents a
 - **Space Complexity:** \( O(n) \)
 
 These applications showcase how advanced algorithms and data structures play a critical role in optimizing various aspects of Google's operations, enhancing performance, security, and user experience.
+
+### 39.Optimise the video streaming paths in Youtube
+Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize video streaming paths. By determining the shortest paths between servers and users, Google can ensure smooth and uninterrupted video playback, enhancing the user experience.
+
+Performance Analysis:
+Time complexity : O(V^3) where V is the number of vertices. Space complexity is O(V^2).
+
+
+[View Floyd-Warshall code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/floyd_warshall.cpp){:target="_blank"}<br><br>
+
 
 
 
