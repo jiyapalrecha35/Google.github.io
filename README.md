@@ -175,7 +175,12 @@ In Google Cloud Storage, hashing algorithms like SHA-256 can be used to verify t
 
 Spanning tree algorithms like Kruskal's Algorithm helps in designing Google's cloud infrastructure by creating minimum spanning trees (MSTs) to connect data centers, edge locations, and CDNs efficiently. This results in an optimized network with reduced latency, improved fault tolerance, and enhanced scalability for reliable and high-performance cloud services.
 
-25. **Spanning tree algorithms** can be used in optimizing routes for Google Maps by calculating MSTs for road networks, ensuring the most efficient paths between locations. This helps minimize travel distances and times, leading to more accurate and cost-effective navigation.
+## 25. Spanning Tree Algorithms for Optimizing Routes in Google Maps
+
+Spanning tree algorithms, such as Kruskal's and Prim's algorithms, are employed in Google Maps to calculate Minimum Spanning Trees (MSTs) for road networks. These algorithms ensure the most efficient paths between locations, minimizing travel distances and times. Additionally, Boruvka's algorithm, one of the oldest spanning tree algorithms, may also be utilized for similar purposes.
+
+
+
 
 ## 26. Search Indexing using BSTs
 
