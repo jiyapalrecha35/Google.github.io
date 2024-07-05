@@ -36,6 +36,8 @@ This page hosts:
 
 
 # Introduction
+![Google Infrastructure](https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/IMG_3958.JPG?raw=true)
+
 
 In today's digital age, the **efficiency** and **effectiveness** of technology services can be significantly enhanced through the strategic application of **data structures** and **algorithms**. This portfolio project delves into the core functionalities of Google's diverse services, applying the theoretical knowledge and practical skills acquired from courses in **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)**.
 
