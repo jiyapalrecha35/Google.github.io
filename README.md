@@ -132,6 +132,7 @@ Google's advertising platforms, such as Google Ads, rely on efficient allocation
 - **Assignment Problem:** Optimization technique
 - Time Complexity: O(N<sup>3</sup>) where N is the number of tasks or resources
 - Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
+  
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/jobAssignment.cpp){:target="_blank"}<br><br>
 <br><br>
 
@@ -149,6 +150,7 @@ In Google's data storage and retrieval systems, such as databases and file syste
 - **Segment Trees:** Divide and conquer, Hierarchical data structure
   - Time Complexity: O(log N) for both query and update operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}<br><br>
   
 
@@ -165,6 +167,7 @@ Google deals with vast amounts of time-series data across its services, includin
 - **Segment Trees:** Divide and conquer, Tree data structure
   - Time Complexity: O(log N) for both query and update operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}<br><br>
 
 
@@ -177,6 +180,7 @@ Tries are commonly used in autocorrect systems, such as those implemented in Goo
 - **Tries:** Tree data structure, Prefix tree
   - Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
   - Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp){:target="_blank"}
 
 
@@ -189,6 +193,7 @@ Tries enhance search functionality by providing predictive text suggestions as u
 - **Tries:** Tree data structure, Prefix tree
   - Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
   - Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp){:target="_blank"}
 
 
@@ -205,6 +210,7 @@ Red-Black Trees are commonly used in database management systems for indexing an
 - **Red-Black Trees:** Balanced binary search tree, Self-balancing
   - Time Complexity: O(log N) for insertion, deletion, and lookup operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/RedBlackTree.cpp){:target="_blank"}<br><br>
 
 
@@ -217,6 +223,7 @@ Google's compiler infrastructure (such as LLVM) utilizes Red-Black Trees to repr
 - **Red-Black Trees:** Balanced binary search tree, Self-balancing
   - Time Complexity: O(log N) for insertion, deletion, and lookup operations, where N is the number of elements
   - Space Complexity: O(N) where N is the number of elements
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/RedBlackTree.cpp){:target="_blank"}<br><br>
 
 
@@ -258,6 +265,7 @@ Within Google's ecosystem of products and services, A* and Best-First algorithms
 - **Best-First Search:** Heuristic-based search, Priority queue
 
 **Performance Analysis:** Depends on the heuristic used.
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/a_BestFirst.cpp){:target="_blank"}<br><br>
 
 ### 13. Spell Checking
@@ -269,6 +277,7 @@ Edit distance algorithms can be used in spell-checking systems, where they help 
 - **Edit Distance:** Dynamic programming
   - Time Complexity: O(m*n), where m and n are the lengths of the two strings being compared
   - Space Complexity: O(m*n), where m and n are the lengths of the two strings being compared
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/editDistance.cpp){:target="_blank"}<br><br>
 
 
@@ -286,6 +295,7 @@ Skip lists can be employed in search engine indexing systems to maintain sorted 
 - **Skip Lists:** Probabilistic balancing, Layered linked lists
   - Time Complexity: O(log n) on average for search, insertion, and deletion, where n is the number of elements in the list
   - Space Complexity: O(n), where n is the number of elements in the skip list
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SkipList.cpp){:target="_blank"}<br><br>
 
 
@@ -302,13 +312,14 @@ Google's vast network of data centers relies on efficient task scheduling algori
 - **Topological Sort:** Directed acyclic graph (DAG), Depth-first search (DFS)
   - Time Complexity: O(V + E), where V is the number of vertices (tasks) and E is the number of edges (dependencies) in the DAG
   - Space Complexity: O(V + E) for storing the graph and additional structures
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/topoSort.cpp){:target="_blank"}<br><br>
 
 
 ### 16. Dependency Resolution in Software Development
 
 **Use Case:**
-Within Google's software development processes, Topological Sort algorithms play a crucial role in resolving dependencies between software modules and libraries. By determining the correct order of compilation or deployment based on inter-module dependencies, these algorithms facilitate smooth integration, version management, and release engineering, ensuring robust and reliable software products.
+Topological Sort algorithms play a crucial role in resolving dependencies between software modules and libraries within Google's software development processes. By determining the correct order of compilation or deployment based on inter-module dependencies, these algorithms facilitate smooth integration, version management, and release engineering, ensuring robust and reliable software products.
 
 **Challenges:** Efficient dependency resolution.
 
@@ -318,6 +329,7 @@ Within Google's software development processes, Topological Sort algorithms play
 - **Topological Sort:** Directed acyclic graph (DAG), Depth-first search (DFS)
   - Time Complexity: O(V + E), where V is the number of vertices (tasks) and E is the number of edges (dependencies) in the DAG
   - Space Complexity: O(V + E) for storing the graph and additional structures
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/topoSort.cpp){:target="_blank"}<br><br>
 
 ### 17. Analyzing User Behavior and Engagement Patterns
@@ -333,6 +345,7 @@ In online services such as Google Search, YouTube, and Gmail, understanding user
 - **Game of Life:** Cellular automaton, Emergent behavior modeling
   - Time Complexity: O(n * m), where n and m are the dimensions of the grid (typically used in simulations)
   - Space Complexity: O(n * m), for storing the grid
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/conway.cpp){:target="_blank"}<br><br>
 
 
@@ -343,12 +356,13 @@ Google's infrastructure deals with vast amounts of data generated and transmitte
 
 **Challenges:** Efficient data compression and storage.
 
-**Market Benefits:** Reduced storage costs, improved data transfer speeds.
+**Market Benefits:** Reduced storage costs, and improved data transfer speeds.
 
 **Algorithms and Design Techniques:**
 - **Huffman Coding:** Greedy approach, Variable-length encoding
   - Time Complexity: O(n log n) for building the Huffman tree, where n is the number of symbols
   - Space Complexity: O(n) for storing the Huffman tree and encoded data
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/huffmann.cpp){:target="_blank"}<br><br>
 
 
@@ -422,6 +436,7 @@ In Google's extensive network infrastructure, which includes data centers, serve
 - **Space Complexity**:
   - Bridges: \(O(V + E)\)
   - Articulation Points: \(O(V)\)
+
 [View code for Bridges here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Bridges.cpp){:target="_blank"}<br>
 [View code for Articulation Points here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/ArticulationPoints.cpp){:target="_blank"}<br><br>
 
@@ -433,6 +448,7 @@ Hashing algorithms are crucial for securing user data and authenticating account
 - **Market Benefits**: Enhanced security, and improved user trust.
 - **Design Techniques**:
   - **Hashing**: Cryptographic hash functions, one-way encryption.
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/hashing.cpp){:target="_blank"}<br><br>
 
 
@@ -450,7 +466,7 @@ Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing 
   - Prim's Algorithm:
     - **Time Complexity**: \(O(E log V)\) with priority queues (or \(O(E + V log V)\) with Fibonacci heaps)
     - **Space Complexity**: \(O(V + E)\)
-    - 
+    
 [View code for Kruskal's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/kruskalAlgoritm.c){:target="_blank"}<br>
 [View code for Prim's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/prim.cpp){:target="_blank"}<br><br>
 
@@ -461,6 +477,7 @@ Spanning tree algorithms can be used in optimizing routes for Google Maps by cal
 - **Design Techniques**:
   - **Kruskal's Algorithm**: Greedy approach, Minimum Spanning Tree (MST).
   - **Prim's Algorithm**: Greedy approach, Minimum Spanning Tree (MST).
+
 [View code for Kruskal's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/kruskalAlgoritm.c){:target="_blank"}<br>
 [View code for Prim's Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/prim.cpp){:target="_blank"}<br><br>
 
@@ -475,6 +492,7 @@ Binary Search Trees (BSTs) can be used in Google's search indexing systems to ef
   - **Binary Search**: For efficient data retrieval.
 - **Time Complexity**: \(O(\log n)\) on average for search, insertion, and deletion. \(O(n)\) in the worst-case scenario.
 - **Space Complexity**: \(O(n)\)
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/BST.c){:target="_blank"}<br><br>
 
 
@@ -486,6 +504,7 @@ LCS is used to compare and determine the similarity between documents or web pag
   - **Dynamic Programming**: For LCS computation.
 - **Time Complexity**: \(O(m \times n)\), where \(m\) and \(n\) are lengths of sequences.
 - **Space Complexity**: \(O(m \times n)\) for storing the LCS table.
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lcs.cpp){:target="_blank"}<br><br>
 
 
@@ -518,6 +537,7 @@ Google's distributed file systems, such as Google File System (GFS) and Bigtable
 
 - **Time Complexity**: \(O(\log n)\) for search, insertion, and deletion on average.
 - **Space Complexity**: \(O(n)\)
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/btree.cpp){:target="_blank"}<br><br>
 
 
@@ -552,6 +572,7 @@ Fenwick Trees support two primary operations efficiently: prefix sum queries and
 - **Update (Point Update):** \( O(\log n) \)
 - **Query (Prefix Sum):** \( O(\log n) \)
 - **Space Complexity:** \( O(n) \)
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/FenwickTree.cpp){:target="_blank"}<br><br>
 
 
@@ -570,6 +591,7 @@ Fenwick Trees support two primary operations efficiently: prefix sum queries and
 
 **Design Technique:** 
 Bloom filters use a fixed-size array and hash functions to achieve space-efficient set representation and quick lookups.
+
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/bloomfilters.cpp){:target="_blank"}<br><br>
 
 
