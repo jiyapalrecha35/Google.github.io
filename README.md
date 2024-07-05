@@ -63,6 +63,7 @@ In today's digital age, the **efficiency** and **effectiveness** of technology s
 
 This portfolio showcases the transformative power of algorithms within Google’s ecosystem. Each **business use case** explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
 
+---
 
 # Objectives/Need of Portfolio
 1. Apply advanced algorithms and data structures to enhance the speed and efficiency of Google's services.
@@ -72,6 +73,7 @@ This portfolio showcases the transformative power of algorithms within Google’
 3. Develop innovative solutions to improve user experiences and drive technological advancements within Google's ecosystem.
 <br><br>
 
+---
 
 # Business Use Cases:
 
@@ -677,7 +679,7 @@ Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize v
 
 
 
-
+---
 
 
 
@@ -735,9 +737,12 @@ Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize v
 | 36      | Optimize the video streaming paths on Youtube                      | Floyd-Warshall Algorithm                             | O(V<sup>3</sup>), O(V<sup>2</sup>)    |
 
 
+---
+
 # Learnings and key takeaways
 
 
+---
 
 ## References
 [1] Statista. (2024). Market share of leading desktop search engines worldwide from January 2015 to January 2024 [Online]. Available: https://www.statista.com/statistics/216573/worldwide-market-share-of-search-engines/
