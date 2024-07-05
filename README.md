@@ -664,63 +664,52 @@ Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize v
 
 ## Use case and efficiency overview
 
-| SI. No. | Business Use Case                                                   | Data Structure and Algorithm Used                    | Efficiency                  |
-|---------|---------------------------------------------------------------------|------------------------------------------------------|-----------------------------|
-| 1       | Computation of Shortest Paths in Google Maps                        | Dijkstra's Algorithm                                 | O((V + E) log V), O(V)      |
-|         |                                                                     | Bellman-Ford Algorithm                               | O(VE), O(V)                |
-|         |                                                                     | Floyd-Warshall Algorithm                             | O(V<sup>3</sup>), O(V<sup>2</sup>) |
+| SI. No. | Business Use Case                                                   | Data Structure and Algorithm Used                    | Efficiency (TC, SC)                  |
+|---------|---------------------------------------------------------------------|------------------------------------------------------|-------------------------------------|
+| 1       | Computation of Shortest Paths in Google Maps                        | Dijkstra's Algorithm                                 | O((V + E) log V), O(V)               |
+|         |                                                                     | Bellman-Ford Algorithm                               | O(VE), O(V)                           |
+|         |                                                                     | Floyd-Warshall Algorithm                             | O(V<sup>3</sup>), O(V<sup>2</sup>)   |
 | 2       | Optimizing Network Traffic in Google Services                       | Ford-Fulkerson Algorithm                             | O(E * V<sup>2</sup>), O(V<sup>2</sup>) |
-|         |                                                                     | Dinic's Algorithm                                    | N/A                         |
-|         |                                                                     | Karger's Algorithm                                   | N/A                         |
-| 3       | Range Query Optimization                                            | Segment Trees                                        | O(log N), O(N)             |
+|         |                                                                     | Dinic's Algorithm                                    | O(E * V<sup>2</sup> log(V)), -        |
+|         |                                                                     | Karger's Algorithm                                   | O(V<sup>3</sup>), -                   |
+| 3       | Range Query Optimization                                            | Segment Trees                                        | O(log N), O(N)                        |
 | 4       | Allocation of resources in data centres                             | Assignment Problem                                   | O(2<sup>N</sup> * N), O(N<sup>2</sup>) |
-| 5       | Autocorrection                                                      | Tries                                                | O(L), O(ALPHABET_SIZE * L) |
-| 6       | Database Indexing                                                   | Red-Black Trees                                      | O(log N), O(N)             |
-| 7       | A* and Best-First Algorithms for Route Optimizations in Google Maps | A* Algorithm                                         | Depends on heuristic       |
-|         |                                                                     | Best-First Search                                    | Depends on heuristic       |
-| 8       | Spell Checking                                                      | Edit Distance                                        | O(m*n), O(m*n)             |
-| 9       | Skip Lists in Search Engine Indexing                                | Skip Lists                                           | O(log n), O(n)             |
-| 10      | Scheduling Tasks in Data Centers                                    | Topological Sort                                     | O(V + E), O(V + E)         |
-| 11      | Content Recommendation Systems                                      | A* Algorithm                                         | Depends on heuristic       |
-|         |                                                                     | Best-First Search                                    | Depends on heuristic       |
-| 12      | Dependency Resolution in Software Development                       | Topological Sort                                     | O(V + E), O(V + E)         |
-| 13      | Analyzing User Behavior and Engagement Patterns                     | Game of Life                                         | O(n * m), O(n * m)         |
-| 14      | Data Compression in Google's Infrastructure using Huffman Coding    | Huffman Coding                                       | O(n log n), O(n)           |
-| 15      | Traveling Salesman Problem for Route Optimization                   | TSP                                                  | N/A                         |
-| 16      | PageRank and Web Crawling for Google Search Index                   | DFS                                                  | O(V + E), O(V)             |
-|         |                                                                     | BFS                                                  | O(V + E), O(V)             |
-| 17      | Time-Series Data Analysis                                           | Segment Trees                                        | O(log N), O(N)             |
-| 18      | Network Reliability using Bridges and Articulation Points           | Bridges                                              | O(V + E)                    |
-|         |                                                                     | Articulation Points                                  | O(V)                        |
-| 19      | Securing User Data and Authenticating Accounts                      | Hashing Algorithms                                   | One-way encryption          |
-| 20      | Autocomplete Suggestions                                            | Tries                                                | O(L * ALPHABET_SIZE)        |
-| 21      | Recommendation Systems in YouTube                                   | DFS                                                  | O(V + E), O(V)             |
-|         |                                                                     | BFS                                                  | O(V + E), O(V)             |
-| 22      | Optimizing Google Cloud Infrastructure                              | Kruskal's Algorithm                                  | O(E log E), O(V + E)        |
-|         |                                                                     | Prim's Algorithm                                     | O(E log V), O(V + E)        |
+| 5       | Autocorrection                                                      | Tries                                                | O(L), O(ALPHABET_SIZE * L)            |
+| 6       | Database Indexing                                                   | Red-Black Trees                                      | O(log N), O(N)                        |
+| 7       | A* and Best-First Algorithms for Route Optimizations in Google Maps | A* Algorithm                                         | Depends on heuristic                  |
+|         |                                                                     | Best-First Search                                    | Depends on heuristic                  |
+| 8       | Spell Checking                                                      | Edit Distance                                        | O(m*n), O(m*n)                        |
+| 9       | Skip Lists in Search Engine Indexing                                | Skip Lists                                           | O(log n), O(n)                        |
+| 10      | Scheduling Tasks in Data Centers                                    | Topological Sort                                     | O(V + E), O(V + E)                    |
+| 11      | Content Recommendation Systems                                      | A* Algorithm                                         | Depends on heuristic                  |
+|         |                                                                     | Best-First Search                                    | Depends on heuristic                  |
+| 12      | Dependency Resolution in Software Development                       | Topological Sort                                     | O(V + E), O(V + E)                    |
+| 13      | Analyzing User Behavior and Engagement Patterns                     | Game of Life                                         | O(n * m), O(n * m)                    |
+| 14      | Data Compression in Google's Infrastructure using Huffman Coding    | Huffman Coding                                       | O(n log n), O(n)                      |
+| 15      | Traveling Salesman Problem for Route Optimization                   | TSP                                                  | N/A                                   |
+| 16      | PageRank and Web Crawling for Google Search Index                   | DFS                                                  | O(V + E), O(V)                        |
+|         |                                                                     | BFS                                                  | O(V + E), O(V)                        |
+| 17      | Time-Series Data Analysis                                           | Segment Trees                                        | O(log N), O(N)                        |
+| 18      | Network Reliability using Bridges and Articulation Points           | Bridges                                              | O(V + E)                              |
+|         |                                                                     | Articulation Points                                  | O(V)                                  |
+| 19      | Securing User Data and Authenticating Accounts                      | Hashing Algorithms                                   | One-way encryption                    |
+| 20      | Autocomplete Suggestions                                            | Tries                                                | O(L * ALPHABET_SIZE), -               |
+| 21      | Recommendation Systems in YouTube                                   | DFS                                                  | O(V + E), O(V)                        |
+|         |                                                                     | BFS                                                  | O(V + E), O(V)                        |
+| 22      | Optimizing Google Cloud Infrastructure                              | Kruskal's Algorithm                                  | O(E log E), O(V + E)                  |
+|         |                                                                     | Prim's Algorithm                                     | O(E log V), O(V + E)                  |
 | 23      | Ad Allocation in Google Ads                                         | Assignment Problem                                   | O(2<sup>N</sup> * N), O(N<sup>2</sup>) |
-| 24      | Search Indexing using BSTs                                          | Binary Search                                        | O(log n), O(n)              |
-| 25      | Route Optimization in Google Maps                                   | Kruskal's Algorithm                                  | O(E log E), O(V + E)        |
-|         |                                                                     | Prim's Algorithm                                     | O(E log V), O(V + E)        |
-| 26      | Enhancing Search Accuracy using Longest Common Subsequence (LCS)    | Dynamic Programming                                  | O(m*n), O(m*n)              |
-| 27      | Organizing Data in Distributed File Systems using B-trees           | B-trees                                              | O(log n), O(n)              |
-| 28      | Identifying User Clusters Using Strongly Connected Components       | Kosaraju's Algorithm, Tarjan's Algorithm            | O(V + E), O(V)              |
-| 29      | Identifying Similar Videos on YouTube using LCS                     | Dynamic Programming                                  | O(m*n), O(m*n)              |
-| 30      | Ad Campaign Optimization using Fenwick Trees                        | Fenwick Trees (BITs)                                 | O(log n), O(n log n)        |
-| 31      | Spam Filtering in Gmail using String Matching Algorithms            | Rabin Karp, KMP                                      | O(m + n)                    |
-| 32      | Detecting Plagiarism using LCS                                      | Dynamic Programming                                  | O(m*n), O(m*n)              |
-| 33      | Checking URLs for Safety in Google Chrome using Bloom Filters       | Bloom Filters                                        | Fixed-size array, hash funcs |
-| 34      | Managing Document Edits and Revisions using Persistent Segment Trees| Persistent Segment Trees                             | O(log n), O(n log n)        |
-| 35      | Processing and Analyzing Large Datasets using MapReduce             | MapReduce                                            | Fault tolerance, scalability|
-| 36      | Optimise the video streaming paths on Youtube                      | Floyd-Warshall Algorithm                             | O(V<sup>3</sup>), O(V<sup>2</sup>) |
-
-
-
-
-
-
-
-
-
-
-
+| 24      | Search Indexing using BSTs                                          | Binary Search                                        | O(log n), O(n)                        |
+| 25      | Route Optimization in Google Maps                                   | Kruskal's Algorithm                                  | O(E log E), O(V + E)                  |
+|         |                                                                     | Prim's Algorithm                                     | O(E log V), O(V + E)                  |
+| 26      | Enhancing Search Accuracy using Longest Common Subsequence (LCS)    | Dynamic Programming                                  | O(m*n), O(m*n)                        |
+| 27      | Organizing Data in Distributed File Systems using B-trees           | B-trees                                              | O(log n), O(n)                        |
+| 28      | Identifying User Clusters Using Strongly Connected Components       | Kosaraju's Algorithm, Tarjan's Algorithm            | O(V + E), O(V)                        |
+| 29      | Identifying Similar Videos on YouTube using LCS                     | Dynamic Programming                                  | O(m*n), O(m*n)                        |
+| 30      | Ad Campaign Optimization using Fenwick Trees                        | Fenwick Trees (BITs)                                 | O(log n), O(n log n)                  |
+| 31      | Spam Filtering in Gmail using String Matching Algorithms            | Rabin Karp, KMP                                      | O(m + n), -                           |
+| 32      | Detecting Plagiarism using LCS                                      | Dynamic Programming                                  | O(m*n), O(m*n)                        |
+| 33      | Checking URLs for Safety in Google Chrome using Bloom Filters       | Bloom Filters                                        | Fixed-size array, hash funcs           |
+| 34      | Managing Document Edits and Revisions using Persistent Segment Trees| Persistent Segment Trees                             | O(log n), O(n log n)                  |
+| 35      | Processing and Analyzing Large Datasets using MapReduce             | MapReduce                                            | Fault tolerance, scalability          |
+| 36      | Optimize the video streaming paths on Youtube                      | Floyd-Warshall Algorithm                             | O(V<sup>3</sup>), O(V<sup>2</sup>)    |
