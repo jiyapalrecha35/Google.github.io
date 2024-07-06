@@ -473,20 +473,6 @@ Google Search uses the PageRank algorithm to rank web pages based on their impor
   </div>
 </div>
 
-<div style="display: flex; justify-content: center;">
-  <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/dfs.gif?raw=true" alt="DFS" style="max-width: 100%; height: auto;">
-    <p>[17] DFS for crawling web pages</p>
-  </div>
-  <div style="flex: 1; text-align: center;">
-   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bfs.gif?raw=true" alt="BFS" style="max-width: 100%; height: auto;">
-    <p>[18] BFS for crawling web pages</p>
-  </div>
-</div>
-
-
-
-
 DFS and BFS algorithms are fundamental to web crawling, a process by which search engines like Google discover and index web pages. DFS and BFS are used to traverse the interconnected network of web pages, following hyperlinks from one page to another to build a comprehensive index of the World Wide Web. By employing DFS and BFS strategies intelligently, Google can efficiently crawl and index billions of web pages, enabling users to find relevant information quickly and accurately through its search engine.
 
 **Algorithms, Design Techniques, Performance Analysis:**
