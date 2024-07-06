@@ -30,7 +30,7 @@ This page hosts:
 
 1. [Introduction](#introduction) - Domain intro 🌱  
 2. [Objectives](#objectives) - Goals and targets 🎯  
-3. [Business Use Cases ➡️ Algorithmic Solutions](#business-use-cases-and-mapping-algorithms) - 📈 Business Use Cases ➡️ Algorithmic Solutions🧩 
+3. [📈 Business Use Cases ➡️ Algorithmic Solutions 🧩](#business-use-cases-and-mapping-algorithms)
 4. [Use Case Insights and Efficiency Metrics](#use-case-and-efficiency-overview) - Efficiency metrics 📊  
 5. [Key Learnings and Insights](#learnings-and-key-takeaways) - Key takeaways 🧠 
 
