@@ -466,7 +466,7 @@ Google Search uses the PageRank algorithm to rank web pages based on their impor
   </div>
   <div>
     <p align="center">
-      <img src="URL_TO_YOUR_BFS_IMAGE" alt="BFS" style="width: 400px; height: auto;">
+      <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bfs.gif?raw=true" alt="BFS" style="width: 400px; height: auto;">
       <br>
       [18] BFS for crawling web pages
     </p>
