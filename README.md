@@ -25,13 +25,15 @@
 
 <br>
 
-### This page hosts:
+This page hosts:
+(Click on each link to explore the sections ➡️)
 
-1. [Introduction](#introduction) - Click to uncover the project's inception 🌱
-2. [Objectives](#objectives) - Click to reveal the goals and targets 🎯
-3. [Business Use Cases and Mapping Algorithms](#business-use-cases-and-mapping-algorithms) - Explore practical applications and algorithmic strategies 📊
-4. [Use Case and Efficiency Overview](#use-case-and-efficiency-overview) - Click to delve into case studies and efficiency metrics 📈
-5. [Learnings and Key Takeaways](#learnings-and-key-takeaways) - Click to extract insights and lessons learned 🧠
+[Introduction](#introduction) - Domain intro 🌱  
+[Objectives](#objectives) - Goals and targets 🎯  
+[Business Use Cases ➡️ Algorithmic Solutions](#business-use-cases-and-mapping-algorithms) - 📈 Business Use Cases ➡️ Algorithmic Solutions🧩 
+[Use Case Insights and Efficiency Metrics](#use-case-and-efficiency-overview) - Efficiency metrics 📊  
+[Key Learnings and Insights](#learnings-and-key-takeaways) - Key takeaways 🧠 
+
 
 
 ---
