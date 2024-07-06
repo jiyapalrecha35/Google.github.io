@@ -39,7 +39,10 @@
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/Screenshot%202024-07-05%20141324.png?raw=true" alt="Google Infrastructure Screenshot">
+  <br>
+  <em>[5] Google and its services</em>
 </p>
+
 
 Google, a global technology leader, offers a diverse array of services integral to everyday life for billions of people. From search engines and email to video sharing, cloud computing, document creation, file storage, and a suite of productivity apps, Google’s influence is vast and far-reaching. Understanding the scale and impact of Google’s services provides a fascinating backdrop for exploring the application of advanced data structures and algorithms to enhance their performance and utility further.
 
