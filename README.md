@@ -456,12 +456,23 @@ Google Maps: The TSP algorithm can be used to find the most efficient route for 
 **Use Case:**
 Google Search uses the PageRank algorithm to rank web pages based on their importance, where depth-first search (DFS) and breadth-first search (BFS) play crucial roles in traversing the web graph. 
 
-<p align="center">
-  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/dfs.gif?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
-  <br>
-  [17]DFS and BFS for crawling web pages
-  <br>
-</p><br>
+<div style="display: flex; justify-content: center;">
+  <div style="margin-right: 20px;">
+    <p align="center">
+      <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/dfs.gif?raw=true" alt="DFS" style="width: 400px; height: auto;">
+      <br>
+      [17] DFS for crawling web pages
+    </p>
+  </div>
+  <div>
+    <p align="center">
+      <img src="URL_TO_YOUR_BFS_IMAGE" alt="BFS" style="width: 400px; height: auto;">
+      <br>
+      [18] BFS for crawling web pages
+    </p>
+  </div>
+</div>
+
 
 
 DFS and BFS algorithms are fundamental to web crawling, a process by which search engines like Google discover and index web pages. DFS and BFS are used to traverse the interconnected network of web pages, following hyperlinks from one page to another to build a comprehensive index of the World Wide Web. By employing DFS and BFS strategies intelligently, Google can efficiently crawl and index billions of web pages, enabling users to find relevant information quickly and accurately through its search engine.
