@@ -105,6 +105,7 @@ Bellman-Ford Algorithm: **Bellman-Ford algorithm** can be used in Google's self-
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bellman.gif?raw=true" style="width: 400px; height: auto;" alt="Google Infrastructure">
+  <br>
   [7] Bellman-Ford Algorithm for safe route planning
   <br>
 </p>
@@ -113,6 +114,7 @@ Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/floyd.gif?raw=true" alt="Google Infrastructure">
+  <br>
   [8] Floyd-Warshall Algorithm for optimizing network paths in Google's infrastructure
   <br>
 </p>
@@ -147,8 +149,9 @@ Google manages vast networks of servers and data centers to deliver its services
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/ford.gif?raw=true" style="width: 400px; height: auto;" alt="Google Infrastructure">
+  <br>
   [9] Ford-Fulkerson Algorithm optimizing network traffic flow across Google services
-
+<br>
 </p>
 
 **Challenges:** Managing vast network traffic, and minimizing congestion.
@@ -172,7 +175,9 @@ In Google's data storage and retrieval systems, such as databases and file syste
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/segment.gif?raw=true" style="width: 400px; height: auto;" alt="Google Infrastructure">
+  <br>
   [10] Segment Trees optimizing data retrieval within specific ranges in Google's data systems
+  <br>
 </p>
 
 **Challenges:** Efficient data retrieval within specific ranges.
@@ -252,7 +257,9 @@ A* and Best-First algorithms can be employed to find the most efficient routes b
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/a star.png?raw=true" style="width: 400px; height: auto;" alt="Google Infrastructure">
+  <br>
   [11] A* and Best-First Algorithms for optimizing travel routes on Google Maps
+  <br>
 </p>
 
 
@@ -292,8 +299,9 @@ Skip lists can be employed in search engine indexing systems to maintain sorted 
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/skip.gif?raw=true" alt="Google Infrastructure">
+  <br>
   [12] Skip Lists maintaining sorted lists for efficient search indexing at Google
-
+<br>
 </p>
 
 **Challenges:** Efficiently maintaining and searching sorted lists.
@@ -315,8 +323,9 @@ Google's vast network of data centers relies on efficient task scheduling algori
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/topo.gif?raw=true" alt="Google Infrastructure">
+  <br>
   [13] Topological Sort optimizing task scheduling in Google's data centers
-
+  <br>
 </p>
 
 **Challenges:** Efficient task scheduling and resource allocation.
@@ -339,7 +348,9 @@ Within Google's ecosystem of products and services, A* and Best-First algorithms
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/content.gif?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
+  <br>
   [14] Recommendation Systems
+  <br>
 </p>
 
 
@@ -381,6 +392,7 @@ In online services such as Google Search, YouTube, and Gmail, understanding user
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/game.gif?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
   <br>
   [15]Conway's Game of Life simulation can be used to model user interactions, content consumption patterns, and social dynamics for optimizing Google's services.
+  <br>
 </p>
 
 
@@ -405,6 +417,7 @@ Google's infrastructure deals with vast amounts of data generated and transmitte
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/huffman.gif?raw=true" alt="Google Infrastructure" style="width: 600px; height: auto;">
   <br>
   [16]Huffman Coding for efficient data compression in Google's storage systems
+  <br>
 </p>
 
 
@@ -444,6 +457,7 @@ Google Search uses the PageRank algorithm to rank web pages based on their impor
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/dfs.gif?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
   <br>
   [17]DFS and BFS for crawling web pages
+  <br>
 </p>
 
 
@@ -488,12 +502,14 @@ In Google's extensive network infrastructure, which includes data centers, serve
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bridge.png?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
   <br>
   [18]Graph showing a bridge highlighted in red, critical for maintaining connectivity.(A bridge in graph theory is an edge whose removal would disconnect the graph, crucial for maintaining connectivity)
+  <br>
 </p>
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/ap.png?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
   <br>
   [19] Articulation points : Nodes whose removal increases the number of connected components in a graph.
+  <br>
 </p>
 
 
@@ -535,7 +551,8 @@ Tries enhance search functionality by providing predictive text suggestions as u
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/submission throttling.gif?raw=true" alt="Google Infrastructure" >
   <br>
-  [20] Working of auto-complete systems using tries
+  [20] Auto-complete system using Trie data structure for efficient word suggestion.
+  <br>
 </p>
 
 
@@ -555,6 +572,7 @@ Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital 
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/dfsbfs.gif?raw=true" alt="Google Infrastructure" style="width: 500px; height: auto;">
   <br>
   [21] DFS and BFS traversals on user video graphs
+  <br>
 </p>
 
 
@@ -583,13 +601,17 @@ Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing 
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/kruskal.gif?raw=true" alt="Google Infrastructure" style="width: 500px; height: auto;">
+  <br>
   [22] Kruskal Algorithm for Construction of Spanning tree
+  <br>
 </p>
 
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/prims.gif?raw=true" alt="Google Infrastructure" style="width: 500px; height: auto;">
+  <br>
   [23]Prims Algorithm for Construction of Spanning tree
+  <br>
 </p>
 
 
@@ -635,6 +657,7 @@ Binary Search Trees (BSTs) can be used in Google's search indexing systems to ef
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bst.gif?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
   <br>
   [24]Binary search tree
+  <br>
 </p>
 
 - **Challenges**: Handling large volumes of data, data consistency, efficient data indexing, and retrieval.
@@ -655,7 +678,9 @@ Spanning tree algorithms can be used in optimizing routes for Google Maps by cal
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/25.png?raw=true" alt="Google Infrastructure" style="width: 300px; height: auto;">
+  <br>
   [25] Spanning tree for Route Optimisations in Maps
+  <br>
 </p>
 
 - **Design Techniques**:
@@ -676,6 +701,7 @@ LCS is used to compare and determine the similarity between documents or web pag
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/lcs.gif?raw=true" style="width: 500px; height: auto;" alt="Google Infrastructure">
   <br>
   [26]Longest common subsequence Working
+  <br>
 </p>
 
 - **Design Techniques**: Dynamic Programming
@@ -706,6 +732,7 @@ By analyzing strongly connected components using algorithms like Kosaraju's or T
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/strong.gif?raw=true" alt="Google Infrastructure">
   <br>
   [27] Formation of strongly connected components(user clusters)
+  <br>
 </p>
 
 - **Design Techniques**:
@@ -715,6 +742,7 @@ By analyzing strongly connected components using algorithms like Kosaraju's or T
 - **Space Complexity**: \(O(V)\)
 
 [View code for Kosaraju's algo here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SCC.cpp){:target="_blank"}<br><br>
+
 
 ### 29. **Identifying Similar Videos on YouTube using LCS**
 
