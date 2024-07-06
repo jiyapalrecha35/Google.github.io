@@ -42,7 +42,7 @@
   <br>
   [5] Google and the various services provided
   <br>
-</p>
+</p><br>
 
 
 Google, a global technology leader, offers a diverse array of services integral to everyday life for billions of people. From search engines and email to video sharing, cloud computing, document creation, file storage, and a suite of productivity apps, Google’s influence is vast and far-reaching. Understanding the scale and impact of Google’s services provides a fascinating backdrop for exploring the application of advanced data structures and algorithms to enhance their performance and utility further.
@@ -99,7 +99,7 @@ Google Maps: **Dijkstra's algorithm** can find the shortest path between two loc
   <br>
 [6] Dijkstra's Algorithm for finding shortest paths in Google Maps
   <br>
-</p>
+</p><br>
 
 Bellman-Ford Algorithm: **Bellman-Ford algorithm** can be used in Google's self-driving car project for path planning. It helps in finding the shortest path from the car's current location to its destination while considering factors such as road conditions, traffic congestion, and safety measures.
 
@@ -108,7 +108,7 @@ Bellman-Ford Algorithm: **Bellman-Ford algorithm** can be used in Google's self-
   <br>
   [7] Bellman-Ford Algorithm for safe route planning
   <br>
-</p>
+</p><br>
 
 Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall algorithm can be used for network analysis. It helps in identifying the shortest paths between all pairs of nodes in a network, facilitating efficient communication and resolving connectivity issues.(all pair shortest path)
 
@@ -117,7 +117,7 @@ Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall
   <br>
   [8] Floyd-Warshall Algorithm for optimizing network paths in Google's infrastructure
   <br>
-</p>
+</p><br>
 
 
 **Challenges:** Computing shortest paths considering traffic and road conditions.
@@ -152,7 +152,7 @@ Google manages vast networks of servers and data centers to deliver its services
   <br>
   [9] Ford-Fulkerson Algorithm optimizing network traffic flow across Google services
 <br>
-</p>
+</p><br>
 
 **Challenges:** Managing vast network traffic, and minimizing congestion.
 
@@ -178,7 +178,7 @@ In Google's data storage and retrieval systems, such as databases and file syste
   <br>
   [10] Segment Trees optimizing data retrieval within specific ranges in Google's data systems
   <br>
-</p>
+</p><br>
 
 **Challenges:** Efficient data retrieval within specific ranges.
 
@@ -260,7 +260,7 @@ A* and Best-First algorithms can be employed to find the most efficient routes b
   <br>
   [11] A* and Best-First Algorithms for optimizing travel routes on Google Maps
   <br>
-</p>
+</p><br>
 
 
 **Challenges:** Finding the most efficient routes between locations.
@@ -302,7 +302,7 @@ Skip lists can be employed in search engine indexing systems to maintain sorted 
   <br>
   [12] Skip Lists maintaining sorted lists for efficient search indexing at Google
 <br>
-</p>
+</p><br>
 
 **Challenges:** Efficiently maintaining and searching sorted lists.
 
@@ -326,7 +326,7 @@ Google's vast network of data centers relies on efficient task scheduling algori
   <br>
   [13] Topological Sort optimizing task scheduling in Google's data centers
   <br>
-</p>
+</p><br>
 
 **Challenges:** Efficient task scheduling and resource allocation.
 
@@ -351,7 +351,7 @@ Within Google's ecosystem of products and services, A* and Best-First algorithms
   <br>
   [14] Recommendation Systems
   <br>
-</p>
+</p><br>
 
 
 **Challenges:** Delivering personalized and relevant content.
@@ -393,7 +393,7 @@ In online services such as Google Search, YouTube, and Gmail, understanding user
   <br>
   [15]Conway's Game of Life simulation can be used to model user interactions, content consumption patterns, and social dynamics for optimizing Google's services.
   <br>
-</p>
+</p><br>
 
 
 **Challenges:** Understanding complex user interactions.
@@ -418,7 +418,7 @@ Google's infrastructure deals with vast amounts of data generated and transmitte
   <br>
   [16]Huffman Coding for efficient data compression in Google's storage systems
   <br>
-</p>
+</p><br>
 
 
 **Challenges:** Efficient data compression and storage.
@@ -458,7 +458,7 @@ Google Search uses the PageRank algorithm to rank web pages based on their impor
   <br>
   [17]DFS and BFS for crawling web pages
   <br>
-</p>
+</p><br>
 
 
 DFS and BFS algorithms are fundamental to web crawling, a process by which search engines like Google discover and index web pages. DFS and BFS are used to traverse the interconnected network of web pages, following hyperlinks from one page to another to build a comprehensive index of the World Wide Web. By employing DFS and BFS strategies intelligently, Google can efficiently crawl and index billions of web pages, enabling users to find relevant information quickly and accurately through its search engine.
@@ -503,14 +503,15 @@ In Google's extensive network infrastructure, which includes data centers, serve
   <br>
   [18]Graph showing a bridge highlighted in red, critical for maintaining connectivity.(A bridge in graph theory is an edge whose removal would disconnect the graph, crucial for maintaining connectivity)
   <br>
-</p>
+</p><br>
+<br>
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/ap.png?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
   <br>
   [19] Articulation points : Nodes whose removal increases the number of connected components in a graph.
   <br>
-</p>
+</p><br>
 
 
 - **Challenges**: Identifying critical points of failure in the network.
@@ -553,7 +554,7 @@ Tries enhance search functionality by providing predictive text suggestions as u
   <br>
   [20] Auto-complete system using Trie data structure for efficient word suggestion.
   <br>
-</p>
+</p><br>
 
 
 **Algorithms, Design Techniques, Performance Analysis:**
@@ -573,7 +574,7 @@ Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital 
   <br>
   [21] DFS and BFS traversals on user video graphs
   <br>
-</p>
+</p><br>
 
 
 - **Challenges**: Generating personalized video recommendations.
@@ -604,7 +605,7 @@ Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing 
   <br>
   [22] Kruskal Algorithm for Construction of Spanning tree
   <br>
-</p>
+</p><br>
 
 
 <p align="center">
@@ -612,7 +613,7 @@ Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing 
   <br>
   [23]Prims Algorithm for Construction of Spanning tree
   <br>
-</p>
+</p><br>
 
 
 - **Design Techniques**:
@@ -658,7 +659,7 @@ Binary Search Trees (BSTs) can be used in Google's search indexing systems to ef
   <br>
   [24]Binary search tree
   <br>
-</p>
+</p><br>
 
 - **Challenges**: Handling large volumes of data, data consistency, efficient data indexing, and retrieval.
   
@@ -681,7 +682,7 @@ Spanning tree algorithms can be used in optimizing routes for Google Maps by cal
   <br>
   [25] Spanning tree for Route Optimisations in Maps
   <br>
-</p>
+</p><br>
 
 - **Design Techniques**:
   - **Kruskal's Algorithm**: Greedy approach, Minimum Spanning Tree (MST).
@@ -702,7 +703,7 @@ LCS is used to compare and determine the similarity between documents or web pag
   <br>
   [26]Longest common subsequence Working
   <br>
-</p>
+</p><br>
 
 - **Design Techniques**: Dynamic Programming
 - **Time Complexity**: \(O(m*n)\), where m and n are lengths of sequences.
@@ -733,7 +734,7 @@ By analyzing strongly connected components using algorithms like Kosaraju's or T
   <br>
   [27] Formation of strongly connected components(user clusters)
   <br>
-</p>
+</p><br>
 
 - **Design Techniques**:
   - **Kosaraju's Algorithm**: Two-phase DFS (original and transposed graph).
@@ -750,7 +751,7 @@ LCS is also used by **YouTube** to identify similar videos. By comparing the seq
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/21.png?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
-</p>
+</p><br>
 
 - **Design Techniques**: Dynamic Programming
 - **Time Complexity**: \(O(m*n)\), where m and n are lengths of sequences.
@@ -802,7 +803,7 @@ LCS can be employed to detect plagiarism by comparing the textual content of doc
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bloom.png?raw=true" alt="Google Infrastructure">
-</p>
+</p><br>
 
 **Challenges:** Balancing false positive rates with false negative rates to maintain user trust and safety.
 
@@ -845,7 +846,7 @@ Persistent Segment Trees maintain historical versions of data through immutable 
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/mapred.gif?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
-</p>
+</p><br>
 
 **Design Technique:** 
 MapReduce divides tasks into map and reduce phases, leveraging parallelism and fault tolerance.
