@@ -18,7 +18,7 @@
 <dd>Google</dd>
 </dl>
 
-<br>
+<br> 
 > A stride towards enhanced Google service management.
 >
 
@@ -28,11 +28,11 @@
 This page hosts:
 (Click on each link to explore the sections ➡️)
 
-[Introduction](#introduction) - Domain intro 🌱  
-[Objectives](#objectives) - Goals and targets 🎯  
-[Business Use Cases ➡️ Algorithmic Solutions](#business-use-cases-and-mapping-algorithms) - 📈 Business Use Cases ➡️ Algorithmic Solutions🧩 
-[Use Case Insights and Efficiency Metrics](#use-case-and-efficiency-overview) - Efficiency metrics 📊  
-[Key Learnings and Insights](#learnings-and-key-takeaways) - Key takeaways 🧠 
+1. [Introduction](#introduction) - Domain intro 🌱  
+2. [Objectives](#objectives) - Goals and targets 🎯  
+3. [Business Use Cases ➡️ Algorithmic Solutions](#business-use-cases-and-mapping-algorithms) - 📈 Business Use Cases ➡️ Algorithmic Solutions🧩 
+4. [Use Case Insights and Efficiency Metrics](#use-case-and-efficiency-overview) - Efficiency metrics 📊  
+5. [Key Learnings and Insights](#learnings-and-key-takeaways) - Key takeaways 🧠 
 
 
 
