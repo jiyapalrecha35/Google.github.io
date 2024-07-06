@@ -944,7 +944,7 @@ Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize v
 
 ---
 <br>
-#5. Learnings and Key Takeaways
+# 5. Learnings and Key Takeaways
 
 This portfolio shows how choosing the right data structures and algorithms can solve specific business challenges in different areas. Each use case applies and recommends suitable algorithms, discusses challenges, highlights benefits, and focuses on design techniques. It also explores how algorithms learned in APS and DSA classes can be directly applied to practical problems, emphasizing efficiency and practicality.
 
