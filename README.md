@@ -40,7 +40,7 @@
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/Screenshot%202024-07-05%20141324.png?raw=true" alt="Google Infrastructure Screenshot">
   <br>
-  <em>[5] Google and its services</em>
+  [5] Google and the various services provided
 </p>
 
 
