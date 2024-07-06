@@ -115,7 +115,7 @@ Bellman-Ford Algorithm: **Bellman-Ford algorithm** can be used in Google's self-
   <br>
 </p><br>
 
-Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall algorithm can be used for network analysis. It helps in identifying the shortest paths between all pairs of nodes in a network, facilitating efficient communication and resolving connectivity issues.(all pair shortest path)
+Floyd-Warshall Algorithm: In Google's network infrastructure, the **Floyd-Warshall** algorithm can be used for network analysis. It helps in identifying the shortest paths between all pairs of nodes in a network, facilitating efficient communication and resolving connectivity issues.(all pair shortest path)
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/floyd.gif?raw=true" alt="Google Infrastructure">
@@ -259,7 +259,7 @@ Tries enhance search functionality by providing predictive text suggestions as u
 
 ### 6. **Identifying User Clusters Using Strongly Connected Components Algorithms**
 
-By analyzing strongly connected components using algorithms like Kosaraju's or Tarjan's, Google can identify clusters of users who frequently interact with each other, indicating potential friendships or shared interests. This analysis can inform more accurate friend recommendations, helping users connect with others who are likely to share mutual interests or social connections.
+By analyzing strongly connected components using algorithms like **Kosaraju's or Tarjan's**, Google can identify clusters of users who frequently interact with each other, indicating potential friendships or shared interests. This analysis can inform more accurate friend recommendations, helping users connect with others who are likely to share mutual interests or social connections.
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/strong.gif?raw=true" alt="Google Infrastructure">
@@ -271,8 +271,8 @@ By analyzing strongly connected components using algorithms like Kosaraju's or T
 - **Design Techniques**:
   - **Kosaraju's Algorithm**: Two-phase DFS (original and transposed graph).
   - **Tarjan's Algorithm**: Single DFS pass with backtracking.
-- **Time Complexity**: \(O(V + E)\)
-- **Space Complexity**: \(O(V)\)
+- **Time Complexity**: O(V + E)
+- **Space Complexity**: O(V)
 
 [View code for Kosaraju's algo here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SCC.cpp){:target="_blank"}<br><br><br>
 
@@ -283,7 +283,7 @@ By analyzing strongly connected components using algorithms like Kosaraju's or T
 ### 7. **A * and Best-First Algorithms for Route Optimizations in Google Maps**
 
 **Use Case:**
-A* and Best-First algorithms can be employed to find the most efficient routes between locations on Google Maps. By intelligently prioritizing nodes based on heuristic information such as distance, traffic conditions, and historical data, these algorithms can calculate optimal routes that minimize travel time and distance.
+**A * and Best-First** algorithms can be employed to find the most efficient routes between locations on Google Maps. By intelligently prioritizing nodes based on **heuristic** information such as distance, traffic conditions, and historical data, these algorithms can calculate optimal routes that minimize travel time and distance.
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/a star.png?raw=true" style="width: 400px; height: auto;" alt="Google Infrastructure">
@@ -308,21 +308,7 @@ A* and Best-First algorithms can be employed to find the most efficient routes b
 
 
 
-### 8. Spell Checking
-
-**Use Case:**
-Edit distance algorithms can be used in spell-checking systems, where they help identify and correct misspelled words by suggesting replacements with the minimum number of edits required.
-
-**Algorithms, Design Techniques, Performance Analysis:**
-- **Edit Distance:** Dynamic programming
-  - Time Complexity: O(m*n), where m and n are the lengths of the two strings being compared
-  - Space Complexity: O(m*n), where m and n are the lengths of the two strings being compared
-
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/editDistance.cpp){:target="_blank"}<br><br><br>
-
-
-
-### 9. **Skip Lists in Search Engine Indexing**
+### 8. **Skip Lists in Search Engine Indexing**
 
 **Use Case:**
 Skip lists can be employed in search engine indexing systems to maintain sorted lists of web pages or documents based on relevance or other criteria. They enable quick insertion of new pages, deletion of outdated or irrelevant content, and efficient retrieval of search results based on ranking or relevance scores.
@@ -344,6 +330,20 @@ Skip lists can be employed in search engine indexing systems to maintain sorted 
   - Space Complexity: O(n), where n is the number of elements in the skip list
 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SkipList.cpp){:target="_blank"}<br><br><br>
+
+
+
+### 9. Spell Checking
+
+**Use Case:**
+Edit distance algorithms can be used in spell-checking systems, where they help identify and correct misspelled words by suggesting replacements with the minimum number of edits required.
+
+**Algorithms, Design Techniques, Performance Analysis:**
+- **Edit Distance:** Dynamic programming
+  - Time Complexity: O(m*n), where m and n are the lengths of the two strings being compared
+  - Space Complexity: O(m*n), where m and n are the lengths of the two strings being compared
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/editDistance.cpp){:target="_blank"}<br><br><br>
 
 
 ### 10. **Allocation of resources in data centers**
@@ -368,7 +368,7 @@ Google manages a vast network of data centers worldwide to support its services.
 ### 11. **Content Recommendation Systems**
 
 **Use Case:**
-Within Google's ecosystem of products and services, A* and Best-First algorithms can power content recommendation systems by intelligently prioritizing and recommending relevant content to users based on their preferences, search history, and behavior patterns. These algorithms can enhance user engagement and satisfaction by delivering personalized and targeted recommendations.
+Within Google's ecosystem of products and services, **A * and Best-First** algorithms can power content recommendation systems by intelligently prioritizing and recommending relevant content to users based on their preferences, search history, and behavior patterns. These algorithms can enhance user engagement and satisfaction by delivering personalized and targeted recommendations.
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/content.gif?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
@@ -460,7 +460,7 @@ Google's infrastructure deals with vast amounts of data generated and transmitte
 ### 15. **Traveling Salesman Problem for Route Optimization**
 
 **Use Case:**
-Google Maps: The TSP algorithm can be used to find the most efficient route for traveling salespeople visiting multiple locations. It minimizes travel distance and time, helping businesses and individuals optimize their travel plans and logistics. Google's delivery and logistics services, such as Google Maps and Google Shopping, rely on efficient route planning and optimization algorithms to deliver goods and services to customers. The Traveling Salesman Problem can be used to find the shortest routes for delivery vehicles to visit multiple locations while minimizing travel time and distance.
+Google Maps: The **TSP** algorithm can be used to find the most efficient route for traveling salespeople visiting multiple locations. It minimizes travel distance and time, helping businesses and individuals optimize their travel plans and logistics. Google's delivery and logistics services, such as Google Maps and Google Shopping, rely on efficient route planning and optimization algorithms to deliver goods and services to customers. The Traveling Salesman Problem can be used to find the shortest routes for delivery vehicles to visit multiple locations while minimizing travel time and distance.
 
 **Challenges:** Finding the most efficient route for multiple locations.
 
@@ -602,12 +602,10 @@ Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital 
 - **Design Techniques and Performance Analysis**:
   - **DFS (Depth-First Search)**: Graph traversal using a stack.(for brave ones)
   - **BFS (Breadth-First Search)**: Graph traversal using a queue.(for cautious ones) 
-  - **Time Complexity**: \(O(V + E)\)
-  - \(V\): Number of vertices (nodes) in the graph.
-  - \(E\): Number of edges in the graph.
+  - **Time Complexity**: \(O(V + E)\) where V:vertices/nodes,E: edges in the graph/
   - **Space Complexity**:
-  - DFS: \(O(V)\) (for the recursive call stack).
-  - BFS: \(O(V)\) (for the queue).
+     DFS: O(V) (for the recursive call stack).
+     BFS: O(V) (for the queue).
 
 [View DFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/DFS.cpp){:target="_blank"}<br>
 [View BFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/BFS.cpp){:target="_blank"}<br><br><br>
@@ -616,7 +614,7 @@ Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms play a vital 
 
 ### 22. **Optimizing Google Cloud Infrastructure Using Spanning Tree Algorithms**
 
-Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing Google's cloud infrastructure by creating minimum spanning trees (MSTs) to connect data centers, edge locations, and CDNs efficiently. This results in an optimized network with reduced latency, improved fault tolerance, and enhanced scalability for reliable and high-performance cloud services.
+Spanning tree algorithms like **Kruskal's and Prim's** Algorithms help in designing Google's cloud infrastructure by creating minimum spanning trees (MSTs) to connect data centers, edge locations, and CDNs efficiently. This results in an optimized network with reduced latency, improved fault tolerance, and enhanced scalability for reliable and high-performance cloud services. **Boruvka's** algorithm, one of the oldest in this category, also contributes to these advancements.
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/kruskal.gif?raw=true" alt="Google Infrastructure" style="width: 500px; height: auto;">
@@ -653,7 +651,7 @@ Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing 
 ### 23. **Ad Allocation in Google Ads**
 
 **Use Case:**
-Google's advertising platforms, such as Google Ads, rely on efficient allocation of ad placements to maximize revenue and user engagement. The Assignment Problem can help determine the optimal assignment of advertisements to available ad slots across websites.
+Google's advertising platforms, such as Google Ads, rely on efficient allocation of ad placements to maximize revenue and user engagement. The **Assignment Problem** can help determine the optimal assignment of advertisements to available ad slots across websites.
 
 **Challenges:** Maximizing revenue, and user engagement.
 
@@ -670,7 +668,7 @@ Google's advertising platforms, such as Google Ads, rely on efficient allocation
 
 ### 24. **Search Indexing using BSTs**
 
-Binary Search Trees (BSTs) can be used in Google's search indexing systems to efficiently store and retrieve indexed documents. By organizing indexed data in BSTs, Google can quickly search for relevant documents based on keywords or other search criteria, enabling fast and accurate retrieval of search results.
+**Binary Search Trees (BSTs)** can be used in Google's search indexing systems to efficiently store and retrieve indexed documents. By organizing indexed data in BSTs, Google can quickly search for relevant documents based on keywords or other search criteria, enabling fast and accurate retrieval of search results.
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bst.gif?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
@@ -714,7 +712,7 @@ Spanning tree algorithms can be used in optimizing routes for Google Maps by cal
 
 ### 26. **Enhancing Search Accuracy using Longest Common Subsequence (LCS)**
 
-LCS is used to compare and determine the similarity between documents or web pages, which helps in ranking and retrieving the most relevant search results. By identifying the longest common subsequences, Google can better understand content relationships and enhance search accuracy.
+**LCS** is used to compare and determine the similarity between documents or web pages, which helps in ranking and retrieving the most relevant search results. By identifying the longest common subsequences, Google can better understand content relationships and enhance search accuracy.
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/lcs.gif?raw=true" style="width: 500px; height: auto;" alt="Google Infrastructure">
@@ -734,7 +732,7 @@ LCS is used to compare and determine the similarity between documents or web pag
 
 ### 27. **Organizing Data in Distributed File Systems using B-trees**
 
-Google's distributed file systems, such as Google File System (GFS) and Bigtable, leverage B-tree data structures for indexing and organizing vast amounts of data efficiently. B-trees provide logarithmic time complexity for search, insertion, and deletion operations, making them ideal for handling structured data in distributed storage systems. This ensures quick and reliable access to data, enhancing the overall performance of Google's storage solutions.
+Google's distributed file systems, such as **Google File System (GFS) and Bigtable**, leverage **B-tree** data structures for indexing and organizing vast amounts of data efficiently. B-trees provide logarithmic time complexity for search, insertion, and deletion operations, making them ideal for handling structured data in distributed storage systems. This ensures quick and reliable access to data, enhancing the overall performance of Google's storage solutions.
 
 
 - **Time Complexity**: \(O(\log n)\) for search, insertion, and deletion on average.
@@ -779,7 +777,7 @@ LCS is also used by **YouTube** to identify similar videos. By comparing the seq
 
 
 ### 30. **Ad Campaign Optimization using Fenwick Trees**
-**Overview:** Fenwick Trees, also known as Binary Indexed Trees (BITs), can be utilized in ad campaign optimization to efficiently manage and update metrics such as click-through rates (CTR), conversion rates, and return on investment (ROI) for various advertisement placements.
+**Overview:** **Fenwick Trees**, also known as **Binary Indexed Trees (BITs)**, can be utilized in ad campaign optimization to efficiently manage and update metrics such as click-through rates (CTR), conversion rates, and return on investment (ROI) for various advertisement placements.
 
 **Applications in Google Ads:**
 - Efficiently process and analyze real-time data generated by ad interactions.
@@ -798,7 +796,7 @@ Fenwick Trees support two primary operations efficiently: prefix sum queries and
 
 
 ### 31. **Spam Filtering in Gmail using String Matching Algorithms**
-**Overview:** String matching algorithms are employed in Gmail's spam filters to analyze the content of incoming emails, identifying spam keywords or patterns to classify and filter spam emails.
+**Overview:** String matching algorithms are employed in Gmail's spam filters to analyze the content of incoming emails, identifying spam keywords or patterns to classify and filter spam emails. Some of them are **Knuth-Morris-Pratt (KMP), Rabin-Karp, and Boyer-Moore** algorithms.
 
 [View code for Rabin Karp here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/rabin.cpp){:target="_blank"}<br>
 [View code for KMP here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/kmp.cpp){:target="_blank"}<br><br><br>
@@ -806,7 +804,7 @@ Fenwick Trees support two primary operations efficiently: prefix sum queries and
 
 ### 32. **Detecting Plagiarism using LCS**
 
-LCS can be employed to detect plagiarism by comparing the textual content of documents. By identifying the longest common subsequences between two or more texts, Google can efficiently determine the degree of similarity and detect copied or similar content across documents, ensuring the originality and integrity of information.
+**LCS** can be employed to detect plagiarism by comparing the textual content of documents. By identifying the longest common subsequences between two or more texts, Google can efficiently determine the degree of similarity and detect copied or similar content across documents, ensuring the originality and integrity of information.
 
 - **Design Techniques**: Dynamic Programming
 - **Time Complexity**: \(O(m*n)\), where m and n are lengths of sequences.
@@ -816,7 +814,7 @@ LCS can be employed to detect plagiarism by comparing the textual content of doc
 
 
 ### 33. **Checking URLs for Safety in Google Chrome using Bloom Filters**
-**Overview:** Google Chrome uses Bloom filters to quickly check if a URL might be harmful by referencing a local Bloom filter containing hashed malicious URLs. This improves browsing speed and security.Also,Bloom filter is used to quickly determine whether an element is likely a member of a set, without having to store the entire set in memory.
+**Overview:** **Google Chrome** uses **Bloom filters** to quickly check if a URL might be harmful by referencing a local Bloom filter containing hashed malicious URLs. This improves browsing speed and security.Also,Bloom filter is used to quickly determine whether an element is likely a member of a set, without having to store the entire set in memory.
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bloom.png?raw=true" alt="Google Infrastructure">
@@ -833,7 +831,7 @@ Bloom filters use a fixed-size array and hash functions to achieve space-efficie
 
 
 ### 34. **Managing Document Edits and Revisions using Persistent Segment Trees**
-**Overview:** **Persistent Segment Trees**(based on the principle of lazy propagation) can be utilized in version control systems for efficient management of document edits and revisions, such as in Google Docs.
+**Overview:** **Persistent Segment Trees**(based on the principle of **lazy propagation**) can be utilized in version control systems for efficient management of document edits and revisions, such as in Google Docs.
 
 **Applications:**
 - Store and track changes made to documents over time.
@@ -851,13 +849,13 @@ Persistent Segment Trees maintain historical versions of data through immutable 
 
 
 ### 35. **Processing and Analyzing Large Datasets using MapReduce**
-**Overview:** MapReduce is a fundamental algorithmic framework used by Google for efficient parallel processing and analysis of large datasets. Initially developed by Google in 2004 for analyzing search results, MapReduce has evolved into a core component of big data processing, integral to frameworks like Hadoop. It offers several advantages:
+**Overview:** **MapReduce** is a fundamental algorithmic framework used by Google for efficient parallel processing and analysis of large datasets. Initially developed by Google in 2004 for analyzing search results, MapReduce has evolved into a core component of big data processing, integral to frameworks like Hadoop. It offers several advantages:
 
--Fault Tolerance: MapReduce ensures fault tolerance by leveraging multiple machines and allowing for task re-execution in case of failures.
+-**Fault Tolerance**: MapReduce ensures fault tolerance by leveraging multiple machines and allowing for task re-execution in case of failures.
 
--Scalability: It supports flexible hardware configurations and can handle massive datasets by distributing computations across clusters.
+-**Scalability**: It supports flexible hardware configurations and can handle massive datasets by distributing computations across clusters.
 
--Simplicity: MapReduce abstracts the complexity of parallel processing, providing a structured framework for developers.
+-**Simplicity**: MapReduce abstracts the complexity of parallel processing, providing a structured framework for developers.
 
 **Applications:**: Search indexing, data mining, and machine learning.
 
@@ -877,7 +875,14 @@ MapReduce divides tasks into map and reduce phases, leveraging parallelism and f
 
 
 ### 36. **Optimize the video streaming paths on YouTube**
-Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize video streaming paths. By determining the shortest paths between servers and users, Google can ensure smooth and uninterrupted video playback, enhancing the user experience.
+Google's YouTube platform can utilize the **Floyd-Warshall algorithm** to optimize video streaming paths. By determining the shortest paths between servers and users, Google can ensure smooth and uninterrupted video playback, enhancing the user experience.
+
+<p align="center">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/floyd.gif?raw=true" alt="Google Infrastructure">
+  <br>
+  [8] Floyd-Warshall Algorithm for optimizing video streaming paths in youtube
+  <br>
+</p><br>
 
 **Performance Analysis:**
 - **Floyd-Warshall Algorithm:** Dynamic programming, All-pairs shortest path
