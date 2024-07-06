@@ -37,7 +37,9 @@
 
 # Introduction
 
-![Google Infrastructure](https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/Screenshot%202024-07-05%20141324.png?raw=true)
+<p align="center">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/Screenshot%202024-07-05%20141324.png?raw=true" style="width: 400px; height: auto;" alt="Google Infrastructure Screenshot">
+</p>
 
 Google, a global technology leader, offers a diverse array of services integral to everyday life for billions of people. From search engines and email to video sharing, cloud computing, document creation, file storage, and a suite of productivity apps, Google’s influence is vast and far-reaching. Understanding the scale and impact of Google’s services provides a fascinating backdrop for exploring the application of advanced data structures and algorithms to enhance their performance and utility further.
 
@@ -89,13 +91,13 @@ This portfolio showcases the transformative power of algorithms within Google’
 Google Maps: **Dijkstra's algorithm** can find the shortest path between two locations on a map. Essential for providing accurate directions to users, considering factors such as traffic conditions, road closures, and distance.
 
 <p align="center">
-  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/1.gif?raw=true" alt="Google Infrastructure">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/1.gif?raw=true" style="width: 400px; height: auto;"  alt="Google Infrastructure">
 </p>
 
 Bellman-Ford Algorithm: **Bellman-Ford algorithm** can be used in Google's self-driving car project for path planning. It helps in finding the shortest path from the car's current location to its destination while considering factors such as road conditions, traffic congestion, and safety measures.
 
 <p align="center">
-  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bellman.gif?raw=true" alt="Google Infrastructure">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bellman.gif?raw=true" style="width: 400px; height: auto;" alt="Google Infrastructure">
 </p>
 
 Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall algorithm can be used for network analysis. It helps in identifying the shortest paths between all pairs of nodes in a network, facilitating efficient communication and resolving connectivity issues.(all pair shortest path)
