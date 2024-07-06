@@ -39,24 +39,25 @@
 
 ![Google Infrastructure](https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/Screenshot%202024-07-05%20141324.png?raw=true)
 
-Google, a global technology leader, offers a diverse array of services that have become integral to everyday life for billions of people. From search engines and email to video sharing and cloud computing, Google's influence is vast and far-reaching. Understanding the scale and impact of Google's services provides a fascinating backdrop for exploring the application of advanced data structures and algorithms to further enhance their performance and utility.
+Google, a global technology leader, offers a diverse array of services integral to everyday life for billions of people. From search engines and email to video sharing, cloud computing, document creation, file storage, and a suite of productivity apps, Google’s influence is vast and far-reaching. Understanding the scale and impact of Google’s services provides a fascinating backdrop for exploring the application of advanced data structures and algorithms to enhance their performance and utility further.
+
 
 ### **Google Search**
-**Google Search** is the cornerstone of Google's ecosystem, commanding a staggering **92.47%** of the global search engine market share as of June 2023 [1]. This dominance underscores the importance of optimizing search algorithms for speed, relevance, and user satisfaction.
+**Google Search** is the heart of Google's ecosystem, holding **81.95%** of the global search engine market share as of January 2024 [1]. This dominance highlights the need for fast, relevant search algorithms.
 
 ### **YouTube**
-**YouTube**, owned by Google, is the second most visited website globally. It boasts over **2 billion** logged-in monthly users who collectively watch over **1 billion hours** of video daily [2]. The sheer volume of data necessitates sophisticated algorithms for video recommendation, content moderation, and personalized user experiences.
+**YouTube**, owned by Google, is the second most visited website globally, with over **2 billion** logged-in monthly users watching over **1 billion hours** of video daily [2]. The huge data volume requires smart algorithms for recommendations and content moderation.
 
 ### **Gmail**
-**Gmail**, Google's email service, has more than **1.8 billion** active users worldwide [3]. This popularity highlights the need for efficient data management and security protocols, ensuring fast and reliable email delivery while safeguarding user privacy [4].
+**Gmail**, Google's email service, has more than **1.8 billion** active users worldwide [3]. This shows the need for efficient data management and strong security protocols to ensure quick, reliable email delivery while protecting user privacy [4].
 
 ### **Google Maps**
-**Google Maps** is a dominant player in the navigation and mapping services market, which is projected to reach **$34.56 billion** by 2025. It serves over **1 billion** users monthly, providing real-time traffic updates, route optimization, and location-based services. Advanced algorithms are critical for handling massive amounts of geographic data and delivering accurate, timely information.
+**Google Maps** is a leader in navigation services, projected to reach **$34.56 billion** by 2025. It serves over **1 billion** users monthly with real-time traffic updates and route optimization, relying on advanced algorithms to handle massive geographic data.
 
 ### **Google Cloud**
-**Google Cloud** has shown significant growth, capturing **9%** of the global cloud infrastructure market as of 2023 [5]. It provides robust solutions for data storage, machine learning, and enterprise applications, supporting a wide range of industries from finance to healthcare. Efficient data structures and algorithms are essential for optimizing cloud services, ensuring scalability, and enhancing performance.
+**Google Cloud** has grown significantly, capturing **9%** of the global cloud infrastructure market as of 2023 [5]. It provides solutions for data storage, machine learning, and enterprise applications, requiring efficient algorithms to ensure scalability and performance.
 
-These statistics highlight the extensive reach and impact of Google's services, making it an ideal domain for exploring the application of advanced data structures and algorithms to further enhance performance and user experience.
+These statistics highlight the extensive reach and impact of Google’s services, making it an ideal domain for exploring the application of advanced data structures and algorithms to further enhance performance and user experience.
 
 ## Enhancing Google's Services with Algorithms
 
