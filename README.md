@@ -48,7 +48,7 @@ This page hosts:
 </p><br>
 
 
-Google, a global technology leader, offers a diverse array of services integral to everyday life for billions of people. From search engines and email to video sharing, cloud computing, document creation, file storage, and a suite of productivity apps, Google’s influence is vast and far-reaching. Understanding the scale and impact of Google’s services provides a fascinating backdrop for exploring the application of advanced data structures and algorithms to enhance their performance and utility further.
+Google, a global technology leader, offers a wide range of services essential to daily life for billions of people. These include search engines, email, video sharing, cloud computing, document creation, file storage, Google Maps, and productivity apps. Understanding the scale and impact of Google’s services sets the stage for exploring how advanced data structures and algorithms can further enhance their performance and utility.
 
 
 ### **Google Search**
@@ -72,7 +72,9 @@ These statistics highlight the extensive reach and impact of Google’s services
 
 In today's digital age, the **efficiency** and **effectiveness** of technology services can be significantly enhanced through the strategic application of **data structures** and **algorithms**. This portfolio project delves into the core functionalities of Google's diverse services, applying the theoretical knowledge and practical skills acquired from courses in **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)**. By using advanced algorithmic techniques and innovative data structures, this project aims to propose solutions to real-world business challenges.
 
-This portfolio showcases the transformative power of algorithms within Google’s ecosystem. Each **business use case** explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
+This portfolio demonstrates how algorithms can optimize Google’s services. Each example illustrates how smart problem-solving with algorithms can enhance operational smoothness. Join me in this exploration as we bridge the gap between theory and practice, highlighting the profound impact of data structures and algorithms on modern digital services. Additionally, each case includes a thorough performance analysis to evaluate effectiveness.
+
+
 
 ---
 <br>
