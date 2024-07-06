@@ -605,7 +605,6 @@ Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing 
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/kruskal.gif?raw=true" alt="Google Infrastructure" style="width: 500px; height: auto;">
-  <br>
   [22] Kruskal Algorithm for Construction of Spanning tree
   <br>
 </p><br>
