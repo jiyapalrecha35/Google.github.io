@@ -41,6 +41,7 @@
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/Screenshot%202024-07-05%20141324.png?raw=true" alt="Google Infrastructure Screenshot">
   <br>
   [5] Google and the various services provided
+  <br>
 </p>
 
 
@@ -97,14 +98,15 @@ Google Maps: **Dijkstra's algorithm** can find the shortest path between two loc
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/1.gif?raw=true" style="width: 400px; height: auto;"  alt="Google Infrastructure">
   <br>
 [6] Dijkstra's Algorithm for finding shortest paths in Google Maps
+  <br>
 </p>
 
 Bellman-Ford Algorithm: **Bellman-Ford algorithm** can be used in Google's self-driving car project for path planning. It helps in finding the shortest path from the car's current location to its destination while considering factors such as road conditions, traffic congestion, and safety measures.
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bellman.gif?raw=true" style="width: 400px; height: auto;" alt="Google Infrastructure">
-  [7] Bellman-Ford Algorithm can be used in Google's self-driving car project for safe route planning
-
+  [7] Bellman-Ford Algorithm for safe route planning
+  <br>
 </p>
 
 Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall algorithm can be used for network analysis. It helps in identifying the shortest paths between all pairs of nodes in a network, facilitating efficient communication and resolving connectivity issues.(all pair shortest path)
@@ -112,7 +114,7 @@ Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/floyd.gif?raw=true" alt="Google Infrastructure">
   [8] Floyd-Warshall Algorithm for optimizing network paths in Google's infrastructure
-
+  <br>
 </p>
 
 
