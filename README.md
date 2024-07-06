@@ -614,6 +614,7 @@ Spanning tree algorithms like Kruskal's and Prim's Algorithms help in designing 
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/kruskal.gif?raw=true" alt="Google Infrastructure" style="width: 500px; height: auto;">
+  <br>
   [22] Kruskal Algorithm for Construction of Spanning tree
   <br>
 </p><br>
@@ -762,6 +763,8 @@ LCS is also used by **YouTube** to identify similar videos. By comparing the seq
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/21.png?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
+  <br>
+  [28] Video Recommendation on Youtube
 </p><br>
 
 - **Design Techniques**: Dynamic Programming
@@ -857,6 +860,9 @@ Persistent Segment Trees maintain historical versions of data through immutable 
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/mapred.gif?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
+  <br>
+  [29] MapReduce:Parallel processing of data
+  <br>
 </p><br>
 
 **Design Technique:** 
@@ -944,11 +950,63 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 
 ## References
-[1] Statista. (2024). Market share of leading desktop search engines worldwide from January 2015 to January 2024 [Online]. Available: https://www.statista.com/statistics/216573/worldwide-market-share-of-search-engines/
 
-[2] Google. (2024). YouTube for Press. [Online]. Available: https://blog.youtube/press/
+[1] Statista. (2024). Market share of leading desktop search engines worldwide from January 2015 to January 2024 [Online]. Available: [Statista](https://www.statista.com/statistics/216573/worldwide-market-share-of-search-engines/){:target="_blank"}.
 
-[3] FounderJar. (2024). The Ultimate List of Gmail Statistics for 2024. Available : https://www.founderjar.com/gmail-statistics/
+[2] Google. (2024). YouTube for Press. [Online]. Available: [YouTube for Press](https://blog.youtube/press/){:target="_blank"}.
 
-[4] DemandSage. (2024).Gmail Statistics For 2024: How Many People Use Gmail? Available: https://www.demandsage.com/gmail-statistics/
+[3] FounderJar. (2024). The Ultimate List of Gmail Statistics for 2024. Available: [FounderJar](https://www.founderjar.com/gmail-statistics/){:target="_blank"}.
+
+[4] DemandSage. (2024). Gmail Statistics For 2024: How Many People Use Gmail? Available: [DemandSage](https://www.demandsage.com/gmail-statistics/){:target="_blank"}.
+
+[5] The Hans India. (2024, July 6). Android update: Google apps to get major makeover. Retrieved from [The Hans India](https://www.thehansindia.com/technology/tech-news/android-update-google-apps-to-get-major-makeover-743672){:target="_blank"}.
+
+[6] Thaddeus Abiy, Hannah Pang, Christopher Williams, and others. "Dijkstra's Shortest Path Finder." Brilliant. Available at: [Brilliant](https://brilliant.org/wiki/dijkstras-short-path-finder/){:target="_blank"}.
+
+[7] Wikimedia Commons. "Bellman–Ford Algorithm Example." Available at: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%E2%80%93Ford_algorithm_example.gif){:target="_blank"}.
+
+[8] Jimut123. "All-Pairs Shortest Path." Available at: [Jimut123](https://jimut123.github.io/blogs/allPairs.html){:target="_blank"}.
+
+[9] Wikipedia. "Ford-Fulkerson Algorithm Demo." Available at: [Wikipedia](https://en.m.wikipedia.org/wiki/File.gif){:target="_blank"}.
+
+[10] Scaler Topics. "Segment Trees in Data Structure." Available at: [Scaler Topics](https://www.scaler.com/topics/data-structures/segment-trees-in-data-structure/){:target="_blank"}.
+
+[11] GeeksforGeeks. "A* Search Algorithm." Available at: [GeeksforGeeks](https://www.geeksforgeeks.org/a-search-algorithm/){:target="_blank"}.
+
+[12] Wikipedia. "Skip List." Available at: [Wikipedia](https://en.wikipedia.org/wiki/Skip_list){:target="_blank"}.
+
+[13] OpenGenus IQ. "Kahn's Algorithm for Topological Sort." Available at: [OpenGenus IQ](https://iq.opengenus.org/kahns-algorithm-topological-sort/){:target="_blank"}.
+
+[14] Wikipedia. "Collaborative Filtering." Available at: [Wikipedia](https://en.wikipedia.org/wiki/Collaborative_filtering){:target="_blank"}.
+
+[15] Datawrapper. "Game of Life." Available at: [Datawrapper](https://blog.datawrapper.de/game-of-life/){:target="_blank"}.
+
+[16] Wikimedia Commons. "Huffman Algorithm Demonstration." Available at: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File.gif){:target="_blank"}.
+
+[17] Steven Skiena. "Search Algorithm Animations." Available at: [Steven Skiena](https://www3.cs.stonybrook.edu/~skiena/combinatorica/animations/search.html){:target="_blank"}.
+
+[18] E-Olymp. "Bridges in Graph GIF." Available at: [E-Olymp](https://basecamp.eolymp.com/en/problems/1943){:target="_blank"}.
+
+[19] GeeksforGeeks. "Articulation Points or Cut Vertices in a Graph." Available at: [GeeksforGeeks](https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/){:target="_blank"}.
+
+[20] Gabriel Castro. "Trie Data Structure." Available at: [Gabriel Castro](https://gabrielcastro1028.medium.com/trie-data-structure-4a8becc97809){:target="_blank"}.
+
+[21] Medium. "A Quick Explanation of DFS & BFS." Available at: [Medium](https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c){:target="_blank"}.
+
+[22] Make a GIF. "Kruskal Algorithm." Available at: [Make a GIF](https://makeagif.com/gif/kruskal-algorithm-IFvPaF){:target="_blank"}.
+
+[23] Stack Overflow. "Prim's Algorithm Info." Available at: [Stack Overflow](https://stackoverflow.com/tags/prims-algorithm/info){:target="_blank"}.
+
+[24] Wikimedia Commons. "Optimal Binary Search Tree from Sorted Array GIF." Available at: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File.gif){:target="_blank"}.
+
+[25] Wikipedia. "Spanning Tree." Available at: [Wikipedia](https://en.wikipedia.org/wiki/Spanning_tree){:target="_blank"}.
+
+[26] Astikanand's Tech Blogs. "Longest Common Subsequence GIF." Available at: [Astikanand's Tech Blogs](https://astikanand.github.io/techblogs/dynamic-programming-patterns/assets/longest_common_substring_tabulation.gif){:target="_blank"}.
+
+[27] Wikipedia. "Tarjan's Strongly Connected Components Algorithm." Available at: [Wikipedia](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm){:target="_blank"}.
+
+[28] Nfinity8. "YouTube Recommendation Algorithm." Available at: [Nfinity8](https://nfinity8.com/youtube-recommendation-algorithm/){:target="_blank"}.
+
+[29] Make a GIF. "Introduction to Amazon Elastic MapReduce." Available at: [Make a GIF](https://makeagif.com/gif/introduction-to-amazon-elastic-mapreduce-Ji84SG){:target="_blank"}.
+
 
