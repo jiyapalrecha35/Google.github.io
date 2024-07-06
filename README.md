@@ -70,11 +70,11 @@ This portfolio showcases the transformative power of algorithms within Google’
 # Objectives
 
 
-1. Apply advanced algorithms and data structures to enhance the speed and efficiency of Google's services.
+1. To apply advanced algorithms and data structures to improve the speed and efficiency of Google’s services.
    
-2. Demonstrate the real-world use of concepts learned in Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses.
+2. To demonstrate the real-world use of concepts learned in DSA and APS courses, focusing on design techniques and performance analysis.
    
-3. Develop innovative solutions to improve user experiences and drive technological advancements within Google's ecosystem.
+3. To propose algorithms that enhance user experiences, solve market challenges, and maximize business benefits within Google's ecosystem.
 <br><br>
 
 
