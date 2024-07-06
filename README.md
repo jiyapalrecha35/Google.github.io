@@ -38,7 +38,7 @@ This page hosts:
 
 ---
 
-# Introduction
+# 1. Introduction
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/Screenshot%202024-07-05%20141324.png?raw=true" alt="Google Infrastructure Screenshot">
@@ -75,8 +75,8 @@ In today's digital age, the **efficiency** and **effectiveness** of technology s
 This portfolio showcases the transformative power of algorithms within Google’s ecosystem. Each **business use case** explored will demonstrate how thoughtful algorithmic problem-solving can streamline processes, enhance user experiences, and drive technological innovation. Join me in this exploration as we bridge the gap between theoretical knowledge and practical application, showcasing the profound impact of data structures and algorithms on modern digital services.
 
 ---
-
-# Objectives
+<br>
+# 2. Objectives
 
 
 1. To apply advanced algorithms and data structures to improve the speed and efficiency of Google’s services.
@@ -88,8 +88,8 @@ This portfolio showcases the transformative power of algorithms within Google’
 
 
 ---
-
-# Business Use Cases and Mapping Algorithms
+<br>
+# 3. Business Use Cases and Mapping Algorithms
 
 
 ### 1. **Computation of Shortest Paths in Google Maps**
@@ -144,31 +144,42 @@ Floyd-Warshall Algorithm: In Google's network infrastructure, the Floyd-Warshall
 [View Floyd-Warshall code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/floyd_warshall.cpp){:target="_blank"}<br><br><br>
 
 
-### 2. **Optimizing Network Traffic in Google Services**
 
+### 2. **PageRank and Web Crawling for Google Search Index**
 
 **Use Case:**
-Google manages vast networks of servers and data centers to deliver its services. The **Max Flow algorithms** can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion. Max flow algorithms, such as **Karger's, Dinic's, and Ford-Fulkerson**, can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability.
+Google Search uses the PageRank algorithm to rank web pages based on their importance, where depth-first search (DFS) and breadth-first search (BFS) play crucial roles in traversing the web graph. 
 
-<p align="center">
-  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/ford.gif?raw=true" style="width: 400px; height: auto;" alt="Google Infrastructure">
-  <br>
-  [9] Ford-Fulkerson Algorithm optimizing network traffic flow across Google services
-<br>
-</p><br>
+<div style="display: flex; justify-content: center;">
+  <div style="margin-right: 20px;">
+    <p align="center">
+      <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/dfs.gif?raw=true" alt="DFS" style="width: 400px; height: auto;">
+      <br>
+      [17] DFS for crawling web pages
+    </p>
+  </div>
+  <div>
+    <p align="center">
+      <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bfs.gif?raw=true" alt="BFS" style="width: 400px; height: auto;">
+      <br>
+      [17] BFS for crawling web pages
+    </p>
+  </div>
+</div>
 
-**Challenges:** Managing vast network traffic, and minimizing congestion.
-
-**Market Benefits:** Improved system performance, and reliability.
+DFS and BFS algorithms are fundamental to web crawling, a process by which search engines like Google discover and index web pages. DFS and BFS are used to traverse the interconnected network of web pages, following hyperlinks from one page to another to build a comprehensive index of the World Wide Web. By employing DFS and BFS strategies intelligently, Google can efficiently crawl and index billions of web pages, enabling users to find relevant information quickly and accurately through its search engine.
 
 **Algorithms, Design Techniques, Performance Analysis:**
-- **Ford-Fulkerson Algorithm:** Augmenting path method, Greedy approach
-  - Time Complexity: O(E * V<sup>2</sup>) where E is the number of edges and V is the number of vertices
-  - Space Complexity: O(V<sup>2</sup>) where V is the number of vertices<br>
-- **Dinic's Algorithm:** Layered network approach, Blocking flow<br>
-- **Karger's Algorithm:** Randomized contraction, Min-cut max-flow theorem<br>
+- **DFS:** Graph traversal based on stack
+  - Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
+  - Space Complexity: O(V) for the stack used in DFS
+- **BFS:** Graph traversal based on queue
+  - Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
+  - Space Complexity: O(V) for the queue used in BFS
 
-[View code for Ford Fulkerson Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/maxFlow.cpp){:target="_blank"}<br><br><br>
+[View DFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/DFS.cpp){:target="_blank"}<br>
+[View BFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/BFS.cpp){:target="_blank"}<br><br><br>
+
 
 
 ### 3. **Range Query Optimization**
@@ -195,32 +206,45 @@ In Google's data storage and retrieval systems, such as databases and file syste
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}<br><br><br>
 
 
-### 4. **Allocation of resources in data centers**
+### 4. **Scheduling Tasks in Data Centers**
 
 **Use Case:**
-Google manages a vast network of data centers worldwide to support its services. The **Assignment Problem** can be utilized to optimize resource allocation within these data centers, such as assigning computing tasks to servers or balancing the load across different data center locations.
+Google's vast network of data centers relies on efficient task scheduling algorithms to manage computational workloads and optimize resource utilization. **Topological Sort** can be employed to schedule tasks and dependencies in directed acyclic graphs (DAGs), ensuring that tasks are executed in the correct order to meet deadlines, minimize latency, and maximize throughput.
 
-**Challenges:** Effective allocation of resources.
+<p align="center">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/topo.gif?raw=true" alt="Google Infrastructure">
+  <br>
+  [13] Topological Sort optimizing task scheduling in Google's data centers
+  <br>
+</p><br>
 
-**Market Benefits:** Improved resource management, and reduced operational costs.
+**Challenges:** Efficient task scheduling and resource allocation.
 
-**Algorithms, Design Techniques, Performance Analysis::**
-- **Assignment Problem:** Optimization technique
-- Time Complexity: O(2<sup>N</sup> * N) where N is the number of tasks or resources
-- Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
+**Market Benefits:** Improved resource utilization, minimized latency.
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/jobAssignment.cpp){:target="_blank"}
-<br><br><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+- **Topological Sort:** Directed acyclic graph (DAG), Depth-first search (DFS)
+  - Time Complexity: O(V + E), where V is the number of vertices (tasks) and E is the number of edges (dependencies) in the DAG
+  - Space Complexity: O(V + E) for storing the graph and additional structures
 
-
-
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/topoSort.cpp){:target="_blank"}<br><br><br>
 
 
 
-### 5. **Autocorrection**
+
+
+### 5. **Autocomplete Suggestions**
 
 **Use Case:**
-Tries are commonly used in autocorrect systems, such as those implemented in Google Search, Gmail, or Google Docs. By organizing a dictionary of words into a trie structure, these systems can efficiently suggest and correct misspelled words as users type. As users enter text, the system navigates the trie to identify potential matches or corrections based on the entered prefix, offering relevant suggestions in real time.
+Tries enhance search functionality by providing predictive text suggestions as users type queries in Google Search. Also known as **submission throttling**.
+
+<p align="center">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/submission throttling.gif?raw=true" alt="Google Infrastructure" >
+  <br>
+  [20] Auto-complete system using Trie data structure for efficient word suggestion.
+  <br>
+</p><br>
+
 
 **Algorithms, Design Techniques, Performance Analysis:**
 - **Tries:** Tree data structure, Prefix tree
@@ -231,23 +255,24 @@ Tries are commonly used in autocorrect systems, such as those implemented in Goo
 
 
 
+### 6. **Identifying User Clusters Using Strongly Connected Components Algorithms**
 
-### 6. **Database Indexing**
+By analyzing strongly connected components using algorithms like Kosaraju's or Tarjan's, Google can identify clusters of users who frequently interact with each other, indicating potential friendships or shared interests. This analysis can inform more accurate friend recommendations, helping users connect with others who are likely to share mutual interests or social connections.
 
-**Use Case:**
-Red-Black Trees are commonly used in database management systems for indexing and efficient retrieval of data records. Google Cloud Spanner utilizes Red-Black Trees to organize and index data stored in distributed databases. By maintaining balanced search trees using **Red-Black Trees**, Google enables fast and reliable access to database records, facilitating efficient data retrieval, indexing, and query processing.
+<p align="center">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/strong.gif?raw=true" alt="Google Infrastructure">
+  <br>
+  [27] Formation of strongly connected components(user clusters)
+  <br>
+</p><br>
 
-**Challenges:** Efficient data indexing and retrieval.
+- **Design Techniques**:
+  - **Kosaraju's Algorithm**: Two-phase DFS (original and transposed graph).
+  - **Tarjan's Algorithm**: Single DFS pass with backtracking.
+- **Time Complexity**: \(O(V + E)\)
+- **Space Complexity**: \(O(V)\)
 
-**Market Benefits:** Faster query processing, improved database performance.
-
-**Algorithms, Design Techniques, Performance Analysis:**
-- **Red-Black Trees:** Balanced binary search tree, Self-balancing
-  - Time Complexity: O(log N) for insertion, deletion, and lookup operations, where N is the number of elements
-  - Space Complexity: O(N) where N is the number of elements
-
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/RedBlackTree.cpp){:target="_blank"}<br><br><br>
-
+[View code for Kosaraju's algo here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SCC.cpp){:target="_blank"}<br><br><br>
 
 
 
@@ -319,28 +344,22 @@ Skip lists can be employed in search engine indexing systems to maintain sorted 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SkipList.cpp){:target="_blank"}<br><br><br>
 
 
-### 10. **Scheduling Tasks in Data Centers**
+### 10. **Allocation of resources in data centers**
 
 **Use Case:**
-Google's vast network of data centers relies on efficient task scheduling algorithms to manage computational workloads and optimize resource utilization. **Topological Sort** can be employed to schedule tasks and dependencies in directed acyclic graphs (DAGs), ensuring that tasks are executed in the correct order to meet deadlines, minimize latency, and maximize throughput.
+Google manages a vast network of data centers worldwide to support its services. The **Assignment Problem** can be utilized to optimize resource allocation within these data centers, such as assigning computing tasks to servers or balancing the load across different data center locations.
 
-<p align="center">
-  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/topo.gif?raw=true" alt="Google Infrastructure">
-  <br>
-  [13] Topological Sort optimizing task scheduling in Google's data centers
-  <br>
-</p><br>
+**Challenges:** Effective allocation of resources.
 
-**Challenges:** Efficient task scheduling and resource allocation.
+**Market Benefits:** Improved resource management, and reduced operational costs.
 
-**Market Benefits:** Improved resource utilization, minimized latency.
+**Algorithms, Design Techniques, Performance Analysis::**
+- **Assignment Problem:** Optimization technique
+- Time Complexity: O(2<sup>N</sup> * N) where N is the number of tasks or resources
+- Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
 
-**Algorithms, Design Techniques, Performance Analysis:**
-- **Topological Sort:** Directed acyclic graph (DAG), Depth-first search (DFS)
-  - Time Complexity: O(V + E), where V is the number of vertices (tasks) and E is the number of edges (dependencies) in the DAG
-  - Space Complexity: O(V + E) for storing the graph and additional structures
-
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/topoSort.cpp){:target="_blank"}<br><br><br>
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/jobAssignment.cpp){:target="_blank"}
+<br><br><br>
 
 
 
@@ -451,40 +470,32 @@ Google Maps: The TSP algorithm can be used to find the most efficient route for 
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/tsp.cpp){:target="_blank"}<br><br><br>
 
 
-### 16. **PageRank and Web Crawling for Google Search Index**
+
+### 16. **Optimizing Network Traffic in Google Services**
+
 
 **Use Case:**
-Google Search uses the PageRank algorithm to rank web pages based on their importance, where depth-first search (DFS) and breadth-first search (BFS) play crucial roles in traversing the web graph. 
+Google manages vast networks of servers and data centers to deliver its services. The **Max Flow algorithms** can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion. Max flow algorithms, such as **Karger's, Dinic's, and Ford-Fulkerson**, can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability.
 
-<div style="display: flex; justify-content: center;">
-  <div style="margin-right: 20px;">
-    <p align="center">
-      <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/dfs.gif?raw=true" alt="DFS" style="width: 400px; height: auto;">
-      <br>
-      [17] DFS for crawling web pages
-    </p>
-  </div>
-  <div>
-    <p align="center">
-      <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/bfs.gif?raw=true" alt="BFS" style="width: 400px; height: auto;">
-      <br>
-      [17] BFS for crawling web pages
-    </p>
-  </div>
-</div>
+<p align="center">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/ford.gif?raw=true" style="width: 400px; height: auto;" alt="Google Infrastructure">
+  <br>
+  [9] Ford-Fulkerson Algorithm optimizing network traffic flow across Google services
+<br>
+</p><br>
 
-DFS and BFS algorithms are fundamental to web crawling, a process by which search engines like Google discover and index web pages. DFS and BFS are used to traverse the interconnected network of web pages, following hyperlinks from one page to another to build a comprehensive index of the World Wide Web. By employing DFS and BFS strategies intelligently, Google can efficiently crawl and index billions of web pages, enabling users to find relevant information quickly and accurately through its search engine.
+**Challenges:** Managing vast network traffic, and minimizing congestion.
+
+**Market Benefits:** Improved system performance, and reliability.
 
 **Algorithms, Design Techniques, Performance Analysis:**
-- **DFS:** Graph traversal based on stack
-  - Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
-  - Space Complexity: O(V) for the stack used in DFS
-- **BFS:** Graph traversal based on queue
-  - Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
-  - Space Complexity: O(V) for the queue used in BFS
+- **Ford-Fulkerson Algorithm:** Augmenting path method, Greedy approach
+  - Time Complexity: O(E * V<sup>2</sup>) where E is the number of edges and V is the number of vertices
+  - Space Complexity: O(V<sup>2</sup>) where V is the number of vertices<br>
+- **Dinic's Algorithm:** Layered network approach, Blocking flow<br>
+- **Karger's Algorithm:** Randomized contraction, Min-cut max-flow theorem<br>
 
-[View DFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/DFS.cpp){:target="_blank"}<br>
-[View BFS code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/BFS.cpp){:target="_blank"}<br><br><br>
+[View code for Ford Fulkerson Algorithm here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/maxFlow.cpp){:target="_blank"}<br><br><br>
 
 
 
@@ -556,25 +567,18 @@ Hashing algorithms are crucial for securing user data and authenticating account
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/hashing.cpp){:target="_blank"}<br><br><br>
 
 
-### 20. **Autocomplete Suggestions**
+### 20. **Autocorrection**
 
 **Use Case:**
-Tries enhance search functionality by providing predictive text suggestions as users type queries in Google Search. Also known as **submission throttling**.
-
-<p align="center">
-  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/submission throttling.gif?raw=true" alt="Google Infrastructure" >
-  <br>
-  [20] Auto-complete system using Trie data structure for efficient word suggestion.
-  <br>
-</p><br>
-
+Tries are commonly used in autocorrect systems, such as those implemented in Google Search, Gmail, or Google Docs. By organizing a dictionary of words into a trie structure, these systems can efficiently suggest and correct misspelled words as users type. As users enter text, the system navigates the trie to identify potential matches or corrections based on the entered prefix, offering relevant suggestions in real time.
 
 **Algorithms, Design Techniques, Performance Analysis:**
 - **Tries:** Tree data structure, Prefix tree
   - Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
   - Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
 
-[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp){:target="_blank"}
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/Trie.cpp){:target="_blank"}<br><br><br>
+
 
 
 ### 21. **Recommendation Systems in YouTube using DFS and BFS**
@@ -737,24 +741,21 @@ Google's distributed file systems, such as Google File System (GFS) and Bigtable
 [View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/btree.cpp){:target="_blank"}<br><br><br>
 
 
-### 28. **Identifying User Clusters Using Strongly Connected Components Algorithms**
+### 28. **Database Indexing**
 
-By analyzing strongly connected components using algorithms like Kosaraju's or Tarjan's, Google can identify clusters of users who frequently interact with each other, indicating potential friendships or shared interests. This analysis can inform more accurate friend recommendations, helping users connect with others who are likely to share mutual interests or social connections.
+**Use Case:**
+Red-Black Trees are commonly used in database management systems for indexing and efficient retrieval of data records. Google Cloud Spanner utilizes Red-Black Trees to organize and index data stored in distributed databases. By maintaining balanced search trees using **Red-Black Trees**, Google enables fast and reliable access to database records, facilitating efficient data retrieval, indexing, and query processing.
 
-<p align="center">
-  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/strong.gif?raw=true" alt="Google Infrastructure">
-  <br>
-  [27] Formation of strongly connected components(user clusters)
-  <br>
-</p><br>
+**Challenges:** Efficient data indexing and retrieval.
 
-- **Design Techniques**:
-  - **Kosaraju's Algorithm**: Two-phase DFS (original and transposed graph).
-  - **Tarjan's Algorithm**: Single DFS pass with backtracking.
-- **Time Complexity**: \(O(V + E)\)
-- **Space Complexity**: \(O(V)\)
+**Market Benefits:** Faster query processing, improved database performance.
 
-[View code for Kosaraju's algo here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/SCC.cpp){:target="_blank"}<br><br><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+- **Red-Black Trees:** Balanced binary search tree, Self-balancing
+  - Time Complexity: O(log N) for insertion, deletion, and lookup operations, where N is the number of elements
+  - Space Complexity: O(N) where N is the number of elements
+
+[View code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/RedBlackTree.cpp){:target="_blank"}<br><br><br>
 
 
 ### 29. **Identifying Similar Videos on YouTube using LCS**
@@ -886,8 +887,8 @@ Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize v
 
 
 ---
-
-# Use Case and Efficiency Overview
+<br>
+# 4. Use Case and Efficiency Overview
 
 | SI. No. | Business Use Case                                                   | Data Structure and Algorithm Used                    | Efficiency (TC, SC)                  |
 |---------|---------------------------------------------------------------------|------------------------------------------------------|-------------------------------------|
@@ -942,15 +943,15 @@ Google's YouTube platform can utilize the Floyd-Warshall algorithm to optimize v
 
 
 ---
-
-# Learnings and Key Takeaways
+<br>
+#5. Learnings and Key Takeaways
 
 This portfolio shows how choosing the right data structures and algorithms can solve specific business challenges in different areas. Each use case applies and recommends suitable algorithms, discusses challenges, highlights benefits, and focuses on design techniques. It also explores how algorithms learned in APS and DSA classes can be directly applied to practical problems, emphasizing efficiency and practicality.
 
 The portfolio provides insights into how to pick the best solutions for real-world issues. By linking theory to practice, it demonstrates the significant impact that well-chosen algorithms and data structures can have on improving services. It highlights the importance of understanding algorithms to drive innovation and efficiency in various fields, offering valuable lessons for both learning and practical use.
 
 
-
+<br><br><br>
 ## References
 
 [1] Statista. (2024). Market share of leading desktop search engines worldwide from January 2015 to January 2024 [Online]. Available: [Statista](https://www.statista.com/statistics/216573/worldwide-market-share-of-search-engines/){:target="_blank"}.
