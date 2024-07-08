@@ -70,7 +70,7 @@ These statistics highlight the extensive reach and impact of Google’s services
 
 ## Enhancing Google's Services with Algorithms
 
-In today's digital age, the **efficiency** and **effectiveness** of technology services can be significantly enhanced through the strategic application of **data structures** and **algorithms**. This portfolio project delves into the core functionalities of Google's diverse services, applying the theoretical knowledge and practical skills acquired from courses in **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)**. By using advanced algorithmic techniques and innovative data structures, this project aims to propose solutions to real-world business challenges.
+In today's digital age, the **efficiency** and **effectiveness** of technology services can be significantly enhanced through the strategic application of **data structures** and **algorithms**. This portfolio project explores the core functionalities of Google's diverse services, applying the theoretical knowledge and practical skills acquired from courses in **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)**. By using advanced algorithmic techniques and innovative data structures, this project aims to propose solutions to real-world business challenges.
 
 This portfolio demonstrates how algorithms can optimize Google’s services. Each example illustrates how smart problem-solving with algorithms can enhance operational smoothness. Join me in this exploration as we bridge the gap between theory and practice, highlighting the profound impact of data structures and algorithms on modern digital services. Additionally, each case includes a thorough performance analysis to evaluate effectiveness.
 
