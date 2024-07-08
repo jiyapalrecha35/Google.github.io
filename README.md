@@ -97,7 +97,7 @@ This portfolio demonstrates how algorithms can optimize Google’s services. Eac
 
 ---
 <br>
-# 2. Objectives
+# 2.Objectives
 
 
 1. To apply advanced algorithms and data structures to improve the speed and efficiency of Google’s services.
@@ -106,6 +106,7 @@ This portfolio demonstrates how algorithms can optimize Google’s services. Eac
    
 3. To propose algorithms that enhance user experiences, solve market challenges, and maximize business benefits within Google's ecosystem.
 <br><br><br>
+
 
 
 ---
