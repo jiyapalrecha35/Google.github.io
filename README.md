@@ -918,7 +918,7 @@ Google Classroom can significantly enhance personalized learning experiences by 
 Quadtrees are hierarchical data structures used to partition two-dimensional (2D) spaces. These structures are widely used in applications requiring efficient spatial indexing, such as Geographic Information Systems (GIS) and computer graphics. Quadtrees can manage and retrieve geographical data efficiently, enabling fast rendering and querying of map information in applications like Google Maps.
 
 <p align="center">
-  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/quad.png" alt="Google Infrastructure">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/quad.png?raw=true" alt="Google Infrastructure">
   <br>
    QuadTree structure
   <br>
