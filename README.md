@@ -968,7 +968,7 @@ Google Classroom can significantly enhance personalized learning experiences by 
 | 34      | Managing Document Edits and Revisions using Persistent Segment Trees| Persistent Segment Trees                             | O(log n), O(n log n)                  |
 | 35      | Processing and Analyzing Large Datasets using MapReduce             | MapReduce                                            | Fault tolerance, scalability          |
 | 36      | Optimize the video streaming paths on Youtube                      | Floyd-Warshall Algorithm                             | O(V<sup>3</sup>), O(V<sup>2</sup>)    |
-| 37 | Personalized learning resource allocation in Google Classroom | 0-1 Knapsack Algorithm | O(n * W) | O(n * W) |
+| 37 | Personalized learning resource allocation in Google Classroom | 0-1 Knapsack Algorithm | O(n * W) , O(n * W) |
 
 
 
