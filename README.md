@@ -862,7 +862,7 @@ Persistent Segment Trees maintain historical versions of data through immutable 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/mapred.gif?raw=true" alt="Google Infrastructure" style="width: 400px; height: auto;">
   <br>
-  [29] MapReduce:Parallel processing of data
+  [29] MapReduce: Parallel processing of data
   <br>
 </p><br>
 
@@ -896,12 +896,22 @@ Google's YouTube platform can utilize the **Floyd-Warshall algorithm** to optimi
 
 ### 37.Personalised Resource Allocation for Google Classrooms
 
-Google Classroom can significantly enhance personalized learning experiences by employing the knapsack algorithm to optimize the allocation of educational resources for students based on their individual learning needs and constraints. This approach can be visualized through a 2D matrix where rows represent students and columns represent available learning resources. Each cell in the matrix contains the "value" of a particular resource for a specific student, calculated based on factors such as relevance, difficulty level, and engagement score. Additionally, each resource can have associated "weights" like time required.The appropriate version of the knapsack algorithm for optimizing educational resource allocation in Google Classroom would be the 0-1 knapsack algorithm. This is because each educational resource can either be selected (1) or not selected (0), and cannot be partially allocated.
+Google Classroom can significantly enhance personalized learning experiences by employing the knapsack algorithm to optimize the allocation of educational resources for students based on their individual learning needs and constraints. This approach can be visualized through a 2D matrix where rows represent students and columns represent available learning resources. Each cell in the matrix contains the "value" of a particular resource for a specific student, calculated based on factors such as relevance, difficulty level, and engagement score. Additionally, each resource can have associated "weights" like time required. The appropriate version of the knapsack algorithm for optimizing educational resource allocation in Google Classroom would be the 0-1 knapsack algorithm. This is because each educational resource can be selected (1) or not selected (0), and cannot be partially allocated.
 
 
 **Challenges:** Allocating the most relevant and engaging educational resources to each student while considering their unique constraints, such as time available for study 
 
 **Market Benefits:** Optimizes resource allocation to maximize educational benefits, potentially leading to better student performance.
+
+**Performance Analysis:**
+- **Floyd-Warshall Algorithm:** Dynamic programmingp
+- Time Complexity: The time complexity of the solution is \( O(n*W) \), where: n is the number of items (educational resources), and W is the maximum weight capacity (maximum time).
+- Space Complexity: The space complexity is also \( O(n*W) \)
+
+
+[View 0-1 Knapsack code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/0-1knapsack){:target="_blank"}<br><br><br>
+
+
 
 
 
@@ -958,6 +968,7 @@ Google Classroom can significantly enhance personalized learning experiences by 
 | 34      | Managing Document Edits and Revisions using Persistent Segment Trees| Persistent Segment Trees                             | O(log n), O(n log n)                  |
 | 35      | Processing and Analyzing Large Datasets using MapReduce             | MapReduce                                            | Fault tolerance, scalability          |
 | 36      | Optimize the video streaming paths on Youtube                      | Floyd-Warshall Algorithm                             | O(V<sup>3</sup>), O(V<sup>2</sup>)    |
+| 37 | Personalized learning resource allocation in Google Classroom | 0-1 Knapsack Algorithm | O(n * W) | O(n * W) |
 
 
 
