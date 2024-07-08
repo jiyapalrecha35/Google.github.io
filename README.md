@@ -38,7 +38,7 @@ This page hosts:
 
 ---
 
-# 1. Introduction
+# 1.Introduction
 
 <p align="center">
   <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/Screenshot%202024-07-05%20141324.png?raw=true" alt="Google Infrastructure Screenshot">
@@ -97,7 +97,7 @@ This portfolio demonstrates how algorithms can optimize Google’s services. Eac
 
 ---
 <br>
-# 2.Objectives gandu
+# 2.Objectives
 
 
 1. To apply advanced algorithms and data structures to improve the speed and efficiency of Google’s services.
@@ -111,7 +111,7 @@ This portfolio demonstrates how algorithms can optimize Google’s services. Eac
 
 ---
 <br>
-# 3. 📈Business Use Cases➡️Algorithmic Solutions🧩
+# 3.📈Business Use Cases➡️Algorithmic Solutions🧩
 
 
 ### 1. **Computation of Shortest Paths in Google Maps**
@@ -963,7 +963,7 @@ Quadtrees are hierarchical data structures used to partition two-dimensional (2D
 
 ---
 <br>
-# 4. Use Case and Efficiency Overview
+# 4.Use Case and Efficiency Overview
 
 | SI. No. | Business Use Case                                                   | Data Structure and Algorithm Used                    | Efficiency (TC, SC)                  |
 |---------|---------------------------------------------------------------------|------------------------------------------------------|-------------------------------------|
@@ -1021,14 +1021,14 @@ Quadtrees are hierarchical data structures used to partition two-dimensional (2D
 
 ---
 <br>
-# 5. Learnings and Key Takeaways
+# 5.Learnings and Key Takeaways
 
 This portfolio shows how choosing the right data structures and algorithms can solve specific business challenges in different areas. Each use case applies and recommends suitable algorithms, discusses challenges, highlights benefits, and focuses on design techniques. It also explores how algorithms learned in APS and DSA classes can be directly applied to practical problems, emphasizing efficiency and practicality.
 
 The portfolio provides insights into how to pick the best solutions for real-world issues. By linking theory to practice, it demonstrates the significant impact that well-chosen algorithms and data structures can have on improving services. It highlights the importance of understanding algorithms to drive innovation and efficiency in various fields, offering valuable lessons for both learning and practical use.
 
 
-<br><br><br>
+<br><br><br><br><br>
 ## References
 
 [1] Statista. (2024). Market share of leading desktop search engines worldwide from January 2015 to January 2024 [Online]. Available: [Statista](https://www.statista.com/statistics/216573/worldwide-market-share-of-search-engines/){:target="_blank"}.
