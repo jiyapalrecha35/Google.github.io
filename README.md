@@ -49,6 +49,25 @@ This page hosts:
 
 
 Google, a global technology leader, offers a wide range of services essential to daily life for billions of people. These include search engines, email, video sharing, cloud computing, document creation, file storage, Google Maps, and productivity apps. Understanding the scale and impact of Google’s services sets the stage for exploring how advanced data structures and algorithms can further enhance their performance and utility.
+The services provided by Google include:
+
+- **Google Search** 🌐: Search engine for finding information online.
+- **Gmail** 📧: Email service for communication.
+- **Google Drive** 💾: Cloud storage for files.
+- **Google Maps** 🗺️: Mapping service for navigation.
+- **YouTube** 📹: Video sharing platform.
+- **Google Photos** 📷: Cloud-based service for photos and videos.
+- **Google Docs, Sheets, Slides** 📄📊📝: Online productivity suite.
+- **Google Calendar** 📅: Online calendar service.
+- **Google Translate** 🌍: Translation service.
+- **Google Chrome** 🌐: Web browser.
+- **Google Ads** 💼: Advertising platform.
+- **Google Cloud Platform (GCP)** ☁️: Cloud computing services.
+- **Android** 📱: Mobile operating system.
+- **Google Assistant** 🗣️: Virtual assistant.
+- **Google Meet** 🎥: Video conferencing platform.
+- **Google Classroom** 🎓: Educational platform.
+
 
 
 ### **Google Search**
