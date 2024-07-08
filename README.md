@@ -333,7 +333,7 @@ Skip lists can be employed in search engine indexing systems to maintain sorted 
 
 
 
-### 9. Spell Checking
+### 9. **Spell Checking**
 
 **Use Case:**
 Edit distance algorithms can be used in spell-checking systems, where they help identify and correct misspelled words by suggesting replacements with the minimum number of edits required.
