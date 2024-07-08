@@ -894,7 +894,7 @@ Google's YouTube platform can utilize the **Floyd-Warshall algorithm** to optimi
 
 
 
-### 37.Personalised Resource Allocation for Google Classrooms
+### 37.Personalized Resource Allocation for Google Classrooms
 
 Google Classroom can significantly enhance personalized learning experiences by employing the knapsack algorithm to optimize the allocation of educational resources for students based on their individual learning needs and constraints. This approach can be visualized through a 2D matrix where rows represent students and columns represent available learning resources. Each cell in the matrix contains the "value" of a particular resource for a specific student, calculated based on factors such as relevance, difficulty level, and engagement score. Additionally, each resource can have associated "weights" like time required. The appropriate version of the knapsack algorithm for optimizing educational resource allocation in Google Classroom would be the 0-1 knapsack algorithm. This is because each educational resource can be selected (1) or not selected (0), and cannot be partially allocated.
 
@@ -904,12 +904,37 @@ Google Classroom can significantly enhance personalized learning experiences by 
 **Market Benefits:** Optimizes resource allocation to maximize educational benefits, potentially leading to better student performance.
 
 **Performance Analysis:**
-- **Floyd-Warshall Algorithm:** Dynamic programmingp
+- **0-1 KnapSack Algorithm:** Dynamic programming
 - Time Complexity: The time complexity of the solution is \( O(n*W) \), where: n is the number of items (educational resources), and W is the maximum weight capacity (maximum time).
 - Space Complexity: The space complexity is also \( O(n*W) \)
 
 
 [View 0-1 Knapsack code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/0-1knapsack){:target="_blank"}<br><br><br>
+
+
+
+### 38. Managing and Retrieving the geographical data in Google Maps
+
+Quadtrees are hierarchical data structures used to partition two-dimensional (2D) spaces. These structures are widely used in applications requiring efficient spatial indexing, such as Geographic Information Systems (GIS) and computer graphics. Quadtrees can manage and retrieve geographical data efficiently, enabling fast rendering and querying of map information in applications like Google Maps.
+
+<p align="center">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/0_BiRdEcOFKrZp-qAQ.png" alt="Google Infrastructure">
+  <br>
+   QuadTree structure
+  <br>
+</p><br>
+
+**Challenges:** Efficiently handling vast amounts of spatial data and ensuring quick query responses in large-scale applications like Google Maps.
+
+**Market Benefits:** Quadtrees enable fast searches, insertions, and deletions of spatial objects, significantly reducing query times for large datasets and improving user experience.
+
+**Design Techniques and Performance Analysis:**
+- **Design Technique:** Recursive subdivision of 2D space into four quadrants until leaf nodes are reached.
+- Time Complexity: O(n<sup>2</sup> log n), where n is the length of the grid's side.
+- Space Complexity: O(n<sup>2</sup>), considering the storage for the quadtree nodes.
+
+
+
 
 
 
