@@ -893,6 +893,18 @@ Google's YouTube platform can utilize the **Floyd-Warshall algorithm** to optimi
 [View Floyd-Warshall code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/floyd_warshall.cpp){:target="_blank"}<br><br><br>
 
 
+
+### 37.Personalised Resource Allocation for Google Classrooms
+
+Google Classroom can significantly enhance personalized learning experiences by employing the knapsack algorithm to optimize the allocation of educational resources for students based on their individual learning needs and constraints. This approach can be visualized through a 2D matrix where rows represent students and columns represent available learning resources. Each cell in the matrix contains the "value" of a particular resource for a specific student, calculated based on factors such as relevance, difficulty level, and engagement score. Additionally, each resource can have associated "weights" like time required.The appropriate version of the knapsack algorithm for optimizing educational resource allocation in Google Classroom would be the 0-1 knapsack algorithm. This is because each educational resource can either be selected (1) or not selected (0), and cannot be partially allocated.
+
+
+**Challenges:** Allocating the most relevant and engaging educational resources to each student while considering their unique constraints, such as time available for study 
+
+**Market Benefits:** Optimizes resource allocation to maximize educational benefits, potentially leading to better student performance.
+
+
+
 ---
 <br>
 # 4. Use Case and Efficiency Overview
