@@ -1,5 +1,5 @@
 
-## Google's Algorithmic Rhythm: Exploring Smart Data Structures
+## Google
 
 <dl>
 <dt>Course Name</dt>
