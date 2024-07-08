@@ -111,7 +111,7 @@ This portfolio demonstrates how algorithms can optimize Google’s services. Eac
 
 ---
 <br>
-# 3. 📈Business Use Cases ➡️ Algorithmic Solutions🧩
+# 3. 📈Business Use Cases➡️Algorithmic Solutions🧩
 
 
 ### 1. **Computation of Shortest Paths in Google Maps**
