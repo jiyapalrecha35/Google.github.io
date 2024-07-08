@@ -994,6 +994,7 @@ Quadtrees are hierarchical data structures used to partition two-dimensional (2D
 | 35      | Processing and Analyzing Large Datasets using MapReduce             | MapReduce                                            | Fault tolerance, scalability          |
 | 36      | Optimize the video streaming paths on Youtube                      | Floyd-Warshall Algorithm                             | O(V<sup>3</sup>), O(V<sup>2</sup>)    |
 | 37 | Personalized learning resource allocation in Google Classroom | 0-1 Knapsack Algorithm | O(n * W) , O(n * W) |
+| 38 | Spatial partitioning for map data in Google Maps | Quadtree Data Structure | O(n<sup>2</sup> log n), O(n<sup>2</sup>) |
 
 
 
