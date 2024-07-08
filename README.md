@@ -97,7 +97,7 @@ This portfolio demonstrates how algorithms can optimize Google’s services. Eac
 
 ---
 <br>
-# 2.Objectives
+# 2.Objectives gandu
 
 
 1. To apply advanced algorithms and data structures to improve the speed and efficiency of Google’s services.
