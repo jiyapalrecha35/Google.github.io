@@ -96,7 +96,7 @@ This portfolio demonstrates how algorithms can optimize Google’s services. Eac
 
 ### 1. **Computation of Shortest Paths in Google Maps**
 
-**Use Case:**
+ 
 Google Maps: **Dijkstra's algorithm** can find the shortest path between two locations on a map. Essential for providing accurate directions to users, considering factors such as traffic conditions, road closures, and distance.
 
 <p align="center">
@@ -149,7 +149,7 @@ Floyd-Warshall Algorithm: In Google's network infrastructure, the **Floyd-Warsha
 
 ### 2. **PageRank and Web Crawling for Google Search Index**
 
-**Use Case:**
+ 
 Google Search uses the PageRank algorithm to rank web pages based on their importance, where depth-first search (DFS) and breadth-first search (BFS) play crucial roles in traversing the web graph. 
 
 <div style="display: flex; justify-content: center;">
@@ -169,7 +169,7 @@ Google Search uses the PageRank algorithm to rank web pages based on their impor
   </div>
 </div>
 
-DFS and BFS algorithms are fundamental to web crawling, a process by which search engines like Google discover and index web pages. DFS and BFS are used to traverse the interconnected network of web pages, following hyperlinks from one page to another to build a comprehensive index of the World Wide Web. By employing DFS and BFS strategies intelligently, Google can efficiently crawl and index billions of web pages, enabling users to find relevant information quickly and accurately through its search engine.
+DFS and BFS algorithms are fundamental to web crawling, a process by which search engines like Google discover and index web pages. **DFS and BFS** are used to traverse the interconnected network of web pages, following hyperlinks from one page to another to build a comprehensive index of the World Wide Web. By employing DFS and BFS strategies intelligently, Google can efficiently crawl and index billions of web pages, enabling users to find relevant information quickly and accurately through its search engine.
 
 **Algorithms, Design Techniques, Performance Analysis:**
 - **DFS:** Graph traversal based on stack
@@ -186,7 +186,7 @@ DFS and BFS algorithms are fundamental to web crawling, a process by which searc
 
 ### 3. **Range Query Optimization**
 
-**Use Case:**
+ 
 In Google's data storage and retrieval systems, such as databases and file systems, **Segment trees** can optimize range query operations. For instance, in a document storage system like Google Drive, segment trees can efficiently handle queries related to retrieving or manipulating data within specific ranges, such as searching for documents created within a certain time frame or finding files within a particular size range.
 
 <p align="center">
@@ -210,7 +210,7 @@ In Google's data storage and retrieval systems, such as databases and file syste
 
 ### 4. **Scheduling Tasks in Data Centers**
 
-**Use Case:**
+ 
 Google's vast network of data centers relies on efficient task scheduling algorithms to manage computational workloads and optimize resource utilization. **Topological Sort** can be employed to schedule tasks and dependencies in directed acyclic graphs (DAGs), ensuring that tasks are executed in the correct order to meet deadlines, minimize latency, and maximize throughput.
 
 <p align="center">
@@ -237,7 +237,7 @@ Google's vast network of data centers relies on efficient task scheduling algori
 
 ### 5. **Autocomplete Suggestions**
 
-**Use Case:**
+ 
 Tries enhance search functionality by providing predictive text suggestions as users type queries in Google Search. Also known as **submission throttling**.
 
 <p align="center">
@@ -259,6 +259,7 @@ Tries enhance search functionality by providing predictive text suggestions as u
 
 ### 6. **Identifying User Clusters Using Strongly Connected Components Algorithms**
 
+ 
 By analyzing strongly connected components using algorithms like **Kosaraju's or Tarjan's**, Google can identify clusters of users who frequently interact with each other, indicating potential friendships or shared interests. This analysis can inform more accurate friend recommendations, helping users connect with others who are likely to share mutual interests or social connections.
 
 <p align="center">
@@ -282,7 +283,7 @@ By analyzing strongly connected components using algorithms like **Kosaraju's or
 
 ### 7. **A * and Best-First Algorithms for Route Optimizations in Google Maps**
 
-**Use Case:**
+ 
 **A * and Best-First** algorithms can be employed to find the most efficient routes between locations on Google Maps. By intelligently prioritizing nodes based on **heuristic** information such as distance, traffic conditions, and historical data, these algorithms can calculate optimal routes that minimize travel time and distance.
 
 <p align="center">
@@ -310,7 +311,7 @@ By analyzing strongly connected components using algorithms like **Kosaraju's or
 
 ### 8. **Skip Lists in Search Engine Indexing**
 
-**Use Case:**
+ 
 Skip lists can be employed in search engine indexing systems to maintain sorted lists of web pages or documents based on relevance or other criteria. They enable quick insertion of new pages, deletion of outdated or irrelevant content, and efficient retrieval of search results based on ranking or relevance scores.
 
 <p align="center">
@@ -335,7 +336,7 @@ Skip lists can be employed in search engine indexing systems to maintain sorted 
 
 ### 9. **Spell Checking**
 
-**Use Case:**
+ 
 Edit distance algorithms can be used in spell-checking systems, where they help identify and correct misspelled words by suggesting replacements with the minimum number of edits required.
 
 **Algorithms, Design Techniques, Performance Analysis:**
@@ -348,7 +349,7 @@ Edit distance algorithms can be used in spell-checking systems, where they help 
 
 ### 10. **Allocation of resources in data centers**
 
-**Use Case:**
+ 
 Google manages a vast network of data centers worldwide to support its services. The **Assignment Problem** can be utilized to optimize resource allocation within these data centers, such as assigning computing tasks to servers or balancing the load across different data center locations.
 
 **Challenges:** Effective allocation of resources.
@@ -367,7 +368,7 @@ Google manages a vast network of data centers worldwide to support its services.
 
 ### 11. **Content Recommendation Systems**
 
-**Use Case:**
+ 
 Within Google's ecosystem of products and services, **A * and Best-First** algorithms can power content recommendation systems by intelligently prioritizing and recommending relevant content to users based on their preferences, search history, and behavior patterns. These algorithms can enhance user engagement and satisfaction by delivering personalized and targeted recommendations.
 
 <p align="center">
@@ -393,7 +394,7 @@ Within Google's ecosystem of products and services, **A * and Best-First** algor
 
 ### 12. **Dependency Resolution in Software Development**
 
-**Use Case:**
+ 
 Topological Sort algorithms play a crucial role in resolving dependencies between software modules and libraries within Google's software development processes. Helps determine the correct order of compilation or deployment based on inter-module dependencies.
 
 **Challenges:** Efficient dependency resolution.
@@ -409,7 +410,7 @@ Topological Sort algorithms play a crucial role in resolving dependencies betwee
 
 ### 13. **Analyzing User Behavior and Engagement Patterns**
 
-**Use Case:**
+ 
 In online services such as Google Search, YouTube, and Gmail, understanding user behavior and engagement patterns is crucial for enhancing user experiences and personalization. The **Conway's Game of Life** can be applied to simulate and analyze user interactions, content consumption patterns, and community dynamics. By modeling user engagement, content popularity, and social interactions, Google can optimize content recommendations, ad targeting strategies, and platform design to serve user needs and preferences better.
 
 <p align="center">
@@ -434,7 +435,7 @@ In online services such as Google Search, YouTube, and Gmail, understanding user
 
 ### 14. **Data Compression in Google's Infrastructure using Huffman Coding**
 
-**Use Case:**
+ 
 Google's infrastructure deals with vast amounts of data generated and transmitted across its services and platforms. **Huffman Coding** can be employed for efficient data compression in storage systems, file formats, and communication protocols. By encoding data with variable-length codes based on frequency distributions, Google can reduce storage requirements, minimize bandwidth usage, and improve data transfer speeds, leading to faster access times and reduced network congestion.
 
 <p align="center">
@@ -459,7 +460,7 @@ Google's infrastructure deals with vast amounts of data generated and transmitte
 
 ### 15. **Traveling Salesman Problem for Route Optimization**
 
-**Use Case:**
+ 
 Google Maps: The **TSP** algorithm can be used to find the most efficient route for traveling salespeople visiting multiple locations. It minimizes travel distance and time, helping businesses and individuals optimize their travel plans and logistics. Google's delivery and logistics services, such as Google Maps and Google Shopping, rely on efficient route planning and optimization algorithms to deliver goods and services to customers. The Traveling Salesman Problem can be used to find the shortest routes for delivery vehicles to visit multiple locations while minimizing travel time and distance.
 
 **Challenges:** Finding the most efficient route for multiple locations.
@@ -476,7 +477,7 @@ Google Maps: The **TSP** algorithm can be used to find the most efficient route 
 ### 16. **Optimizing Network Traffic in Google Services**
 
 
-**Use Case:**
+ 
 Google manages vast networks of servers and data centers to deliver its services. The **Max Flow algorithms** can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion. Max flow algorithms, such as **Karger's, Dinic's, and Ford-Fulkerson**, can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability.
 
 <p align="center">
@@ -503,7 +504,7 @@ Google manages vast networks of servers and data centers to deliver its services
 
 ### 17. **Time-Series Data Analysis**
 
-**Use Case:**
+ 
 Google deals with vast amounts of time-series data across its services, including user activity logs, system performance metrics, and ad campaign analytics. Segment trees can be employed to perform range queries and aggregations on this data efficiently. For example, in Google Analytics, segment trees can facilitate queries that analyze website traffic trends over specific time intervals or identify peak usage periods.
 
 **Challenges:** Efficient processing of vast amounts of time-series data.
@@ -571,7 +572,7 @@ Hashing algorithms are crucial for securing user data and authenticating account
 
 ### 20. **Autocorrection**
 
-**Use Case:**
+ 
 Tries are commonly used in autocorrect systems, such as those implemented in Google Search, Gmail, or Google Docs. By organizing a dictionary of words into a trie structure, these systems can efficiently suggest and correct misspelled words as users type. As users enter text, the system navigates the trie to identify potential matches or corrections based on the entered prefix, offering relevant suggestions in real time.
 
 **Algorithms, Design Techniques, Performance Analysis:**
@@ -650,7 +651,7 @@ Spanning tree algorithms like **Kruskal's and Prim's** Algorithms help in design
 
 ### 23. **Ad Allocation in Google Ads**
 
-**Use Case:**
+ 
 Google's advertising platforms, such as Google Ads, rely on efficient allocation of ad placements to maximize revenue and user engagement. The **Assignment Problem** can help determine the optimal assignment of advertisements to available ad slots across websites.
 
 **Challenges:** Maximizing revenue, and user engagement.
@@ -743,7 +744,7 @@ Google's distributed file systems, such as **Google File System (GFS) and Bigtab
 
 ### 28. **Database Indexing**
 
-**Use Case:**
+ 
 Red-Black Trees are commonly used in database management systems for indexing and efficient retrieval of data records. Google Cloud Spanner utilizes Red-Black Trees to organize and index data stored in distributed databases. By maintaining balanced search trees using **Red-Black Trees**, Google enables fast and reliable access to database records, facilitating efficient data retrieval, indexing, and query processing.
 
 **Challenges:** Efficient data indexing and retrieval.
@@ -896,7 +897,7 @@ Google's YouTube platform can utilize the **Floyd-Warshall algorithm** to optimi
 
 ### 37.Personalized Resource Allocation for Google Classrooms
 
-Google Classroom can significantly enhance personalized learning experiences by employing the knapsack algorithm to optimize the allocation of educational resources for students based on their individual learning needs and constraints. This approach can be visualized through a 2D matrix where rows represent students and columns represent available learning resources. Each cell in the matrix contains the "value" of a particular resource for a specific student, calculated based on factors such as relevance, difficulty level, and engagement score. Additionally, each resource can have associated "weights" like time required. The appropriate version of the knapsack algorithm for optimizing educational resource allocation in Google Classroom would be the 0-1 knapsack algorithm. This is because each educational resource can be selected (1) or not selected (0), and cannot be partially allocated.
+Google Classroom can significantly enhance personalized learning experiences by employing the knapsack algorithm to optimize the allocation of educational resources for students based on their individual learning needs and constraints. This approach can be visualized through a 2D matrix where rows represent students and columns represent available learning resources. Each cell in the matrix contains the "value" of a particular resource for a specific student, calculated based on factors such as relevance, difficulty level, and engagement score. Additionally, each resource can have associated "weights" like time required. The appropriate version of the knapsack algorithm for optimizing educational resource allocation in Google Classroom would be the **0-1 knapsack** algorithm. This is because each educational resource can be selected (1) or not selected (0), and cannot be partially allocated.
 
 
 **Challenges:** Allocating the most relevant and engaging educational resources to each student while considering their unique constraints, such as time available for study 
