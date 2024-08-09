@@ -1,6 +1,6 @@
 
 
-## Google
+## AlgoGoogle: Reimagining Services Through Data Structures
 
 <dl>
 <dt>Course Name</dt>
